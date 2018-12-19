@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/co-college-entity-mapping" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/co-college-result-vo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/co-college-service-logic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/co-college-util-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/co-college-web-view" charset="UTF-8" />
+  </component>
+</project>

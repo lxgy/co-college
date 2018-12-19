@@ -1,0 +1,141 @@
+2018-12-12 20:14:49.358  INFO 6108 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-SF8JO18 with PID 6108 (D:\workspace\idea\co-college\co-college-web-view\target\classes started by lxgy in D:\workspace\idea\co-college)
+2018-12-12 20:14:49.362  INFO 6108 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2018-12-12 20:14:49.959  INFO 6108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2018-12-12 20:14:49.959  INFO 6108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-12 20:14:49.959  INFO 6108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-12 20:14:49.997  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+2018-12-12 20:14:49.997  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-12 20:14:49.997  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-12 20:14:49.997  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-12 20:14:49.997  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-12 20:14:50.078  INFO 6108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-12 20:14:50.078  INFO 6108 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 706 ms
+2018-12-12 20:14:50.263  INFO 6108 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-12 20:14:50.540  INFO 6108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-12 20:14:50.573  INFO 6108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-12 20:14:50.573  INFO 6108 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.294 seconds (JVM running for 1820.366)
+2018-12-12 20:14:50.573  INFO 6108 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-12 20:15:51.011  INFO 6108 --- [Thread-32] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-12 20:15:52.581  INFO 6108 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-SF8JO18 with PID 6108 (D:\workspace\idea\co-college\co-college-web-view\target\classes started by lxgy in D:\workspace\idea\co-college)
+2018-12-12 20:15:52.581  INFO 6108 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2018-12-12 20:15:53.262  INFO 6108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2018-12-12 20:15:53.262  INFO 6108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-12 20:15:53.262  INFO 6108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-12 20:15:53.262  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+2018-12-12 20:15:53.262  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-12 20:15:53.262  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-12 20:15:53.262  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-12 20:15:53.262  INFO 6108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-12 20:15:53.288  INFO 6108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-12 20:15:53.288  INFO 6108 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 699 ms
+2018-12-12 20:15:53.380  INFO 6108 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-12 20:15:53.478  INFO 6108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-12 20:15:53.508  INFO 6108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-12 20:15:53.508  INFO 6108 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.025 seconds (JVM running for 1883.302)
+2018-12-12 20:15:53.508  INFO 6108 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-12 20:16:09.288  INFO 6108 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-12 20:16:09.288  INFO 6108 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-12 20:16:09.298  INFO 6108 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2018-12-12 20:22:12.290  INFO 11112 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-SF8JO18 with PID 11112 (D:\workspace\idea\co-college\co-college-web-view\target\classes started by lxgy in D:\workspace\idea\co-college)
+2018-12-12 20:22:12.290  INFO 11112 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2018-12-12 20:22:13.580  WARN 11112 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[net.seehope]' package. Please check your configuration.
+2018-12-12 20:22:14.887  INFO 11112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2018-12-12 20:22:14.966  INFO 11112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-12 20:22:14.966  INFO 11112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-12 20:22:14.991  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+2018-12-12 20:22:14.991  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-12 20:22:14.991  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-12 20:22:14.991  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-12 20:22:16.076  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-12 20:22:16.206  INFO 11112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-12 20:22:16.206  INFO 11112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3789 ms
+2018-12-12 20:22:16.560  INFO 11112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-12 20:22:17.675  INFO 11112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-12 20:22:17.776  INFO 11112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-12 20:22:17.776  INFO 11112 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 6.199 seconds (JVM running for 10.997)
+2018-12-12 20:27:51.366  INFO 11112 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-12 20:27:52.876  INFO 11112 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-SF8JO18 with PID 11112 (D:\workspace\idea\co-college\co-college-web-view\target\classes started by lxgy in D:\workspace\idea\co-college)
+2018-12-12 20:27:52.879  INFO 11112 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2018-12-12 20:27:53.678  WARN 11112 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[net.seehope]' package. Please check your configuration.
+2018-12-12 20:27:53.830  INFO 11112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2018-12-12 20:27:53.831  INFO 11112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-12 20:27:53.831  INFO 11112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-12 20:27:53.832  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+2018-12-12 20:27:53.832  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-12 20:27:53.833  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-12 20:27:53.833  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-12 20:27:53.834  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-12 20:27:53.868  INFO 11112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-12 20:27:53.869  INFO 11112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 983 ms
+2018-12-12 20:27:54.005  INFO 11112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-12 20:27:54.268  INFO 11112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-12 20:27:54.371  INFO 11112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-12 20:27:54.406  INFO 11112 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.686 seconds (JVM running for 347.622)
+2018-12-12 20:27:54.412  INFO 11112 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-12 20:27:56.802  INFO 11112 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-12 20:27:58.653  INFO 11112 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-SF8JO18 with PID 11112 (D:\workspace\idea\co-college\co-college-web-view\target\classes started by lxgy in D:\workspace\idea\co-college)
+2018-12-12 20:27:58.654  INFO 11112 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2018-12-12 20:27:59.717  WARN 11112 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[net.seehope]' package. Please check your configuration.
+2018-12-12 20:28:00.031  INFO 11112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2018-12-12 20:28:00.033  INFO 11112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-12 20:28:00.033  INFO 11112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-12 20:28:00.034  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+2018-12-12 20:28:00.034  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-12 20:28:00.034  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-12 20:28:00.035  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-12 20:28:00.035  INFO 11112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-12 20:28:00.085  INFO 11112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-12 20:28:00.085  INFO 11112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1407 ms
+2018-12-12 20:28:00.147  WARN 11112 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminTestController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'net.seehope.college.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2018-12-12 20:28:00.147  INFO 11112 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-12-12 20:28:00.228  INFO 11112 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-12 20:28:01.396 ERROR 11112 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'net.seehope.college.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'net.seehope.college.mapper.UserMapper' in your configuration.
+
+2018-12-12 20:29:33.408  INFO 3804 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-SF8JO18 with PID 3804 (D:\workspace\idea\co-college\co-college-web-view\target\classes started by lxgy in D:\workspace\idea\co-college)
+2018-12-12 20:29:33.408  INFO 3804 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2018-12-12 20:29:35.265  WARN 3804 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[net.seehope]' package. Please check your configuration.
+2018-12-12 20:29:36.035  INFO 3804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2018-12-12 20:29:36.064  INFO 3804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-12 20:29:36.064  INFO 3804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-12 20:29:36.075  INFO 3804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+2018-12-12 20:29:36.075  INFO 3804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-12 20:29:36.075  INFO 3804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-12 20:29:36.075  INFO 3804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-12 20:29:37.144  INFO 3804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-12 20:29:37.238  INFO 3804 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-12 20:29:37.238  INFO 3804 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3697 ms
+2018-12-12 20:29:37.304  WARN 3804 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminTestController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'net.seehope.college.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2018-12-12 20:29:37.315  INFO 3804 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-12-12 20:29:37.339  INFO 3804 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-12 20:29:37.605 ERROR 3804 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'net.seehope.college.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'net.seehope.college.mapper.UserMapper' in your configuration.
+
