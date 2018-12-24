@@ -6,5 +6,11 @@
 </head>
 <body>
 <p th:text="${test}"></p>
+
+<form method="post" action="/upload" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <br />
+    <input type="submit" value="upload">
+</form>
 </body>
 </html>

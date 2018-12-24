@@ -27,4 +27,9 @@ public class UserServiceImpl implements UserService {
     public List<User> findUsers() {
         return this.userMapper.findUsers();
     }
+
+    @Override
+    public Integer getUserCount() {
+        return this.userMapper.getUserCount();
+    }
 }

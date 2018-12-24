@@ -4,4 +4,8 @@
     <select id="findUsers" resultType="net.seehope.college.entity.User">
         select * from user
     </select>
+    <!--获取总条数-->
+    <select id="getUserCount" resultType="java.lang.Integer">
+        select count(0) from user
+    </select>
 </mapper>

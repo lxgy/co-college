@@ -3,6 +3,7 @@ package net.seehope;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
 /**
  * @BelongsProject: co-college
@@ -13,6 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication(scanBasePackages = "net.seehope.college")
 @MapperScan("net.seehope.college.mapper")
+@ServletComponentScan
 public class ApplicationContext {
 
     public static void main(String[] args) {
