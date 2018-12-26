@@ -30,10 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FontPageController.java">
+        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FrontPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="231">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#453#454#0" expanded="true" />
@@ -44,10 +44,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#3;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/regist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
               <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -73,6 +103,7 @@
       <find>frame</find>
       <find>img</find>
       <find>sliderlock1.png</find>
+      <find>wor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/co-college-service-logic/pom.xml" />
         <option value="$PROJECT_DIR$/co-college-util-api/src/main/java/net/seehope/college/util/string/StringUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/co-college-util-api/pom.xml" />
@@ -132,6 +162,7 @@
         <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/regist.js" />
         <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/login.js" />
         <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FontPageController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FrontPageController.java" />
       </list>
     </option>
   </component>
@@ -286,74 +317,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="yzcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -415,7 +378,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545807517259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545808246690" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../edumanage" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -593,7 +556,7 @@
       <workItem from="1545358140827" duration="18505000" />
       <workItem from="1545614389290" duration="23039000" />
       <workItem from="1545790743341" duration="8919000" />
-      <workItem from="1545806085534" duration="1253000" />
+      <workItem from="1545806085534" duration="2322000" />
     </task>
     <task id="LOCAL-00001" summary="项目创建，框架搭建">
       <created>1545185857501</created>
@@ -708,11 +671,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98034000" />
+    <option name="totallyTimeSpent" value="99103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -907,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="78" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/filter/CharacterEncodingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -921,20 +876,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="102" column="39" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1072,10 +1013,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FontPageController.java">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="225">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#3;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FrontPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#453#454#0" expanded="true" />

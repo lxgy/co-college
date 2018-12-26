@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Date:2018-12-25
  */
 @Controller
-public class FontPageController {
+public class FrontPageController {
 
     /*共创学院首页*/
     @RequestMapping("/index")
