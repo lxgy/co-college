@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+	<!--公共部分 head 部分-->
+	<div th:replace="front/common/_meta-link :: html"></div>
+
+	<head>
+		<link rel="stylesheet" type="text/css" th:href="@{'common/css/front/login.css'}"/>
+		<link rel="stylesheet" type="text/css" th:href="@{'common/css/yzcode/slider.css'}">
+	</head>
+
+	<body>
+		<div class="loginPanel">
+			<!--logo 开始-->
+			<div class="panel-title">
+				<img title="砺锋共创学院" th:src="@{'common/images/2.png'}" id="logo" />
+			</div>
+			<!--logo结束-->
+
+			<!--登录 注册选项开始-->
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-1 panel-login">
+					<a th:href="@{'login'}" >登录</a>
+				</div>
+				<div class="col-sm-1 panel-fenge">
+					|
+				</div>
+				<div class="col-sm-5 panel-regist">
+					<a th:href="@{'regist'}">注册</a>
+				</div>
+			</div>
+			<!--登录注册选项结束-->
+
+			<!--登录表单开始-->
+			<div class="login-F">
+				<form class="" id="loginF">
+					<!--用户名开始-->
+					<div class="form-group input">
+						<label class="sr-only" for="username"></label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="fa fa-user-o"></span>
+							</div>
+							<input type="text" class="form-control" id="username" name="username" placeholder="please enter your username...">
+						</div>
+						<!--用户名提示开始-->
+						<span class="message message-username"></span>
+						<!--用户名提示结束-->
+					</div>
+					<!--用户名结束-->
+
+					<!--密码开始-->
+					<div class="form-group input">
+						<label class="sr-only" for="password"></label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="fa fa-expeditedssl"></span>
+							</div>
+							<input type="password" class="form-control" id="password" name="password" placeholder="please enter your password...">
+						</div>
+						<!--密码验证提示开始-->
+						<span class="message message-password"></span>
+						<!--密码验证提示结束-->
+					</div>
+					<!--密码结束-->
+
+					<!--滑动验证开始-->
+					<div class="form-group input" id="sliderLock">
+						<div id='sliderLock_huakuai'>
+							<div></div>
+						</div>
+						<div id="sliderLock_status">请按动滑块，拖到最右边</div>
+						<div id="code-msg"></div>
+					</div>
+					<!--滑动验证结束-->
+
+					<!--忘记密码开始-->
+					<div class="form-group loginF-findP" id="loginF-findP">
+						<a href="javascript:;" style="font-size: 16px;">忘记密码？</a>
+					</div>
+					<!--忘记密码结束-->
+
+					<!--登录按钮开始-->
+					<div class="form-group">
+						<button type="button" id="login-btn" class="btn btn-primary form-control">登录</button>
+					</div>
+					<!--登录按钮结束-->
+				</form>
+			</div>
+			<!--登录表单结束-->
+			<div class="xq">@解析权归砺锋科技所有</div>
+		</div>
+	</body>
+
+	<!--公用脚本-->
+	<div th:replace="front/common/_meta-script :: html"></div>
+	<script th:src="@{'common/js/slider.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'common/js/front/login.js'}" type="text/javascript" charset="utf-8"></script>
+	
+	<script type="text/javascript">
+		
+	</script>
+
+</html>

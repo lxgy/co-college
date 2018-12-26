@@ -1,0 +1,49 @@
+.slider_div {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 46px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	background-color: #eeeeee;
+	position: relative;
+}
+
+
+/*完成验证状态*/
+
+.slider_div_succeed {
+	background-color: green;
+}
+
+#sliderLock_huakuai {
+	width: 40px;
+	height: 35px;
+	margin: 5px 3px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	display: inline-block;
+	z-index: 2
+}
+
+#sliderLock_huakuai div {
+	width: 30px;
+	height: 35px;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-image: url("@{'common/images/sliderlock1.png'}");
+	background-repeat: repeat-x;
+}
+
+#sliderLock_status {
+	position: absolute;
+	top: 30%;
+    left: 30%;
+    color: #999999;
+}
+
+#code-msg{
+	color: #F30;
+	font-family: '楷体';
+	font-size: 16px;
+}

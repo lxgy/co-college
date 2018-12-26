@@ -1,0 +1,44 @@
+	section {
+		width: 100vw;
+	}
+	
+	.m {
+		padding: 1vw;
+	}
+	
+	video {
+		margin: auto;
+	}
+	
+	article {
+		float: left;
+	}
+	
+	.my-video-dimensions {
+		width: 75vw;
+		height: 38vw;
+	}
+	
+	.header2 {
+		margin: 0;
+	}
+	
+	.index article {
+		background-color: #1C1F21;
+	}
+	
+	.index article:first-child {
+		height: 39.9vw;
+	}
+	
+	.index article:last-child {
+		width: 21vw;
+		height: 39.9vw;
+		padding: 1vw;
+		color: white;
+	}
+	
+	.video-js {
+		border-radius: 5px;
+		background-color:black !important;
+	}

@@ -1,0 +1,307 @@
+body {
+	font-size: 1vw;
+}
+
+.jumbotron {
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.top_banner {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	background-image: url(https://www.seehope.net/java/images/banner_bg.jpg);
+	z-index: -1;
+}
+
+.container {
+	height: 100%;
+	z-index: 999;
+}
+
+.container div {
+	float: left;
+}
+
+.container div:first-child {
+	width: 60%;
+	height: 100%;
+}
+
+.banner {
+	background-repeat: no-repeat;
+	background-size: 85%;
+	width: 100% !important;
+	height: 65% !important;
+}
+
+.time {
+	font-family: '楷体';
+	color: white;
+	padding: 4vw;
+	width: 100% !important;
+	height: 35% !important;
+}
+
+.container div:last-child {
+	width: 40%;
+	height: 100%;
+}
+
+.course_tietle {
+	width: 100% !important;
+	height: 20% !important;
+}
+
+.talker {
+	font-size: 1.5vw;
+	width: 100% !important;
+	height: 20% !important;
+}
+
+.description {
+	width: 100% !important;
+	height: 60% !important;
+}
+
+.course_tietle,
+.talker,
+.description {
+	color: white;
+	font-family: '楷体';
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
+.header2 {
+	margin-bottom: 0px;
+}
+
+.index {
+	padding: 1vw;
+}
+
+.clazzdiv {
+	width: 1300px;
+	height: auto;
+	float: left;
+	margin: 0 10vw;
+}
+
+
+/*.clazz {
+	overflow: hidden;
+	height: 20vw;
+	margin: 0px 1.2vw;
+	width: 18vw;
+	float: left;
+	padding: 1vw;
+	border-radius: 5px 5px;
+}
+
+.clazz:hover {
+	padding: 0.5vw;
+}
+
+.clazz_font {
+	overflow: hidden;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 1px 1px 5px 0;
+	padding: 5px 10px;
+	width: 99.5%;
+	height: 55%;
+}
+
+.cover {
+	position: relative;
+	width: 100%;
+	height: 45%;
+	z-index: 10;
+}
+
+.cover img {
+	border-radius: 5px 5px 0px 0px;
+	background-image: url(/co-college/comment/img/default.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+}
+
+.tietle {
+	font-size: 1.3vw;
+}
+
+.tietle h4 {
+	font-size: 1.3vw;
+	overflow: hidden;
+	margin: 0.8vw 0px;
+}
+
+.tietle,
+.price,
+.author {
+	color: #000000;
+	line-height: 2em;
+}
+
+.price {
+	padding: 0.2vw;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+}
+
+.price h6 {
+	font-size: 0.8vw;
+	margin: 0.6vw 0;
+	float: right;
+}
+
+.star {
+	overflow: hidden;
+	line-height: 1.5em;
+	margin: 0.8vw 0px;
+	font-size: 0.75vw;
+}
+
+.tag {
+	margin-left: 2px;
+	position: relative;
+	top: -25px;
+	margin-right: 5px;
+	background-color: rgba(0, 0, 0, 0.4);
+	line-height: 2em;
+	padding: 0.2vw 1vw;
+	color: white;
+}
+
+.author {
+	font-size: 0.8vw;
+}
+*/
+
+a:link {
+	text-decoration: none;
+}
+
+
+/* 指正常的未被访问过的链接*/
+
+a:visited {
+	text-decoration: none;
+}
+
+
+/*指已经访问过的链接*/
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/*指鼠标在链接*/
+
+
+
+a:active {
+	text-decoration: none;
+}
+w/* 指正在点的链接*/
+input {
+	padding: 4px;
+}
+.page {
+	margin-left: 40vw;
+}
+.dropdown-menu>li>a {
+	padding: 8px 20px;
+}
+ul {
+	margin-top: 0px !important;
+}
+.navbar {
+	min-height: 0px;
+}
+.navbar-form {
+	margin-bottom: 0px;
+}
+.nav_active {
+	color: black !important;
+	background-color: #e7e7e7;
+}
+
+/*.modal_clazz {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.84);
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.btn-learn {
+	font-weight:bold;
+	width: 70%;
+	height: 34px;
+	margin: 30% 15%;
+	background-color: #F30;
+	border: 1px solid #F30;
+}
+.btn-learn:hover {
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid #F30;
+	color: #F30;
+}*/
+.clazz {
+	float: left;
+	width: 220px;
+	min-width: 200px;
+	margin-right: 2vw;
+	height: auto;
+	overflow: hidden;
+}
+.cover img {
+	border-radius: 15px;
+	width: 100%;
+}
+.tag li {
+	list-style: none;
+	display: inline;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding: 4px 7px;
+	color: white;
+	font-size: 12px;
+	position: relative;
+	top: -28px;
+	left: 10px;
+}
+.clazz_font {
+	position: relative;
+	top: -28px;
+	padding: 5px;
+	font-size: 11px;
+	margin-right: 0.3vw;
+	line-height: 14px;
+	color: rgb(156, 156, 156);
+}
+.clazz_font h6 {
+	font-size: 14px;
+	font-weight: 600;
+	color: black;
+}
+.info span {
+	margin-right: 1vw;
+}
+.star {
+	overflow: hidden;
+	line-height: 1.5em;
+	margin: 0.8vw 0px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<!--公共部分 head 部分-->
+	<div th:replace="front/common/_meta-link :: html"></div>
+
+	<head>
+		<link rel="stylesheet" type="text/css" th:href="@{'common/css/front/login.css'}" />
+		<link rel="stylesheet" type="text/css" th:href="@{'common/css/yzcode/slider.css'}" />
+
+		<style type="text/css">
+			.panel-regist a {
+				border-bottom: 2px solid #F30;
+				padding-bottom: 5px;
+				color: #1768e7;
+			}
+			
+			.panel-login a {
+				border-bottom: 0px;
+				color: #000000;
+			}
+			
+			#regist-btn {
+				margin-top: 22px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="loginPanel">
+			<!--logo 开始-->
+			<div class="panel-title">
+				<img th:src="@{'common/images/2.png'}" id="logo" />
+			</div>
+			<!--logo结束-->
+
+			<!--登录 注册选项开始-->
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-1 panel-login">
+					<a th:href="@{'login'}">登录</a>
+				</div>
+				<div class="col-sm-1 panel-fenge">
+					|
+				</div>
+				<div class="col-sm-5 panel-regist">
+					<a th:href="@{'regist'}">注册</a>
+				</div>
+			</div>
+			<!--登录注册选项结束-->
+
+			<!--注册表单开始-->
+			<div class="login-F">
+				<form class="" id="loginF">
+					<!--用户名-->
+					<div class="form-group">
+						<label for="username">username：</label>
+						<input type="text" class="form-control" id="username" name="username" placeholder="please enter your username...">
+						<!--用户名验证提示-->
+						<span class="message message-username"></span>
+					</div>
+					<!--密码-->
+					<div class="form-group">
+						<label for="password">password：</label>
+						<input type="password" class="form-control" id="password" name="password" placeholder="please enter your password...">
+						<!--密码验证提示-->
+						<span class="message message-password"></span>
+					</div>
+					<!--二次密码-->
+					<div class="form-group">
+						<label for="repassword">repassword：</label>
+						<input type="password" id="repassword" name="repassword" class="form-control" placeholder="please agin enter your password..." />
+						<!--二次密码验证提示-->
+						<span class="message message-repassword"></span>
+					</div>
+					<!--邮箱-->
+					<div class="form-group">
+						<label for="email">email：</label>
+						<input type="email" name="email" id="email" value="" class="form-control" placeholder="please enter your email..." />
+						<!--邮箱验证提示-->
+						<span class="message message-email"></span>
+					</div>
+					<!--验证码-->
+					<!--验证-->
+					<div class="form-group" id="sliderLock">
+						<div id='sliderLock_huakuai'>
+							<div></div>
+						</div>
+						<div id="sliderLock_status">请按动滑块，拖到最右边</div>
+						<div id="code-msg"></div>
+					</div>
+					<div class="form-group">
+						<button type="button" id="regist-btn" class="btn btn-primary form-control">注册</button>
+					</div>
+				</form>
+			</div>
+			<!--登录表单结束-->
+			<div class="xq">@解析权归砺锋科技所有</div>
+		</div>
+	</body>
+
+	<!--公用脚本-->
+	<div th:replace="front/common/_meta-script :: html"></div>
+	<script th:src="@{'common/js/slider.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'common/js/front/regist.js'}" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		 
+	</script>
+
+</html>

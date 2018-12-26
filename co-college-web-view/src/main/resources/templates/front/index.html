@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	
+	<!--公共部分 head 部分-->
+	<div th:replace="front/common/_meta-link :: html"></div>
+	<head>
+		<link rel="stylesheet" type="text/css" th:href="@{'common/css/front/index.css'}" />
+	</head>
+
+	<body>
+		<!--导航栏部分开始-->
+		<div th:replace="front/common/_header :: html"></div>
+		<!--导航栏部分结束-->
+		
+		<section>
+			<article id="college-img">
+				<!--首页图介绍-->
+				<img th:src="@{'common/images/1.png'}" height="100%" />
+				<p id="college-text">你希望从零到一，首先需要从一到零</p>
+				<!--指示图标-->
+				<p><span class="fa fa-angle-double-down college-z"></span></p>
+			</article>
+			<article>
+				<div class="college-dec">
+					<p>多年的职场经验让我们惯于解决“1-N”的问题</p>
+					<p>提高效率、降低成本、为已有的产品找新用户......</p>
+					<p>但是这个变化剧烈的时代，要求更能创造“新物种”的企业和工作者</p>
+				</div>
+			</article>
+		</section>
+		<!--砺锋共创学院简介开始-->
+		<section>
+			<div class="row college-info">
+				<div class="col-sm-7">
+					致力于研究和践行共创方法的共创学院，帮助寻求转型的企业和有志于投身创新团队的工作者通过协作式学习, 从1到0跳出过去职场训练出来的固有思维和工作方式，获得建设一支能不断从0到1创新的跨界团队的思维和能力。 致力于研究和践行共创方法的共创学院，帮助寻求转型的企业和有志于投身创新团队的工作者通过协作式学习, 从1到0跳出过去职场训练出来的固有思维和工作方式，获得建设一支能不断从0到1创新的跨界团队的思维和能力。
+				</div>
+				<div class="col-sm-5">
+					<div class="wrap">
+						<div class="dowebok">
+							<ul>
+								<li>
+									<img th:src="@{'common/images/11.png'}" />
+								</li>
+								<li>
+									<img th:src="@{'common/images/12.png'}" />
+								</li>
+								<li>
+									<img th:src="@{'common/images/13.png'}" />
+								</li>
+								<li>
+									<img th:src="@{'common/images/14.png'}" />
+								</li>
+								<li>
+									<img th:src="@{'common/images/15.png'}" />
+								</li>
+								<li>
+									<img th:src="@{'common/images/16.png'}" />
+								</li>
+								<li>
+									<img th:src="@{'common/images/17.png'}" />
+								</li>
+								<li>
+									<img th:src="@{'common/images/18.png'}" />
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+				<div class="college-studyBtn">
+					<a th:href="@{'workshop'}" class="btn btn-lg btn-danger" title="免费体验学习">免费体验学习</a>
+				</div>
+			</div>
+		</section>
+		<!--砺锋共创学院简介结束-->
+		<!--共创课程开始-->
+		<section class="college-class">
+			<div class="college-classDec">
+				<p>共创不是纸上谈兵，而是需要你亲身的体验</p>
+				<p>我们提供不同类型不同形式的入口，让你可以亲历共创场域，感受共创文化</p>
+				<p>你可以选择你最感兴趣的主题和方式和共创来一场近距离的接触</p>
+			</div>
+			<!--归类一开始-->
+			<article class="college-fitst">
+				<div id="">
+					<div class="row">
+						<div class="col-sm-6 first-img">
+							<img th:src="@{'common/images/21.png'}" />
+						</div>
+						<div class="col-sm-6 first-desc">
+							基于不同的主题，对外邀请大众参与，用一个下午茶的时间共同探讨一个个创新想法。 你可以选择自己感兴趣的主题参与其中，也可以成为发起方，带着特定的命题而来体验共创的流程。
+						</div>
+						<div>
+							<span class="first-title">共创课程第一类</span>
+						</div>
+						<div class="first-btn">
+							<a th:href="@{'details'}" class="btn btn-info" title="加入课程：共创课程第一类" >加入课堂</a>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--归类一结束-->
+			<!--归类二开始-->
+			<article class="college-fitst">
+				<div>
+					<div class="row">
+						<div class="col-sm-6 first-img">
+							<img th:src="@{'common/images/22.png'}" />
+						</div>
+						<div class="col-sm-6 first-desc">
+							构建线上的团队共创场域，全面系统地操练你的的共创思维。通过线上学习＋实践的形式，辅以四大主题视频＋共创平台系统支持＋共创官引导 ，分享关于团队创新落地的相关理论洞察，介绍不同应用场景下的实践指南，让每个组织成员都能在团队中成长为独当一面的角色。
+						</div>
+						<div>
+							<span class="first-title">共创课程第二类</span>
+						</div>
+						<div class="first-btn">
+							<a th:href="@{'details'}" class="btn btn-info" title="加入课堂：共创课程第二类" >加入课堂</a>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--归类二结束-->
+			<div class="moreClass-btn">
+				<a th:href="@{'moreclass'}" class="btn btn-danger btn-lg" title="更多共创课程" >更多共创课程</a>
+				<div class="college-classDec">
+					<p>共创不是纸上谈兵，而是需要你亲身的体验</p>
+					<p>我们提供不同类型不同形式的入口，让你可以亲历共创场域，感受共创文化</p>
+					<p>你可以选择你最感兴趣的主题和方式和共创来一场近距离的接触</p>
+				</div>
+			</div>
+			<!--社区开始-->
+			<article class="college-fitst">
+				<div>
+					<div class="row">
+						<div class="col-sm-6 first-img">
+							<img th:src="@{'common/images/22.png'}" />
+						</div>
+						<div class="col-sm-6 first-desc">
+							构建线上的团队共创场域，全面系统地操练你的的共创思维。通过线上学习＋实践的形式，辅以四大主题视频＋共创平台系统支持＋共创官引导 ，分享关于团队创新落地的相关理论洞察，介绍不同应用场景下的实践指南，让每个组织成员都能在团队中成长为独当一面的角色。
+						</div>
+						<div>
+							<span class="first-title">共创技术社区</span>
+						</div>
+						<div class="first-btn">
+							<a href="http://www.codeseeding.com/" target="_blank" class="btn btn-info">加入社区</a>
+						</div>
+					</div>
+				</div>
+			</article>
+			<!--社区结束-->
+		</section>
+		<!--共创课程结束-->
+		<!--共创案例开始-->
+		<section class="college-eg">
+			<article>
+				<h1>共创案例<small><br/>每次共创都是激活与赋能的过程</small></h1>
+				
+				<div class="college-studyBtn">
+					<a href="javascript:;" class="btn btn-lg btn-danger" title="更多优秀共创课程"  >更多优秀案例</a>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-5 col-sm-offset-1">
+						<div>
+							<img th:src="@{'common/images/31.png'}" width="352px" />
+						</div>
+						<p>案例标题一</p>
+						<div class=""></div>
+						<div class="eg-desc">
+							YITOPIA 与汕头大学的整合思维课程项目组共创了一个“从1回到0”的工作坊，通过用场域构建力重构课堂的关系, 跳出固有的思路重新定义问题，并分享了彼此的创新思维学习方法，探讨如何让同学们能把所学的内容应用在实际的商业或 社会项目中。
+						</div>
+						<div class="">
+							<a href="javascript:;" class="btn btn-danger btn-lg" title="案例详情了解" >详细了解</a>
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<div>
+							<img th:src="@{'common/images/31.png'}" width="352px" />
+						</div>
+						<p>案例标题一</p>
+						<div class=""></div>
+						<div class="eg-desc">
+							YITOPIA 与汕头大学的整合思维课程项目组共创了一个“从1回到0”的工作坊，通过用场域构建力重构课堂的关系, 跳出固有的思路重新定义问题，并分享了彼此的创新思维学习方法，探讨如何让同学们能把所学的内容应用在实际的商业或 社会项目中。
+						</div>
+						<div class="">
+							<a href="javascript:;" class="btn btn-danger btn-lg" title="案例详情了解" >详细了解</a>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<!--共创案例结束-->
+		
+		<!--底部开始-->
+		<div th:replace="front/common/_footer :: html"></div>
+		<!--底部结束-->
+	</body>
+
+	<!--公共部分 脚本引入-->
+	<div th:replace="front/common/_meta-script :: html"></div>
+	<!--脚本-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*获取当前窗口高度*/
+			var height = $(window).height() - 150 + "px";
+			/*当窗口改变大小时，修改图片容器大小*/
+			$(window).resize(function() {
+				height = $(window).height() - 150 + "px";
+				resizeImg(height);
+			});
+			/*修改容器大小*/
+			resizeImg(height);
+
+			/*学院介绍轮播*/
+			$('.dowebok').vTicker({
+				showItems: 1
+			});
+
+		});
+		/*修改div高度*/
+		function resizeImg(height) {
+			$("#college-img").css({
+				"height": height
+			});
+		}
+	</script>
+
+</html>

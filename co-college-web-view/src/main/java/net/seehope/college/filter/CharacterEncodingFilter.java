@@ -21,7 +21,6 @@ public class CharacterEncodingFilter implements Filter {
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("utf-8");
         response.setContentType("text/html");
-        System.out.println("编码过滤器....");
         filterChain.doFilter(request,response);
     }
 }
