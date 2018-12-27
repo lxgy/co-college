@@ -29,5 +29,4 @@ public class FrontPageController {
         return "front/login-regist/regist";
     }
 
-
 }
