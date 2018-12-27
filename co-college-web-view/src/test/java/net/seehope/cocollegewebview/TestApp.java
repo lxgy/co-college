@@ -7,8 +7,10 @@ public class TestApp{
 
     @Test
     public void test(){
-        String s = BcryptEncodeUtil.encode("lai0736207933...");
+        String s = BcryptEncodeUtil.encode("123456");
+        String s1 = BcryptEncodeUtil.encode("123456");
         System.out.println(s + "  " + s.length());
-        System.out.println(BcryptEncodeUtil.decode("lai0736207933...",s));
+        System.out.println(BcryptEncodeUtil.decode("123456",s));
+        System.out.println(BcryptEncodeUtil.decode("123456",s1));
     }
 }

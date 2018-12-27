@@ -1,0 +1,12 @@
+body{
+    background-color: #F5F5F5;
+    font-family: '微软雅黑';
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #50cf78;
+}

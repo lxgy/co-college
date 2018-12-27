@@ -14,7 +14,7 @@ public class FrontPageController {
     /*共创学院首页*/
     @RequestMapping("/index")
     public String page_index() {
-        return "front/index";
+        return "front/home";
     }
 
     /*登录页面*/
