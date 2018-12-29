@@ -1,20 +1,117 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 
-<!--公共部分 head 部分-->
-<div th:replace="front/common/_meta-link :: html"></div>
-<head>
-    <meta charset="UTF-8">
-    <title>砺锋众创</title>
-    <link rel="stylesheet" type="text/css" th:href="@{'common/css/front/home.css'}">
-</head>
-<body>
+	<!--公共部分 head 部分-->
+	<div th:replace="front/common/_meta-link :: html"></div>
+	<head>
+		<meta charset="UTF-8">
+		<title>砺锋众创</title>
+		<link rel="stylesheet" type="text/css" th:href="@{'common/css/front/home.css'}">
+	</head>
+	<body style="background: white">
+		<!--头部导航条开始-->
+		<div th:replace="front/common/header :: html"></div>
+		<!--头部导航条结束-->
+		<!--主体内容开始-->
+		<section>
+			<!--活动轮播内容开始-->
+			<article id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img class="carousel-img" th:src="@{'common/images/1.png'}" alt="First slide" style="height: 465px">
+					</div>
+					<div class="item">
+						<img class="carousel-img" th:src="@{'common/images/2.png'}" alt="Second slide" style="height: 465px">
+					</div>
+					<div class="item">
+						<img class="carousel-img" th:src="@{'common/images/3.jpg'}" alt="third slide" style="height: 465px">
+					</div>
+					<div class="item">
+						<img class="carousel-img" th:src="@{'common/images/4.jpg'}" alt="third slide" style="height: 465px">
+					</div>
+				</div>
+				<div class="access-task">已有14862名创客接取外包任务&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;<span
+					 class="task-a"><a style="color: #50cf78;text-decoration: none;" href="#">我要接任务</a></span></div>
+				<div class="middle-sep">/</div>
+				<div class="join-teams">已有2424568名加入创客&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;<span
+					 class="teams-a"><a style="color: #50cf78;text-decoration: none;" href="#">我要加入众创</a></span></div>
+			</article>
+		</section>
+		<!--活动轮播内容结束-->
 
-</body>
-<!--公共部分 脚本引入-->
-<div th:replace="front/common/_meta-script :: html"></div>
-
-<script type="text/javascript">
-
-</script>
+		<!--众筹项目开始-->
+		<section class="project-investment">
+			<h2>项目众筹成功案例</h2>
+			<h4 class="pj-ms">
+				10年项目众筹经验保证项目的成功实施
+				<span class="find-more"><a href="javascript:;">查看跟多&nbsp;<i class="fa fa-share" aria-hidden="true"></i></a></span>
+			</h4>
+			<article>
+				<!--众筹分类开始-->
+				<div class="project-type">
+					<div class="lx-3 type-item">
+						<a href="#" style="text-decoration: none">
+							<div class="project-ued">
+								<img th:src="@{'common/images/t4.jpg'}">
+							</div>
+							<h4>互联网技术</h4>
+							<h6>华东ADAS企业异军突起，博世“本土化”开发遭威胁？华东ADAS企业异军突起，博世“本土化”开发遭威胁？
+								华东ADAS企业异军突起，博世“本土化”开发遭威胁？华东ADAS企业异军突起，博世“本土化”开发遭威胁？
+							</h6>
+						</a>
+					</div>
+					<div class="lx-3 type-item">
+						<a href="#" style="text-decoration: none">
+						<div class="project-ai">
+							<img th:src="@{'common/images/t2.jpg'}">
+						</div>
+						<h4>人工智能</h4>
+						<h6>首发丨声智科技完成2亿元B轮融资，毅达资本领投，首发丨声智科技完成2亿元B轮融资，毅达资本领投</h6>
+						</a>
+					</div>
+					<div class="lx-3 type-item">
+						<a href="#" style="text-decoration: none">
+						<div class="project-life">
+							<img th:src="@{'common/images/t3.jpg'}">
+						</div>
+						<h4>生活家居</h4>
+						<h6>卫健委马丽平：中国医疗质量管理发展现状，卫健委马丽平：中国医疗质量管理发展现状</h6>
+						</a>
+					</div>
+					<div class="lx-3 type-item">
+						<a href="#" style="text-decoration: none">
+						<div class="project-logo">
+							<img th:src="@{'common/images/t4.jpg'}">
+						</div>
+							<h4>品牌设计</h4>
+						<h6>经济寒冬，陶瓷企业要如何活下去？济寒冬，陶瓷企业要如何活下去？</h6>
+						</a>
+					</div>
+				</div>
+				<!--众筹分类结束-->
+			</article>
+		</section>
+		<section class="spell">
+			<h4>砺锋众创为有梦想的创客们提供更加辽阔的展翅空间</h4>
+			<button class="join-investment">参与众筹</button>
+		</section>
+		<!--众筹项目结束-->
+		<!--项目众包开始-->
+		<!--<section id="tagscloud1" class="tagscloud">
+			<a href="javascript:;" class="tagc1" id="11">博物馆衍生品</a>
+			<a href="javascript:;" class="tagc3" id="12">旅游衍生品</a>
+			<a href="javascript:;" class="tagc4" id="13">娱乐衍生品</a>
+			<a href="javascript:;" class="tagc5" id="14">家居摆件</a>
+			<a href="javascript:;" class="tagc2" id="15">居家日用</a>
+			<a href="javascript:;" class="tagc5" id="16">数码配件</a>
+			<a href="javascript:;" class="tagc3" id="17">办公用品</a>
+			<a href="javascript:;" class="tagc2" id="18">生活快消</a>
+			<a href="javascript:;" class="tagc1" id="19">生活家居</a>
+		</section>-->
+		<!--项目众包结束-->
+		<!--主体内容结束-->
+	</body>
+	<!--公共部分 脚本引入-->
+	<div th:replace="front/common/_meta-script :: html"></div>
+	<script th:src="@{'common/js/front/home.js'}" type="text/javascript"></script>
 </html>

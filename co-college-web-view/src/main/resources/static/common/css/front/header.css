@@ -1,0 +1,46 @@
+.college-nav{
+    height: 80px;
+    background: white;
+}
+.nav {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.first-nav {
+    position: absolute;
+    top: -8px;
+}
+
+.second-nav {
+    float: left;
+    padding: 10px;
+    margin-left: 250px;
+}
+.third-nav{
+    float: right;
+    padding: 10px;
+}
+
+#college-img {
+    text-align: center;
+    clear: both;
+}
+
+.nav>li>a>img {
+    max-width: none;
+    height: 50px;
+}
+
+.nav>li>a:hover,.nav>li>a:active,.nav>li>a:visited{
+    background-color: white;
+    font-size: 15px;
+}
+.a-sep{
+    padding-top: 10px;
+}
+
+.active{
+    color: dodgerblue;
+}
+

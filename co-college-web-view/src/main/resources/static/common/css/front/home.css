@@ -1,0 +1,178 @@
+
+#carousel-example-generic {
+    max-height: 465px;
+    position: relative;
+}
+
+.access-task {
+    position: absolute;
+    top: 91%;
+    left: 15%;
+    font-size: 16px;
+    font-family: '黑体';
+    font-weight: 700;
+    color: #50cf78;
+}
+
+.join-teams {
+    position: absolute;
+    top: 91%;
+    right: 15%;
+    font-size: 16px;
+    font-family: '黑体';
+    font-weight: 700;
+    color: #50cf78;
+}
+
+.access-task i, .join-teams i {
+    color: white;
+}
+
+.teams-a, .task-a {
+    border: 3px #50cf78;
+    border-radius: 4px;
+    padding: 6px 14px;
+    box-shadow: 0 0 0 1px rgba(80, 207, 120, 0.3);
+    cursor: pointer;
+}
+
+.teams-a:hover, .task-a:hover {
+    box-shadow: 0 0 0 1px rgba(80, 207, 120, 0.8);
+    text-decoration: none;
+}
+
+.middle-sep {
+    position: absolute;
+    top: 91%;
+    right: 50%;
+    color: white;
+    font-size: 18px;
+    font-family: '楷体';
+}
+
+.project-investment {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.project-investment > h4 {
+    margin: 30px 0px;
+    color: rgb(195, 204, 171);
+}
+
+.project-ai, .project-life, .project-logo, .project-ued {
+    text-align: center;
+}
+
+.type-item {
+    text-align: left;
+    background-color: #FFFFFF;
+    float: left;
+    width: 245px;
+    margin: 0 auto;
+    margin-right: 26px;
+    margin-left: 26px;
+    border-radius: 5px;
+    /*box-shadow: 1px 1px 1px 1px #CCCCCC;*/
+}
+
+.type-item:hover{
+    box-shadow: 1px 1px 15px 5px #CCCCCC;
+}
+
+.type-item img {
+    width: 235px;
+    max-width: 235px;
+    height: 150px;
+    max-height: 225px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.type-item>a>h4 {
+    font-family: '宋体';
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-weight: 600;
+    text-align: center;
+    color: #0f0f0f;
+
+}
+.type-item>a{
+    text-decoration: none;
+}
+.type-item>a>h6 {
+    padding: 0px 0px 0px 8px;
+    letter-spacing: 1px;
+    font-family: '微软雅黑';
+    width: 235px;
+    max-width: 235px;
+    font-size: 14px;
+    height: 71px;
+    max-height: 71px;
+    overflow: hidden;
+    color: rgb(79, 124, 95);
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-indent: 2em;
+    line-height: 22px;
+}
+.pj-ms{
+    position: relative;
+}
+.find-more{
+    position: absolute;
+    top: 0px;
+    right: 39px;
+}
+
+.find-more>a:visited{
+    text-decoration: none;
+}
+.find-more>a:hover{
+    text-decoration: none;
+}
+.find-more>a:active{
+    text-decoration: none;
+}
+
+.fix-top {
+    border-bottom: 2px solid #cccccc;
+}
+.spell{
+    text-align: center;
+    clear: both;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.join-investment{
+    font-family: '楷体';
+    font-size: 16px;
+    color: white;
+    background-color: rgba(91,192,222,0.8);
+    border: 1px solid #5BC0DE;
+    border-radius: 5px;
+    padding: 10px 55px;
+    margin-top: 10px;
+}
+.join-investment:hover{
+    background-color: rgba(91,192,222,1.0);
+}
+/*.tagscloud{*/
+    /*width: 280px;*/
+    /*height: 260px;*/
+    /*position: relative;*/
+    /*color: #333;*/
+    /*z-index: 1;*/
+/*}*/
+/*.tagscloud,.tagscloud a{*/
+    /*font-size: 16px;*/
+    /*text-align: center;*/
+/*}*/
