@@ -209,7 +209,6 @@
 
 .project-teams>h3>small {
 	padding-left: 20px;
-	color: #50cf78;
 }
 
 .prjt-carousel>h2 {
@@ -277,6 +276,11 @@
 .classes-teams>h3, .show-logs>h3, .tool-teams>h3 {
 	text-align: left;
 	padding-top: 50px;
+}
+
+.tool-teams>h3 {
+	padding-bottom: 6px;
+	border-bottom: 1px dashed #cccccc;
 }
 
 .classes-teams>h3>small, .show-logs>h3>small, .tool-teams>h3>small {
@@ -350,4 +354,24 @@
 .tool-btn>span:hover {
 	box-shadow: 1px 1px 1px 1px #cccccc;
 	background-color: rgba(146, 144, 255, 1.0);
+}
+.logs-carousel{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	width: 400px;
+}
+.swiper-slide{
+	text-align: right;
+	color:#50CF78;
+	letter-spacing: 2px;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	cursor: pointer;
+	
 }
