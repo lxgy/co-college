@@ -23,18 +23,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+            <state relative-caret-position="220">
+              <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1223#1229#0" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#span#0;n#div#1;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#span#0;n#div#3;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1876#1882#0" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="167" selection-start-line="167" selection-start-column="2" selection-end-line="177" selection-end-column="3" />
+            <state relative-caret-position="3507">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
             </state>
           </provider>
         </entry>
@@ -212,181 +210,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-entity-mapping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-result-vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-service-logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-util-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seehope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
-              <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -399,7 +224,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546075694574" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546077133300" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../edumanage" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -536,7 +361,9 @@
       <workItem from="1545833254285" duration="1045000" />
       <workItem from="1545873679229" duration="13571000" />
       <workItem from="1545959678786" duration="25492000" />
-      <workItem from="1546046912878" duration="20441000" />
+      <workItem from="1546046912878" duration="21865000" />
+      <workItem from="1546134261720" duration="2064000" />
+      <workItem from="1546391939729" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="项目创建，框架搭建">
       <created>1545185857501</created>
@@ -651,13 +478,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166728000" />
+    <option name="totallyTimeSpent" value="170401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24583964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -914,18 +740,10 @@
     <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/AI2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh2.png" />
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh1.png" />
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh4.png" />
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh3.png" />
     <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/UED1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -938,39 +756,37 @@
     <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="167" selection-start-line="167" selection-start-column="2" selection-end-line="177" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        <state relative-caret-position="220">
+          <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1223#1229#0" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#0;n#div#1;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#0;n#div#3;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1876#1882#0" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3507">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
