@@ -9,13 +9,13 @@
 }
 .first-nav {
     position: absolute;
-    top: -8px;
+    top: 7px;
 }
 
 .second-nav {
     float: left;
     padding: 10px;
-    margin-left: 250px;
+    margin-left: 80px;
 }
 .third-nav{
     float: right;
@@ -29,7 +29,7 @@
 
 .nav>li>a>img {
     max-width: none;
-    height: 50px;
+    height: 25px;
 }
 
 .nav>li>a:hover,.nav>li>a:active,.nav>li>a:visited{
