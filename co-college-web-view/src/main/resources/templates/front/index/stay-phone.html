@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+	<div th:replace="front/common/_meta-link :: html"></div>
+	<head>
+		<meta charset="UTF-8">
+		<title>砺锋众创--联系方式</title>
+
+		<style>
+			body{
+                padding: 0px 20px;
+            }
+
+            h4{
+                font-size: 14px;
+                font-weight: 400;
+            }
+        </style>
+	</head>
+
+	<body>
+		<h4>请留下您的电话号码，我们的工作人员会在1小时内联系您</h4>
+		<article>
+			<section>
+				<form id="stay_phoneF" role="form">
+					<div class="input-group">
+						<span class="input-group-addon" id="basic-addon1">
+							<i class="fa fa-mobile" aria-hidden="true"></i>
+						</span>
+						<input type="text" class="form-control" placeholder="please enter your phone number..." aria-describedby="basic-addon1">
+					</div>
+				</form>
+			</section>
+		</article>
+	</body>
+
+	<script type="text/javascript" th:src="@{'common/js/jquery-3.3.1.min.js'}"></script>
+</html>

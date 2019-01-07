@@ -9,9 +9,28 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 		<link rel="stylesheet" type="text/css" th:href="@{'common/css/front/home.css'}">
 	</head>
-	<body style="background: white">
+	<body style="background: white;">
 		<!--头部导航条开始-->
-		<div th:replace="front/common/header :: html"></div>
+		<div th:replace="front/common/new_header :: html"></div>
+		<aside class="aside-right">
+			<figure class="aside-phone" id="aside-phone">
+				<div>
+					<img width="24px" height="24px" th:src="@{'common/images/phone_07.png'}" alt="">
+				</div>
+			</figure>
+			<figure class="aside-message">
+				<div>
+					<img width="24px" height="24px" th:src="@{'common/images/message_07.png'}" alt="">
+				</div>
+			</figure>
+			<figure class="aside-totop text-hide">
+				<div>
+                    <a href="#carousel-example-generic">
+                        <img width="24px" height="24px" th:src="@{'common/images/top_07.png'}" alt="">
+                    </a>
+                </div>
+           </figure>
+		</aside>
 		<!--头部导航条结束-->
 		<!--主体内容开始-->
 		<section>
@@ -363,8 +382,10 @@
 				</div>
 			</article>
 		</section>
-		<div style="height: 100px;margin-top: 600px;background-color: red"></div>
 		<!--主体内容结束-->
+		<!-- 底部开始 -->
+		<div th:replace="front/common/footer :: html"></div>
+		<!-- 底部结束 -->
 	</body>
 	<!--公共部分 脚本引入-->
 	<div th:replace="front/common/_meta-script :: html"></div>

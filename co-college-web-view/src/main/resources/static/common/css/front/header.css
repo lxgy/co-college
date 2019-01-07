@@ -1,46 +1,136 @@
+/* 头部样式 */
+a,a:hover,a:link,a:active,a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: 0px 1px 1px #cccccc;
+}
+
 .college-nav{
-    height: 80px;
-    background: white;
-}
-.nav {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 10px;
-}
-.first-nav {
-    position: absolute;
-    top: 7px;
-}
-
-.second-nav {
-    float: left;
-    padding: 10px;
-    margin-left: 80px;
-}
-.third-nav{
-    float: right;
-    padding: 10px;
-}
-
-#college-img {
-    text-align: center;
-    clear: both;
-}
-
-.nav>li>a>img {
-    max-width: none;
-    height: 25px;
-}
-
-.nav>li>a:hover,.nav>li>a:active,.nav>li>a:visited{
+    min-width: 1200px;
+    width: 100%;
     background-color: white;
+    height: 80px;
+    position: relative;
     font-size: 15px;
 }
-.a-sep{
-    padding-top: 10px;
+
+.new-collegenav{
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 0px 20px white;
+    font-size: 14px;
+}
+.header-image{
+    position: absolute;
+    top: 25px;
+    left: 50px;
 }
 
-.active{
-    color: dodgerblue;
+.new-headerimage{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+.new-headerimage>a>img{
+    height: 30px;
 }
 
+.new-headernav{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+
+.new-headerloginregist{
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+
+.college-nav li{
+    list-style: none;
+    float: left;
+}
+
+.header-nav{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+.header-nav li{
+    margin-right: 30px;
+}
+
+.new-headernav li{
+    margin-right: 30px;
+}
+
+.header-loginregist{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.new-headerloginregist li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header-loginregist li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* footer底部样式 */
+.college-footer {
+    height: 300px;
+    min-width: 1200px;
+    width: 100%;
+    margin-top: 600px;
+    position: relative;
+    background: #1C1C1C;
+    color: #CCBEB0;
+    padding: 50px 125px;
+    cursor: pointer;
+}
+.footer-about{
+    margin-top: 35px;
+    padding-bottom: 35px;
+    font-size: 15px;
+}
+
+.footer-about>span{
+    margin-right: 60px;
+}
+.footer-refus{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+    font-size: 15px;
+}
+.footer-refus>span{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.footer-ba{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-z{
+    position: absolute;
+    top: 50px;
+    right: 125px;
+}
+.footer-z>h2{
+    margin-top: 2px;
+}
+.footer-z>h6{
+    font-size: 14px;
+}

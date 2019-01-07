@@ -1,6 +1,7 @@
 package net.seehope.college.front.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -12,21 +13,27 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class FrontPageController {
 
     /*共创学院首页*/
-    @RequestMapping("/index")
+	@GetMapping("/index")
     public String page_index() {
         return "front/home";
     }
 
     /*登录页面*/
-    @RequestMapping("/login")
+    @GetMapping("/login")
     public String page_login(){
         return "front/login-regist/login";
     }
 
     /*注册页面*/
-    @RequestMapping("/regist")
+    @GetMapping("/regist")
     public String page_regist(){
         return "front/login-regist/regist";
+    }
+    
+    /*留下电话号码页面*/
+    @GetMapping("/front/page/stay_phone")
+    public String page_stay_phone() {
+    	return "front/index/stay-phone";
     }
 
 }
