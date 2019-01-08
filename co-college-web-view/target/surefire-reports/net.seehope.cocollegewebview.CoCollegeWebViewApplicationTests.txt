@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: net.seehope.cocollegewebview.CoCollegeWebViewApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.951 s - in net.seehope.cocollegewebview.CoCollegeWebViewApplicationTests

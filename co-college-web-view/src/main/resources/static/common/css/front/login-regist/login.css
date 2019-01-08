@@ -1,0 +1,115 @@
+@charset "UTF-8";
+body {
+    background-color: #F6F6F6;
+}
+
+.login-header {
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.login-article {
+    position: relative;
+    min-width: 1200px;
+    margin-top: 80px;
+}
+
+.login-img {
+    position: absolute;
+    left: 100px;
+    width: 700px;
+    height: 400px;
+}
+
+.login-img img {
+    width: 700px;
+    height: 400px;
+}
+
+.login-form {
+    position: absolute;
+    left: 800px;
+    background-color: white;
+    width: 420px;
+    height: 400px;
+    padding: 35px 35px 0px 35px;
+    box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+    border-radius: 5px;
+}
+
+.input-group {
+    display: block;
+}
+
+
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn{
+    height: 40px;
+}
+
+.make-account{
+    position: relative;
+}
+
+.forget-password{
+    position: absolute;
+    top: 0%;
+    right: 3px;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    color: #33CC66;
+}
+.input-password,.input-username{
+  padding-bottom: 45px;
+}
+
+.login-btn{
+    margin-top: 25px;
+}
+
+.to-regist{
+    text-align: right;
+}
+
+.to-regist>span{
+    color: #33CC66;
+    cursor: pointer;
+}
+.dividing-line{
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    margin-top: 35px;
+}
+.dividing-line>span{
+    background-color: white;
+    position: absolute;
+    top: -9px;
+    left: 108px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #999;
+}
+
+.btn-info{
+    /* background-color: black;
+    border-color: black; */
+    letter-spacing: 6px;
+    font-size: 15px;
+}
+
+.other-login{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.other-login img{
+    width: 24px;
+    height: 24px;
+}
+
+.other-login>div{
+    float: left;
+    width: 85px;
+    margin-top:20px;
+    text-align: center;
+    margin-left: 25px;
+}

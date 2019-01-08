@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 
-	<!--公共部分 head 部分-->
-	<div th:replace="front/common/_meta-link :: html"></div>
 	<head>
 		<meta charset="UTF-8">
-		<title>砺锋众创</title>
+		<title>砺锋众创--首页</title>
+		<!-- title 图标 -->
+		<link rel="shortcut icon" type="text/css" th:href="@{'title2.ico'}" />
+		<!-- 字体图标 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/font-awesome-4.7.0/css/font-awesome.min.css'}" />
+		<!-- 全站统一样式表 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/main.css'}" />
+		<!-- layer弹出层 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/layer/theme/default/layer.css'}" />
+		<!-- bookstrap核心样式 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}" />
+		<!-- swiper轮播样式文件 -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
-		<link rel="stylesheet" type="text/css" th:href="@{'common/css/front/home.css'}">
+		<!-- 头部header样式 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/header.css'}">
+		<!-- 当前页样式表 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/home.css'}">
 	</head>
+
 	<body style="background: white;">
 		<!--头部导航条开始-->
-		<div th:replace="front/common/new_header :: html"></div>
+		<header class="college-header" th:include="front/common/header"></header>
 		<aside class="aside-right">
 			<figure class="aside-phone" id="aside-phone">
 				<div>
-					<img width="24px" height="24px" th:src="@{'common/images/phone_07.png'}" alt="">
+					<img width="24px" height="24px" th:src="@{'/common/images/phone_07.png'}" alt="">
 				</div>
 			</figure>
-			<figure class="aside-message">
+			<figure class="aside-message" id="aside-message">
 				<div>
-					<img width="24px" height="24px" th:src="@{'common/images/message_07.png'}" alt="">
+					<img width="24px" height="24px" th:src="@{'/common/images/message_07.png'}" alt="">
 				</div>
 			</figure>
 			<figure class="aside-totop text-hide">
 				<div>
-                    <a href="#carousel-example-generic">
-                        <img width="24px" height="24px" th:src="@{'common/images/top_07.png'}" alt="">
-                    </a>
-                </div>
-           </figure>
+					<a href="#carousel-example-generic">
+						<img width="24px" height="24px" th:src="@{'/common/images/top_07.png'}" alt="">
+					</a>
+				</div>
+			</figure>
 		</aside>
 		<!--头部导航条结束-->
 		<!--主体内容开始-->
@@ -38,16 +51,16 @@
 			<article id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="item active">
-						<img class="carousel-img" th:src="@{'common/images/1.png'}" alt="First slide" style="height: 465px">
+						<img class="carousel-img" th:src="@{'/common/images/1.png'}" alt="First slide" style="height: 465px">
 					</div>
 					<div class="item">
-						<img class="carousel-img" th:src="@{'common/images/2.png'}" alt="Second slide" style="height: 465px">
+						<img class="carousel-img" th:src="@{'/common/images/2.png'}" alt="Second slide" style="height: 465px">
 					</div>
 					<div class="item">
-						<img class="carousel-img" th:src="@{'common/images/3.jpg'}" alt="third slide" style="height: 465px">
+						<img class="carousel-img" th:src="@{'/common/images/3.jpg'}" alt="third slide" style="height: 465px">
 					</div>
 					<div class="item">
-						<img class="carousel-img" th:src="@{'common/images/4.jpg'}" alt="third slide" style="height: 465px">
+						<img class="carousel-img" th:src="@{'/common/images/4.jpg'}" alt="third slide" style="height: 465px">
 					</div>
 				</div>
 				<div class="access-task">
@@ -75,7 +88,7 @@
 					<div class="lx-3 type-item">
 						<a href="#" style="text-decoration: none">
 							<div class="project-ued">
-								<img th:src="@{'common/images/t4.jpg'}">
+								<img th:src="@{'/common/images/t4.jpg'}">
 							</div>
 							<h4>互联网技术</h4>
 							<h6>华东ADAS企业异军突起，博世“本土化”开发遭威胁？华东ADAS企业异军突起，博世“本土化”开发遭威胁？
@@ -85,7 +98,7 @@
 					<div class="lx-3 type-item">
 						<a href="#" style="text-decoration: none">
 							<div class="project-ai">
-								<img th:src="@{'common/images/t2.jpg'}">
+								<img th:src="@{'/common/images/t2.jpg'}">
 							</div>
 							<h4>人工智能</h4>
 							<h6>首发丨声智科技完成2亿元B轮融资，毅达资本领投，首发丨声智科技完成2亿元B轮融资，毅达资本领投</h6>
@@ -94,7 +107,7 @@
 					<div class="lx-3 type-item">
 						<a href="#" style="text-decoration: none">
 							<div class="project-life">
-								<img th:src="@{'common/images/t3.jpg'}">
+								<img th:src="@{'/common/images/t3.jpg'}">
 							</div>
 							<h4>生活家居</h4>
 							<h6>卫健委马丽平：中国医疗质量管理发展现状，卫健委马丽平：中国医疗质量管理发展现状</h6>
@@ -103,7 +116,7 @@
 					<div class="lx-3 type-item">
 						<a href="#" style="text-decoration: none">
 							<div class="project-logo">
-								<img th:src="@{'common/images/t4.jpg'}">
+								<img th:src="@{'/common/images/t4.jpg'}">
 							</div>
 							<h4>品牌设计</h4>
 							<h6>经济寒冬，陶瓷企业要如何活下去？济寒冬，陶瓷企业要如何活下去？</h6>
@@ -144,7 +157,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/interface.png'}">
+				<img th:src="@{'/common/images/interface.png'}">
 				<h4>培训班报名小程序</h4>
 				<h5>
 					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
@@ -158,7 +171,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/xiaochegnxu.png'}">
+				<img th:src="@{'/common/images/xiaochegnxu.png'}">
 				<h4 title="【联想】知识QA社区功能开发(PHP)">【联想】知识QA社区功能开发(PHP)</h4>
 				<h5>
 					项目分类：<span>联想</span><span>微信应用</span><span>公众号</span>
@@ -172,7 +185,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/yijian.png'}">
+				<img th:src="@{'/common/images/yijian.png'}">
 				<h4>培训班报名小程序</h4>
 				<h5>
 					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
@@ -200,7 +213,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/interface.png'}">
+				<img th:src="@{'/common/images/interface.png'}">
 				<h4>培训班报名小程序</h4>
 				<h5>
 					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
@@ -214,7 +227,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/xiaochegnxu.png'}">
+				<img th:src="@{'/common/images/xiaochegnxu.png'}">
 				<h4>培训班报名小程序</h4>
 				<h5>
 					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
@@ -228,7 +241,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/yijian.png'}">
+				<img th:src="@{'/common/images/yijian.png'}">
 				<h4>培训班报名小程序</h4>
 				<h5>
 					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
@@ -261,7 +274,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/class1.jpg'}">
+				<img th:src="@{'/common/images/class1.jpg'}">
 				<h4 title="Java高并发之魂：synchronized的深度解析">Java高并发</h4>
 				<h5>
 					课堂归类：<span>Java</span><span>高并发</span>
@@ -273,7 +286,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/class2.jpg'}">
+				<img th:src="@{'/common/images/class2.jpg'}">
 				<h4 title="深度学习之目标检测常用算法原理+实践精讲">深度学习之目标检测常用算法原理+实践精讲</h4>
 				<h5>
 					课堂归类：<span>算法</span>
@@ -285,7 +298,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/class3.jpg'}">
+				<img th:src="@{'/common/images/class3.jpg'}">
 				<h4>Android性能分析与优化</h4>
 				<h5>
 					课堂归类：<span>Android</span>
@@ -297,7 +310,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/class4.jpg'}">
+				<img th:src="@{'/common/images/class4.jpg'}">
 				<h4 title="SpringBoot构建电商基础秒杀项目">SpringBoot构建电商基础秒杀项目</h4>
 				<h5>
 					项目分类：<span>SpringBoot</span>
@@ -309,7 +322,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/class5.jpg'}">
+				<img th:src="@{'/common/images/class5.jpg'}">
 				<h4>剑指Java面试-Offer直通车</h4>
 				<h5>
 					课堂归类：<span>Java</span><span>面试</span>
@@ -321,7 +334,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/class6.jpg'}">
+				<img th:src="@{'/common/images/class6.jpg'}">
 				<h4 title="React16 组件化">React16 组件化</h4>
 				<h5>
 					课堂归类：<span>React</span>
@@ -333,7 +346,7 @@
 				</div>
 			</article>
 			<article class="prjt-item">
-				<img th:src="@{'common/images/class7.jpg'}">
+				<img th:src="@{'/common/images/class7.jpg'}">
 				<h4>掌握Taro多端框架 快速上手小程序/H5开发</h4>
 				<h5>
 					项目分类：<span>H5</span><span>Taro</span>
@@ -354,7 +367,7 @@
 			<!-- 社区版 -->
 			<article class="tool-community">
 				<h2 class="tool-title">社区版</h2>
-				<img alt="" th:src="@{'common/images/tool.png'}">
+				<img alt="" th:src="@{'/common/images/tool.png'}">
 				<h4>[ 众创指南 ]</h4>
 				<div class="tool-content">社区版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。</div>
 				<div class="tool-btn">
@@ -364,7 +377,7 @@
 			<!-- 入门版 -->
 			<article class="tool-primary">
 				<h2 class="tool-title">入门版</h2>
-				<img alt="" th:src="@{'common/images/tool.png'}">
+				<img alt="" th:src="@{'/common/images/tool.png'}">
 				<h4>[ 众创指南 ]</h4>
 				<div class="tool-content">入门版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。</div>
 				<div class="tool-btn">
@@ -374,7 +387,7 @@
 			<!-- 企业版 -->
 			<article class="tool-enterprise">
 				<h2 class="tool-title">豪华版</h2>
-				<img alt="" th:src="@{'common/images/tool.png'}">
+				<img alt="" th:src="@{'/common/images/tool.png'}">
 				<h4>[ 众创指南 ]</h4>
 				<div class="tool-content">豪华版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。</div>
 				<div class="tool-btn">
@@ -384,17 +397,19 @@
 		</section>
 		<!--主体内容结束-->
 		<!-- 底部开始 -->
-		<div th:replace="front/common/footer :: html"></div>
+		<footer class="college-footer" th:include="front/common/footer"></footer>
 		<!-- 底部结束 -->
 	</body>
-	<!--公共部分 脚本引入-->
-	<div th:replace="front/common/_meta-script :: html"></div>
-	<script type="text/javascript" th:src="@{'common/js/tagcanvas.min.js'}"></script>
+	<script th:src="@{'/common/js/jquery-3.3.1.min.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'/frame/bootstrap-3.3.7-dist/js/bootstrap.min.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'/common/js/jquery.vticker.min.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'/common/js/front/header.js'}" type="text/javascript" charset="utf-8"></script>
+	<!--开发环境版本-->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<!--生产环境版本-->
+	<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+	<script type="text/javascript" th:src="@{'/common/js/tagcanvas.min.js'}"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
-	<script type="text/javascript" th:src="@{'common/js/front/home.js'}"></script>
-
-	<script type="text/javascript">
-
-	</script>
-
+	<script type="text/javascript" th:src="@{'/common/js/front/home.js'}"></script>
 </html>

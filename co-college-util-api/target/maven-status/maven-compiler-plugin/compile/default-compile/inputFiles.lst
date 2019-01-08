@@ -5,7 +5,7 @@ D:\workspace\idea\co-college\co-college-util-api\src\main\java\net\seehope\colle
 D:\workspace\idea\co-college\co-college-util-api\src\main\java\net\seehope\college\core\page\PageRequest.java
 D:\workspace\idea\co-college\co-college-util-api\src\main\java\net\seehope\college\core\CodeEnum.java
 D:\workspace\idea\co-college\co-college-util-api\src\main\java\net\seehope\college\util\number\NumberUtil.java
-D:\workspace\idea\co-college\co-college-util-api\src\main\java\net\seehope\college\util\security\package-info.java
+D:\workspace\idea\co-college\co-college-util-api\src\main\java\net\seehope\college\util\security\BcryptEncodeUtil.java
 D:\workspace\idea\co-college\co-college-util-api\src\main\java\net\seehope\college\util\http\package-info.java
 D:\workspace\idea\co-college\co-college-util-api\src\main\java\net\seehope\college\util\web\package-info.java
 D:\workspace\idea\co-college\co-college-util-api\src\main\java\net\seehope\college\util\file\DownloadUtil.java

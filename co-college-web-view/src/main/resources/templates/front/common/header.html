@@ -1,64 +1,50 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
-
-	<!--公共部分 head 部分-->
-	<div th:replace="front/common/_meta-link :: html"></div>
-	<head>
-		<meta charset="UTF-8">
-		<title>砺锋众创</title>
-		<link rel="stylesheet" type="text/css" th:href="@{'common/css/front/header.css'}">
-	</head>
-
-	<body>
-		<header class="college-header">
-			<nav class="college-nav">
-				<ul class="nav nav-pills first-nav">
-					<li>
-						<a href="#" >
-							<img th:src="@{'title.ico'}" title="众创学院" />
-						</a>
-					</li>
-				</ul>
-				<ul class="nav nav-pills second-nav">
-					<!--首页-->
-					<li>
-						<a href="#" class="active">首页</a>
-					</li>
-					<!--课堂-->
-					<li>
-						<a href="#">众创课堂</a>
-					</li>
-					<!--项目外包-->
-					<li>
-						<a href="#">项目众包</a>
-					</li>
-					<!--协作工具-->
-					<li>
-						<a href="#" tietle="">众创工具</a>
-					</li>
-					<!--融资项目-->
-					<li>
-						<a href="#" tietle="">项目众筹</a>
-					</li>
-					<!--关于-->
-					<li>
-						<a href="#" tietle="">关于砺锋众创</a>
-					</li>
-				</ul>
-				<ul class="nav nav-pills third-nav">
-					<!--去往登录页面-->
-					<li>
-						<a href="#">登录</a>
-					</li>
-					<li class="a-sep">
-						|
-					</li>
-					<!--去往注册页面-->
-					<li>
-						<a href="#">注册</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-	</body>
-</html>
+<nav class="college-nav">
+	<div class="header-image" id="header-image">
+		<a href="javascript:;">
+			<img th:src="@{'title.ico'}" title="众创学院" />
+		</a>
+	</div>
+	<div class="header-nav" id="header-nav">
+		<ul>
+			<!--首页-->
+			<li>
+				<a href="javascript:;" class="active" id="to-index">首页</a>
+			</li>
+			<!--课堂-->
+			<li>
+				<a href="javascript:;" id="to-class">众创课堂</a>
+			</li>
+			<!--项目外包-->
+			<li>
+				<a href="javascript:;" id="to-project-teams">项目众包</a>
+			</li>
+			<!--协作工具-->
+			<li>
+				<a href="javascript:;" tietle="" id="to-tools-teams">众创工具</a>
+			</li>
+			<!--融资项目-->
+			<li>
+				<a href="javascript:;" tietle="">项目众筹</a>
+			</li>
+			<!--关于-->
+			<li>
+				<a href="javascript:;" tietle="">关于我们</a>
+			</li>
+		</ul>
+	</div>
+	<div class="header-loginregist" id="header-loginregist">
+		<ul>
+			<!--去往登录页面-->
+			<li>
+				<a href="javascript:;" id="to-login">登录</a>
+			</li>
+			<li class="a-sep">
+				|
+			</li>
+			<!--去往注册页面-->
+			<li>
+				<a href="javascript:;" id="to-regist">注册</a>
+			</li>
+		</ul>
+	</div>
+</nav>

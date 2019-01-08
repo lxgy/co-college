@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>砺锋众创--联系方式</title>
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}" />
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/stay/stay-message.css'}">
+	</head>
+	<body>
+		<article>
+			<section>
+				<form id="stay_phoneF" role="form">
+					<div class="form-group">
+						<label>summary:</label>
+						<textarea name="description" id="description" class="form-control" rows="4" placeholder="please stay your summary..."></textarea>
+					</div>
+					<div class="form-group">
+						<label>name:</label>
+						<input type="text" name="username" id="username" class="form-control" placeholder="please enter your real name...">
+					</div>
+					<div class="form-group">
+						<label>email:</label>
+						<input type="email" name="email" id="email" class="form-control" placeholder="please enter your real email address...">
+					</div>
+					<div class="form-group">
+						<label>address:</label>
+						<input type="text" name="address" id="address" class="form-control" placeholder="please enter your real home address...">
+					</div>
+					<div class="form-group">
+						<a class="btn btn-info btn-block btn-lg">提交我的留言</a>
+					</div>
+				</form>
+
+			</section>
+		</article>
+
+	</body>
+	<script type="text/javascript" th:src="@{'/common/js/jquery-3.3.1.min.js'}"></script>
+</html>

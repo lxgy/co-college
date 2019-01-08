@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>砺锋众创--登录</title>
+		<!-- title 图标 -->
+		<link rel="shortcut icon" type="text/css" th:href="@{'title2.ico'}" />
+		<!-- 字体图标 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/font-awesome-4.7.0/css/font-awesome.min.css'}" />
+		<!-- 全站统一样式表 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/main.css'}" />
+		<!-- layer弹出层 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/layer/theme/default/layer.css'}" />
+		<!-- bookstrap核心样式 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}" />
+		<!-- swiper轮播样式文件 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css" />
+		<!-- 头部header样式 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/header.css'}" />
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/login-regist/login.css'}" />
+	</head>
+	<body>
+		<!-- 头部导航条开始 -->
+		<header class="login-header" th:include="front/common/header"></header>
+		<!-- 头部导航条结束 -->
+		<!-- 主体内容开始 -->
+		<article class="login-article">
+			<section class="login-img">
+				<img th:src="@{'/common/images/login-bg.png'}" alt="">
+			</section>
+			<section class="login-form">
+				<form action="" role="form" id="loginF">
+					<div class="form-group input-username">
+						<div class="input-group input-group-lg">
+							<input type="text" id="username" name="username" class="form-control" placeholder="邮箱/手机号" />
+						</div>
+					</div>
+					<div class="form-group input-password">
+						<div class="input-group input-group-lg">
+							<input type="password" id="password" name="password" class="form-control" placeholder="密码" />
+						</div>
+					</div>
+					<div class="checkbox make-account">
+						<label>
+							<input type="checkbox" id="make-account" name="make-account">记住此账号
+						</label>
+						<label class="forget-password">忘记密码</label>
+					</div>
+					<div class="form-group login-btn">
+						<a class="btn btn-info btn-block">登录</a>
+                    </div>
+                    <div class="checkbox to-regist">
+                                                                 没有账号？立即 <span>免费注册</span>
+                    </div>
+                    <div class="form-group dividing-line">
+                        <span>第三方账号登录</span>
+                    </div>
+                    <div class="form-group other-login">
+                        <div><img th:src="@{'/common/images/icon_qq.png'}" alt=""></div>
+                        <div><img th:src="@{'/common/images/icon_wechat.png'}" alt=""></div>
+                        <div><img title="暂不支持该方式登录" th:src="@{'/common/images/icon_xinlang.png'}" alt=""></div>
+                    </div>
+				</form>
+			</section>
+		</article>
+		<!-- 主体内容结束 -->
+		<!-- 底部 -->
+		<footer class="college-footer" th:include="front/common/footer"></footer>
+	</body>
+
+    <script th:src="@{'/common/js/jquery-3.3.1.min.js'}" type="text/javascript" charset="utf-8"></script>
+    <script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'/common/js/front/header.js'}" type="text/javascript" charset="utf-8"></script>
+
+</html>

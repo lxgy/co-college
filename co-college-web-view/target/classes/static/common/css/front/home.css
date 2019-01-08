@@ -1,7 +1,7 @@
 #carousel-example-generic {
 	max-height: 465px;
-    position: relative;
-    min-width: 1200px;
+	position: relative;
+	min-width: 1200px;
 }
 
 .access-task {
@@ -24,11 +24,13 @@
 	color: #50cf78;
 }
 
-.access-task i, .join-teams i {
+.access-task i,
+.join-teams i {
 	color: white;
 }
 
-.teams-a, .task-a {
+.teams-a,
+.task-a {
 	border: 3px #50cf78;
 	border-radius: 4px;
 	padding: 6px 14px;
@@ -36,7 +38,8 @@
 	cursor: pointer;
 }
 
-.teams-a:hover, .task-a:hover {
+.teams-a:hover,
+.task-a:hover {
 	box-shadow: 0 0 0 1px rgba(80, 207, 120, 0.8);
 	text-decoration: none;
 }
@@ -50,8 +53,11 @@
 	font-family: '楷体';
 }
 
-.project-investment, .project-teams, .classes-teams, .show-logs,
-	.tool-teams {
+.project-investment,
+.project-teams,
+.classes-teams,
+.show-logs,
+.tool-teams {
 	width: 1200px;
 	text-align: center;
 	margin: 0 auto;
@@ -64,7 +70,10 @@
 	color: rgb(195, 204, 171);
 }
 
-.project-ai, .project-life, .project-logo, .project-ued {
+.project-ai,
+.project-life,
+.project-logo,
+.project-ued {
 	text-align: center;
 }
 
@@ -274,7 +283,9 @@
 	right: 15px;
 }
 
-.classes-teams>h3, .show-logs>h3, .tool-teams>h3 {
+.classes-teams>h3,
+.show-logs>h3,
+.tool-teams>h3 {
 	text-align: left;
 	padding-top: 50px;
 }
@@ -284,11 +295,15 @@
 	border-bottom: 1px dashed #cccccc;
 }
 
-.classes-teams>h3>small, .show-logs>h3>small, .tool-teams>h3>small {
+.classes-teams>h3>small,
+.show-logs>h3>small,
+.tool-teams>h3>small {
 	padding-left: 15px;
 }
 
-.tool-community, .tool-primary, .tool-enterprise {
+.tool-community,
+.tool-primary,
+.tool-enterprise {
 	position: relative;
 	width: 320px;
 	height: 450px;
@@ -309,7 +324,9 @@
 	float: right;
 }
 
-.tool-community>h2, .tool-primary>h2, .tool-enterprise>h2 {
+.tool-community>h2,
+.tool-primary>h2,
+.tool-enterprise>h2 {
 	position: absolute;
 	left: 32%;
 	background-color: white;
@@ -319,14 +336,19 @@
 	padding: 10px 17px 10px 17px;
 }
 
-.tool-community>img, .tool-community>h4, .tool-primary>img,
-	.tool-primary>h4, .tool-enterprise>img, .tool-enterprise>h4 {
+.tool-community>img,
+.tool-community>h4,
+.tool-primary>img,
+.tool-primary>h4,
+.tool-enterprise>img,
+.tool-enterprise>h4 {
 	margin-top: 25px;
 	color: #337ab7;
 }
 
-.tool-community>.tool-content, .tool-primary>.tool-content,
-	.tool-enterprise>.tool-content {
+.tool-community>.tool-content,
+.tool-primary>.tool-content,
+.tool-enterprise>.tool-content {
 	text-align: left;
 	padding: 10px 15px 45px 15px;
 	text-indent: 2em;
@@ -356,15 +378,17 @@
 	box-shadow: 1px 1px 1px 1px #cccccc;
 	background-color: rgba(146, 144, 255, 1.0);
 }
-.logs-carousel{
+
+.logs-carousel {
 	position: absolute;
 	top: 0%;
 	right: 0%;
 	width: 400px;
 }
-.swiper-slide{
+
+.swiper-slide {
 	text-align: right;
-	color:#50CF78;
+	color: #50CF78;
 	letter-spacing: 2px;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
@@ -374,43 +398,62 @@
 	-webkit-line-clamp: 1;
 	-webkit-box-orient: vertical;
 	cursor: pointer;
-	
-}
-.aside-right{
-    position: fixed;
-    z-index: 999;
-    top: 65%;
-    right: 0px;
-}
-.aside-phone,.aside-message,.aside-totop{
-    width: 50px;
-    height: 50px;
-    background-color: #108BEE;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 52px;
-    margin-bottom: 2px;
-    cursor: pointer;
-    border-radius: 2px;
+
 }
 
-.aside-phone:hover,.aside-message:hover,.aside-totop:hover{
-    background-color: #0064FF;
+.aside-right {
+	position: fixed;
+	z-index: 999;
+	top: 65%;
+	right: 0px;
 }
 
-.text-show{
-    display: block;
+.aside-phone,
+.aside-message,
+.aside-totop {
+	width: 50px;
+	height: 50px;
+	background-color: #108BEE;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 52px;
+	margin-bottom: 2px;
+	cursor: pointer;
+	border-radius: 2px;
 }
 
-.text-hide{
-    display: none;
+.aside-phone:hover,
+.aside-message:hover,
+.aside-totop:hover {
+	background-color: #0064FF;
 }
 
-.aside-right img{
-    margin-bottom: 5px;
+.text-show {
+	display: block;
 }
 
+.text-hide {
+	display: none;
+}
 
+.aside-right img {
+	margin-bottom: 5px;
+}
 
+body .demo-class .layui-layer-title {
+	background: #108BEE;
+	color: #fff;
+	border: none;
+}
 
+body .demo-class .layui-layer-btn {
+	border-top: 1px solid #E9E7E7
+}
 
+body .demo-class .layui-layer-btn a {
+	background: #333;
+}
+
+body .demo-class .layui-layer-btn .layui-layer-btn1 {
+	background: #999;
+}

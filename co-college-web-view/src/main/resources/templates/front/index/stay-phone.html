@@ -1,21 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-
-	<div th:replace="front/common/_meta-link :: html"></div>
 	<head>
 		<meta charset="UTF-8">
-		<title>砺锋众创--联系方式</title>
-
-		<style>
-			body{
-                padding: 0px 20px;
-            }
-
-            h4{
-                font-size: 14px;
-                font-weight: 400;
-            }
-        </style>
+		<title>砺锋众创--留言</title>
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}" />
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/stay/stay-phone.css'}">
 	</head>
 
 	<body>
@@ -23,16 +12,22 @@
 		<article>
 			<section>
 				<form id="stay_phoneF" role="form">
-					<div class="input-group">
-						<span class="input-group-addon" id="basic-addon1">
-							<i class="fa fa-mobile" aria-hidden="true"></i>
-						</span>
-						<input type="text" class="form-control" placeholder="please enter your phone number..." aria-describedby="basic-addon1">
+					<div class="form-group">
+						<input type="text" name="phone_num" class="form-control" placeholder="please enter your phone number...">
+					</div>
+
+					<div class="form-group">
+						<textarea name="description" id="description" class="form-control" rows="5" placeholder="please stay your summary..."></textarea>
+					</div>
+
+					<div class="form-group">
+						<a class="btn btn-info btn-block btn-lg">提交，让客服联系我</a>
 					</div>
 				</form>
+
 			</section>
 		</article>
 	</body>
 
-	<script type="text/javascript" th:src="@{'common/js/jquery-3.3.1.min.js'}"></script>
+	<script type="text/javascript" th:src="@{'/common/js/jquery-3.3.1.min.js'}"></script>
 </html>

@@ -35,5 +35,11 @@ public class FrontPageController {
     public String page_stay_phone() {
     	return "front/index/stay-phone";
     }
+    
+    /*留言页面*/
+    @GetMapping("/font/page/stay_message")
+    public String page_stay_message() {
+    	return "front/index/stay-message";
+    }
 
 }

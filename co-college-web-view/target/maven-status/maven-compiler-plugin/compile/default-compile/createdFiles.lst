@@ -1,3 +1,5 @@
-net\seehope\college\admin\controller\AdminTestController.class
 net\seehope\college\filter\CharacterEncodingFilter.class
+net\seehope\college\admin\controller\AdminTestController.class
+net\seehope\college\front\controller\FrontPageController.class
 net\seehope\ApplicationContext.class
+net\seehope\college\front\controller\FrontController.class

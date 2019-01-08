@@ -1,30 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
-    <!--GAV坐标-->
-    <groupId>net.seehope</groupId>
-    <artifactId>co-college</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <!--打包方式-->
-    <packaging>pom</packaging>
+	<modelVersion>4.0.0</modelVersion>
+	<!--GAV坐标 -->
+	<groupId>net.seehope</groupId>
+	<artifactId>co-college</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<!--打包方式 -->
+	<packaging>pom</packaging>
 
-    <!--子项目-->
-    <modules>
-        <module>co-college-entity-mapping</module>
-        <module>co-college-service-logic</module>
-        <module>co-college-util-api</module>
-        <module>co-college-web-view</module>
-        <module>co-college-result-vo</module>
-    </modules>
+	<!--子项目 -->
+	<modules>
+		<module>co-college-entity-mapping</module>
+		<module>co-college-service-logic</module>
+		<module>co-college-util-api</module>
+		<module>co-college-web-view</module>
+		<module>co-college-result-vo</module>
+	</modules>
 
-    <!--格式版本控制-->
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
+	<!--格式版本控制 -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<build>
+		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
+				defaults (may be moved to parent pom) -->
+			<plugins>
+				<plugin>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>3.0.0</version>
+				</plugin>
+				<!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+				<plugin>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>3.0.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.7.0</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.20.1</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>3.0.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-install-plugin</artifactId>
+					<version>2.5.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>2.8.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 
 </project>

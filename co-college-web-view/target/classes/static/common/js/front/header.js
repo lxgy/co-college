@@ -23,4 +23,18 @@ $(document).ready(function(){
         }
 
     });
+
+    //首页
+    $("#to-index").on('click',function(){
+        document.location.href="/index";
+    });
+
+    // 登录页
+    $("#to-login").on('click',function(){
+        document.location.href="/login";
+    });
+    // 注册页
+     $("#to-regist").on('click',function(){
+        document.location.href="/regist";
+    });
 });
