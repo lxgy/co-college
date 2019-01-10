@@ -33,6 +33,7 @@ $(document).ready(function(){
     $("#to-login").on('click',function(){
         document.location.href="/login";
     });
+    
     // 注册页
      $("#to-regist").on('click',function(){
         document.location.href="/regist";

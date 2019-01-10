@@ -16,4 +16,8 @@ public interface UserService {
     public List<User> findUsers();
 
     public Integer getUserCount();
+    
+    public boolean get_user_by_email(String email);
+    
+    public boolean add_user(User user);
 }

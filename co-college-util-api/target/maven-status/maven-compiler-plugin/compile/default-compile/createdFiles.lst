@@ -1,11 +1,11 @@
 net\seehope\college\core\page\Page.class
-net\seehope\college\util\file\FileRWUtil.class
-net\seehope\college\util\file\DownloadUtil.class
 net\seehope\college\util\file\FileFilterUtil.class
 net\seehope\college\core\page\PageRequest.class
 net\seehope\college\core\CodeEnum.class
 net\seehope\college\util\date\DateTimeUtil.class
 net\seehope\college\util\string\StringUtil.class
+net\seehope\college\util\file\FileRWUtil.class
 net\seehope\college\util\uuid\UUIDUtil.class
+net\seehope\college\util\file\DownloadUtil.class
 net\seehope\college\util\security\BcryptEncodeUtil.class
 net\seehope\college\util\number\NumberUtil.class

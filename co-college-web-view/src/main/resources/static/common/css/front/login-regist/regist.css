@@ -1,5 +1,110 @@
 @charset "UTF-8";
 
+body{
+    min-width: 1200px;
+    background-color: #F6F6F6;
+}
+
 .rgist-header{
     box-shadow: 0px 0px 5px #ccc;
+}
+
+.regist-index{
+    position: relative;
+    margin-top: 80px;
+}
+.regist-idea{
+    position: absolute;
+    left: 200px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+}
+
+.regist-idea>h2{
+    font-size: 20px;
+    
+}
+
+.regist-idea>h6{
+    color: #ccc;
+}
+
+.regist-form{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 700px;
+    background-color: white;
+    padding: 0px 35px 0px 35px;
+    box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+    border-radius: 5px;
+}
+
+.regist-commond{
+    position: absolute;
+    left: 800px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+
+}
+
+.form-group{
+    display: block;
+    padding-top: 50px;
+}
+
+.input-group{
+    display: block;
+}
+
+.checkbox label, .radio label{
+    margin-top: 10px;
+}
+.checkbox, .radio{
+    margin-bottom: -32px;
+}
+.protocol{
+    color: green;
+}
+.to-login{
+    text-align: right;
+     margin-top: -8px; 
+}
+.to-login>span{
+    color: green;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+    font-size: 15px;
+}
+
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn{
+	font-size: 16px;
+	height: 40px;
+}
+
+#registF{
+	margin-top: -17px;
+}
+
+.checkbox, .radio{
+	margin-top: 60px;
+}
+
+.to-login{
+	margin-top: -5px;
+}
+
+.input-group>p{
+	position: absolute;
+    top: 40px;
+    font-size: 12px;
+    padding-left: 5px;
+    color: red;
+    font-family: '楷体';
+}
+.msg-success{
+	color:green;
 }

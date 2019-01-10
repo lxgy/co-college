@@ -20,15 +20,65 @@
 		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/login-regist/regist.css'}" />
 	</head>
 	<body>
-        <!-- 头部导航条开始 -->
+		<!-- 头部导航条开始 -->
 		<header class="rgist-header" th:include="front/common/header"></header>
 		<!-- 头部导航条结束 -->
-        <!-- 底部开始 -->
-        <footer class="college-footer" th:include="front/common/footer"></footer>
-        <!-- 底部结束 -->
+		<!-- 主体内容开始 -->
+		<article class="regist-index">
+			<section class="regist-img">
+				<div class="regist-idea">
+					<h2>你有创意，我有需求</h2>
+					<h6>不要吝惜才华，只有落地的创意才有价值</h6>
+					<img src="/common/images/registbg.png" alt="" />
+				</div>
+			</section>
+			<section class="regist-form">
+				<form action="" role="form" id="registF">
+					<div class="form-group input-email">
+						<div class="input-group input-group-lg">
+							<input type="email" id="email" name="email" class="form-control" placeholder="邮箱"/>
+							<p><span id="email-msg"></span><span class="msg-success" id="email-success"></span></p>
+						</div>
+					</div>
+					<div class="form-group input-password">
+						<div class="input-group input-group-lg">
+							<input type="password" id="password" name="password" class="form-control" placeholder="密码" />
+							<p><span id="password-msg"></span><span class="msg-success" id="password-success"></span></p>	
+						</div>
+					</div>
+					<div class="form-group input-repassword">
+						<div class="input-group input-group-lg">
+							<input type="password" id="repassword" name="repassword" class="form-control" placeholder="确认密码" />
+							<p><span id="repassword-msg"></span><span class="msg-success" id="repassword-success"></span></p>
+						</div>
+					</div>
+					<div class="checkbox access-protocol">
+						<label>
+							<input type="checkbox" id="access-protocol" name="access-protocol" value="1">确认已阅读并同意遵守
+						</label>
+						<label class="protocol">《用户入驻协议》</label>
+					</div>
+					<div class="form-group regist-btn">
+                        <a id="regist-btn" class="btn btn-info btn-block btn-lg">注册成为创客</a>
+					</div>
+					<div class="checkbox to-login">
+						已有账号?请<span>登录</span>
+					</div>
+				</form>
+			</section>
+		</article>
+		<!-- 主体内容结束 -->
+		<!-- 底部开始 -->
+		<footer class="college-footer" th:include="front/common/footer"></footer>
+		<!-- 底部结束 -->
 	</body>
 
 	<script th:src="@{'/common/js/jquery-3.3.1.min.js'}" type="text/javascript" charset="utf-8"></script>
 	<script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
 	<script th:src="@{'/common/js/front/header.js'}" type="text/javascript" charset="utf-8"></script>
+    <!-- <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script> -->
+    <!-- 腾讯防水墙验证脚本 -->
+    <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+    <script th:src="@{'/common/js/front/login-regist/regist.js'}" type="text/javascript" charset="utf-8"></script>
+
 </html>

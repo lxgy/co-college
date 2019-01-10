@@ -17,6 +17,11 @@ public class FrontPageController {
     public String page_index() {
         return "front/home";
     }
+	
+	@GetMapping("/")
+	public String page_index2() {
+		return "front/home";
+	}
 
     /*登录页面*/
     @GetMapping("/login")

@@ -4,6 +4,8 @@ import net.seehope.college.entity.User;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Param;
+
 /**
  * @BelongsProject: co-college
  * @BelongsPackage: net.seehope.college.mapper
@@ -16,4 +18,10 @@ public interface UserMapper {
     public List<User> findUsers();
 
     public Integer getUserCount();
+   
+    public Integer get_user_by_email(@Param("email") String email);
+    
+    public void insert_user(User user);
+    
+   
 }

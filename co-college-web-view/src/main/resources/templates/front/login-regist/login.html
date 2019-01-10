@@ -47,7 +47,7 @@
 						<label class="forget-password">忘记密码</label>
 					</div>
 					<div class="form-group login-btn">
-						<a class="btn btn-info btn-block">登录</a>
+						<a id="login-btn" class="btn btn-info btn-block">登录</a>
                     </div>
                     <div class="checkbox to-regist">
                                                                  没有账号？立即 <span>免费注册</span>
@@ -71,5 +71,7 @@
     <script th:src="@{'/common/js/jquery-3.3.1.min.js'}" type="text/javascript" charset="utf-8"></script>
     <script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
 	<script th:src="@{'/common/js/front/header.js'}" type="text/javascript" charset="utf-8"></script>
-
+	<!-- 腾讯防水墙验证脚本 -->
+	<script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+	<script th:src="@{'/common/js/front/login-regist/login.js'}" type="text/javascript" charset="utf-8"></script>
 </html>
