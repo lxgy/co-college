@@ -1,7 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ab34e69-369b-49a7-a883-544ecbb38977" name="Default Changelist" comment="框架更新" />
+    <list default="true" id="8ab34e69-369b-49a7-a883-544ecbb38977" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/co-college-web-view/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/AdminTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/AdminTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/ISSUE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/dev/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/01-getstart/01-demo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/01-getstart/02-use-module.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/01-getstart/03-sperate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/01-getstart/04-multi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/02-content/01-set-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/02-content/02-get-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/02-content/03-use-textarea.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/02-content/04-get-json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/01-menu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/02-debug.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/03-onchange.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/04-z-index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/05-lang.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/06-paste.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/07-linkImgCallback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/08-linkCheck.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/09-onfocus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/10-onblur.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/11-linkImgCheck.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/12-colors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/13-emot.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/03-config/14-font-name.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/04-uploadimg/01-show-tab.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/04-uploadimg/02-base64.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/04-uploadimg/03-upload-config.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/04-uploadimg/04-qiniu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/05-other/01-全屏-预览-查看源码.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/05-other/02-上传附件.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/05-other/03-markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/05-other/04-xss.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/05-other/05-react.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/05-other/06-vue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/05-other/07-ng.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/05-other/08-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/docs/usage/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/release/fonts/w-e-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/release/wangEditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/release/wangEditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/release/wangEditor.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/release/wangEditor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/release/wangEditor.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/fonts/w-e-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/command/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/editor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/editor/upload/progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/editor/upload/upload-img.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/backColor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/bold/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/code/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/droplist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/emoticon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/fontName/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/fontSize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/foreColor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/head/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/img/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/italic/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/justify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/link/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/menu-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/quote/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/redo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/strikethrough/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/table/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/underline/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/undo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/menus/video/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/selection/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/text/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/util/dom-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/util/paste-handle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/util/poly-fill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/util/replace-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/js/util/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/less/common.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/less/droplist.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/less/icon.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/less/menus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/less/panel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/frame/wangEditor-3.1.1/src/less/text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/ApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/college/admin/controller/AdminTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/college/admin/controller/AdminTestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/college/filter/CharacterEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/college/filter/CharacterEncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/college/front/controller/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/college/front/controller/FrontController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/college/front/controller/FrontPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/co-college-web-view/target/classes/net/seehope/college/front/controller/FrontPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/common/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/co-college-web-view/target/classes/static/common/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/ISSUE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/dev/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/01-getstart/01-demo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/01-getstart/02-use-module.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/01-getstart/03-sperate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/01-getstart/04-multi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/02-content/01-set-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/02-content/02-get-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/02-content/03-use-textarea.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/02-content/04-get-json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/01-menu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/02-debug.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/03-onchange.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/04-z-index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/05-lang.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/06-paste.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/07-linkImgCallback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/08-linkCheck.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/09-onfocus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/10-onblur.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/11-linkImgCheck.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/12-colors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/13-emot.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/03-config/14-font-name.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/04-uploadimg/01-show-tab.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/04-uploadimg/02-base64.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/04-uploadimg/03-upload-config.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/04-uploadimg/04-qiniu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/05-other/01-全屏-预览-查看源码.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/05-other/02-上传附件.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/05-other/03-markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/05-other/04-xss.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/05-other/05-react.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/05-other/06-vue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/05-other/07-ng.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/05-other/08-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/docs/usage/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/release/fonts/w-e-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/release/wangEditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/release/wangEditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/release/wangEditor.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/release/wangEditor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/release/wangEditor.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/fonts/w-e-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/command/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/editor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/editor/upload/progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/editor/upload/upload-img.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/backColor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/bold/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/code/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/droplist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/emoticon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/fontName/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/fontSize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/foreColor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/head/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/img/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/italic/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/justify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/link/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/menu-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/quote/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/redo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/strikethrough/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/table/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/underline/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/undo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/menus/video/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/selection/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/text/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/util/dom-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/util/paste-handle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/util/poly-fill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/util/replace-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/js/util/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/less/common.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/less/droplist.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/less/icon.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/less/menus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/less/panel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co-college-web-view/target/classes/static/frame/wangEditor-3.1.1/src/less/text.less" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/co-college-entity-mapping/target/" />
@@ -18,53 +224,116 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1865189501">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="html" value="61" />
+          <entry key="java" value="28" />
+          <entry key="js" value="7" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="61" />
+          <entry key="JAVA" value="28" />
+          <entry key="JavaScript" value="7" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="3" />
+          <entry key="html" value="331" />
+          <entry key="java" value="1218" />
+          <entry key="js" value="220" />
+          <entry key="properties" value="2" />
+          <entry key="txt" value="11" />
+          <entry key="xml" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="331" />
+          <entry key="JAVA" value="1218" />
+          <entry key="JavaScript" value="220" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/home.html">
+        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/admin/pic_upload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2877">
-              <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+            <state relative-caret-position="525">
+              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/QiniuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="567">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+=======
+            <state relative-caret-position="166">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#span#0;n#div#1;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#span#0;n#div#3;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/class/class-piceture-update.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/home.css">
+        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/class/class-add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9639">
-              <caret line="459" selection-start-line="459" selection-end-line="459" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="152">
+              <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -77,10 +346,10 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="package-info" />
-        <option value="Class" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -93,67 +362,77 @@
       <find>img</find>
       <find>sliderlock1.png</find>
       <find>wor</find>
+      <find>\@GetMapping\(\&quot;\/book\/chapter\/update\&quot;\)\n    public String chapter_update\(ModelMap map\)\{\n        return \&quot;admin\/html\/book\/book\-chapter\-update\.html\&quot;\;\n    \}</find>
+      <find>we</find>
+      <find>get_new_uptoken</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/co-college-entity-mapping/src/main/java/net/seehope/college/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/co-college-service-logic/src/main/java/net/seehope/college/service/UserService.java" />
-        <option value="$PROJECT_DIR$/co-college-util-api/src/main/java/net/seehope/college/core/page/Page.java" />
-        <option value="$PROJECT_DIR$/co-college-service-logic/src/main/java/net/seehope/college/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/config/BaseInterceptor.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/config/StaticConfiguration.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/bookstrap/css/hello.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/ApplicationContext.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/test.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/404.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/AdminTestController.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/_header2.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/header2.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/moreclass.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/tool.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/video.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/details.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/error.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/index.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/index.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/_footer.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/filter/CharacterEncodingFilter.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FrontController.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/_header.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/login.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/regist.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/yzcode/slider.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/regist.js" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/login.js" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FontPageController.java" />
-        <option value="$PROJECT_DIR$/co-college-util-api/src/main/java/net/seehope/college/util/security/MD5Util.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/pom.xml" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/test/java/net/seehope/cocollegewebview/CoCollegeWebViewApplicationTests.java" />
         <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/co-college-util-api/pom.xml" />
-        <option value="$PROJECT_DIR$/co-college-util-api/src/main/java/net/seehope/college/util/security/BcryptPasswordEncodeUtil.java" />
-        <option value="$PROJECT_DIR$/co-college-util-api/src/main/java/net/seehope/college/util/security/BcryptEncodeUtil.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/test/java/net/seehope/cocollegewebview/TestApp.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FrontPageController.java" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/main'.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/header.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/header.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/_meta-link.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/_meta-script.html" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/header.js" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/home.js" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/main.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/home.css" />
-        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/home.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/AdminTestController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/vue.js" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/admin/main.js" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/book/book-list.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/book/book-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/book/book-chapter-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/order/order-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/order/order-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/project/project-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/project/project-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/tool/tool-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/user/user-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/user/user-change-password.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/user/user-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/group/group-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/group/group-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/admin/admin-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/admin/admin-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/news/news-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/news/news-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/tool/tool-list.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/index.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/pay_service/pay-service-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/pay_service/pay-service-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/tool/tool-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/book/book-chapter-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/news/news-list.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/video/video-list.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/book/book-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/class/class-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/video/video-update.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/ToolController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/PayServcieController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/ClassController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/GroupController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/AdminPageController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/pom.xml" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/video/video-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/admin/video_upload.js" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/main.css" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/class/class-add.html" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/QiniuController.java" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/admin/pic_upload.js" />
+        <option value="$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/class/class-piceture-update.html" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -171,11 +450,6 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="co-college" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="co-college-entity-mapping" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -198,24 +472,56 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="co-college-service-logic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="co-college-service-logic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework:spring-tx:4.3.20.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="co-college-web-view" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-21" />
+    <option name="x" value="-25" />
     <option name="y" value="10" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+    <option name="width" value="1350" />
+    <option name="height" value="700" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,23 +546,150 @@
             <path>
               <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
               <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-entity-mapping" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
               <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-result-vo" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
               <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-result-vo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
               <item name="co-college" type="462c0819:PsiDirectoryNode" />
-              <item name="co-college-service-logic" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seehope" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seehope" type="462c0819:PsiDirectoryNode" />
+              <item name="college" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seehope" type="462c0819:PsiDirectoryNode" />
+              <item name="college" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seehope" type="462c0819:PsiDirectoryNode" />
+              <item name="college" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="QiniuController.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co-college" type="b2602c69:ProjectViewProjectNode" />
+              <item name="co-college" type="462c0819:PsiDirectoryNode" />
+              <item name="co-college-web-view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,24 +706,26 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546841751788" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../edumanage" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547191494727" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38856477" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Seehopework\co-college\co-college-web-view\src\main\resources\static\common\js\admin" />
       <recent name="D:\workspace\idea\co-college\co-college-web-view\src\main\resources\static\common\images" />
       <recent name="D:\workspace\idea\co-college\co-college-web-view\src\main\resources\static" />
       <recent name="D:\workspace\idea\co-college\doc" />
       <recent name="D:\workspace\idea\co-college\co-college-web-view\src\main\resources\static\common\css" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.seehope.college.admin.controller" />
       <recent name="net.seehope.college.core.page" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -362,9 +797,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestApp" />
       <item itemvalue="Maven.gererator" />
       <item itemvalue="Spring Boot.ApplicationContext" />
+      <item itemvalue="JUnit.TestApp" />
     </list>
     <recent_temporary>
       <list>
@@ -415,6 +850,10 @@
       <workItem from="1546391939729" duration="185000" />
       <workItem from="1546841528876" duration="204000" />
       <workItem from="1546912623935" duration="192000" />
+      <workItem from="1546936246199" duration="5082000" />
+      <workItem from="1546997048795" duration="10080000" />
+      <workItem from="1547082852291" duration="12062000" />
+      <workItem from="1547170221031" duration="5302000" />
     </task>
     <task id="LOCAL-00001" summary="项目创建，框架搭建">
       <created>1545185857501</created>
@@ -493,7 +932,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545644116466</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="后台系统页面上传">
+      <created>1547190881057</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547190881057</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -529,12 +975,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170797000" />
+    <option name="totallyTimeSpent" value="203323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
+<<<<<<< Updated upstream
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -545,7 +995,7 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32419354" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4977307" weight="0.37258065" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4977307" visible="true" weight="0.37021276" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3983871" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -553,27 +1003,30 @@
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.37258065" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3016129" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.30070922" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.32907802" />
       <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.13464448" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.5387931" visible="true" weight="0.15812592" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.5387931" weight="0.1575067" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" sideWeight="0.3735763" weight="0.123298034" />
+      <window_info anchor="right" id="Bean Validation" order="10" sideWeight="0.3735763" visible="true" weight="0.122654155" />
       <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="11" sideWeight="0.46120688" side_tool="true" weight="0.14977308" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目创建，框架搭建" />
@@ -584,260 +1037,340 @@
     <MESSAGE value="文件读写工具" />
     <MESSAGE value="UUID工具类" />
     <MESSAGE value="框架更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="框架更新" />
+    <MESSAGE value="后台系统页面上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台系统页面上传" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/header2.css" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/index.css" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/login.css" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/regist.js">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/project/project-update.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="111" column="16" lean-forward="true" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+        <state relative-caret-position="344">
+          <caret line="127" column="7" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/slider.js">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/user/user-add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="344">
+          <caret line="161" column="7" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/vue.js">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/user/user-change-password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="344">
+          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/yzcode/slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/moreclass.css" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/text.css" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/tool.css" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/video.css" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.1.RELEASE/spring-boot-starter-parent-2.1.1.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/user/user-list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <caret line="10" column="21" selection-end-line="169" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/test/java/net/seehope/cocollegewebview/CoCollegeWebViewApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/user/user-show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="21" lean-forward="true" selection-end-line="73" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/user/user-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="162" column="7" selection-start-line="162" selection-start-column="7" selection-end-line="162" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/group/group-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/group/group-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/admin/admin-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="129" column="7" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/admin/admin-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="134" column="7" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/news/news-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/news/news-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/tool/tool-list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/filter/CharacterEncodingFilter.java">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="147" column="58" selection-start-line="147" selection-start-column="58" selection-end-line="147" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/pay_service/pay-service-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/pay_service/pay-service-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/tool/tool-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="81" column="21" lean-forward="true" selection-end-line="86" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/tool/tool-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/book/book-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3425">
+          <caret line="137" column="9" selection-start-line="131" selection-start-column="10" selection-end-line="137" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/news/news-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2725">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/video/video-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="69" column="83" selection-start-line="69" selection-start-column="83" selection-end-line="69" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/class/class-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/book/book-chapter-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/book/book-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/video/video-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-util-api/src/main/java/net/seehope/college/core/page/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/AdminTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FrontController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-util-api/src/main/java/net/seehope/college/util/security/MD5Util.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/encoding/PasswordEncoder.class">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FrontPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="32" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/encoding/BasePasswordEncoder.class">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/ToolController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/pom.xml">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/PayServcieController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/ClassController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/GroupController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/AdminPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="118" column="21" selection-start-line="113" selection-start-column="8" selection-end-line="118" selection-end-column="21" />
+        <state relative-caret-position="244">
+          <caret line="177" column="11" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="-1050">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-util-api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="741">
+          <caret line="144" column="31" lean-forward="true" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-util-api/src/main/java/net/seehope/college/util/security/BcryptEncodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/test/java/net/seehope/cocollegewebview/TestApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/regist.html" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/fint-password.html" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/login-regist/login.html" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/front/controller/FrontPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/index.html" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/title.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/moreclass.js" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/_meta-link.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/common/_meta-script.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/header.js">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/admin/add_chapter.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/front/home.js">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/video/video-add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="318">
+          <caret line="135" column="34" lean-forward="true" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/logo1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/AI2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh2.png" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh1.png" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh4.png" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/sh3.png" />
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/UED1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/title.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/AI1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/images/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/front/home.html">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/admin/video_upload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2877">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        <state relative-caret-position="261">
+          <caret line="253" column="43" lean-forward="true" selection-start-line="253" selection-start-column="43" selection-end-line="253" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="332" column="24" lean-forward="true" selection-start-line="332" selection-start-column="24" selection-end-line="332" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/js/admin/pic_upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/java/net/seehope/college/admin/controller/QiniuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#div#1;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#div#3;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/home.css">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/class/class-add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9639">
-          <caret line="459" selection-start-line="459" selection-end-line="459" />
+        <state relative-caret-position="152">
+          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/static/common/css/front/main.css">
+    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/templates/admin/html/class/class-piceture-update.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/co-college-web-view/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="567">
           <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+=======
+        <state relative-caret-position="225">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>

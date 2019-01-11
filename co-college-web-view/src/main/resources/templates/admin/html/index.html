@@ -1,0 +1,342 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="Bookmark" href="/favicon.ico">
+		<link rel="Shortcut Icon" href="/favicon.ico" />
+		<!--[if lt IE 9]>
+<script type="text/javascript" src="../../../frame/html5shiv.js"></script>
+<script type="text/javascript" src="../../../frame/respond.min.js"></script>
+<![endif]-->
+		<link rel="stylesheet" type="text/css" href="../../../frame/h-ui/css/H-ui.min.css" />
+		<link rel="stylesheet" type="text/css" href="../../../frame/h-ui.admin/css/H-ui.admin.css" />
+		<link rel="stylesheet" type="text/css" href="../../../frame/Hui-iconfont/1.0.8/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../../../frame/h-ui.admin/skin/default/skin.css" id="skin" />
+		<!--[if IE 6]>
+<script type="text/javascript" src="../../../frame/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+		<title>共创学院.admin v1.0</title>
+	</head>
+
+	<body>
+		<header class="navbar-wrapper">
+			<div class="navbar navbar-fixed-top">
+				<div class="container-fluid cl">
+					<a class="logo navbar-logo f-l mr-10 hidden-xs" href="/admin/index">college.admin</a>
+					<a class="logo navbar-logo-m f-l mr-10 visible-xs" href="/admin/index">college</a>
+					<span class="logo navbar-slogan f-l mr-10 hidden-xs">v1.0</span>
+					<a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+					<nav class="nav navbar-nav">
+						<ul class="cl">
+							<li class="dropDown dropDown_hover">
+								<a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i class="Hui-iconfont">&#xe6d5;</i></a>
+								<ul class="dropDown-menu menu radius box-shadow">
+									<li>
+										<a href="javascript:;" onclick="group_add('新增团队','/group/add')"><i class="Hui-iconfont">&#xe611;</i> 新增团队</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="book_add('新增书籍','/book/add')"><i class="Hui-iconfont">&#xe720;</i> 新增书籍</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="news_add('新增新闻','/news/add')"><i class="Hui-iconfont">&#xe616;</i> 新增新闻</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="class_add('新增课程','/class/add')"><i class="Hui-iconfont">&#xe72d;</i> 新增课程</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="tool_add('新增工具','/tool/add')"><i class="Hui-iconfont">&#xe63c;</i> 新增工具</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="video_add('新增视频','/video/add')"><i class="Hui-iconfont">&#xe6e6;</i> 新增视频</a>
+									</li><li>
+										<a href="javascript:;" onclick="project_add('新增项目','/video/add')"><i class="Hui-iconfont">&#xe636;</i> 新增项目</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
+						<ul class="cl">
+							<li>超级管理员</li>
+							<li class="dropDown dropDown_hover">
+								<a href="#" class="dropDown_A">admin <i class="Hui-iconfont">&#xe6d5;</i></a>
+								<ul class="dropDown-menu menu radius box-shadow">
+									<li>
+										<a href="javascript:;" onClick="myselfinfo()">个人信息</a>
+									</li>
+									<li>
+										<a href="#">切换账户</a>
+									</li>
+									<li>
+										<a href="#">退出</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<aside class="Hui-aside">
+			<div class="menu_dropdown bk_2">
+				<dl id="menu-account">
+					<dt><i class="Hui-iconfont">&#xe60d;</i> 账户管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+					<dd>
+						<ul>
+							<li>
+								<a data-href="/admin/list" data-title="账户管理" href="javascript:void(0)">管理员账户列表</a>
+							</li>
+							<li>
+								<a data-href="/user/list" data-title="账户管理" href="javascript:void(0)">用户账户列表</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl id="menu-group">
+					<dt><i class="Hui-iconfont">&#xe611;</i> 团队管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+					<dd>
+						<ul>
+							<li>
+								<a data-href="/group/add" data-title="团队添加" href="javascript:void(0)">创建新团队</a>
+							</li>
+							<li>
+								<a data-href="/group/list" data-title="团队管理" href="javascript:void(0)">团队列表</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl id="menu-book">
+					<dt><i class="Hui-iconfont">&#xe720;</i> 书籍管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+					<dd>
+						<ul>
+							<li>
+								<a data-href="/book/add" data-title="书籍添加" href="javascript:void(0)">添加书籍</a>
+							</li>
+							<li>
+								<a data-href="/book/list" data-title="书籍管理" href="javascript:void(0)">书籍列表</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl id="menu-news">
+					<dt><i class="Hui-iconfont">&#xe616;</i> 新闻管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+					<dd>
+						<ul>
+							<li>
+								<a data-href="/news/add" data-title="新闻添加" href="javascript:void(0)">添加新闻</a>
+							</li>
+							<li>
+								<a data-href="/news/list" data-title="新闻管理" href="javascript:void(0)">新闻列表</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl id="menu-pay_service">
+					<dt><i class="Hui-iconfont">&#xe616;</i> 套餐管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+					<dd>
+						<ul>
+							<li>
+								<a data-href="/pay_service/add" data-title="套餐添加" href="javascript:void(0)">添加套餐</a>
+							</li>
+							<li>
+								<a data-href="/pay_service/list" data-title="套餐管理" href="javascript:void(0)">套餐列表</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl id="menu-class">
+					<dt><i class="Hui-iconfont">&#xe72d;</i> 课程管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+					<dd>
+						<ul>
+							<li>
+								<a data-href="/class/add" data-title="课程添加" href="javascript:void(0)">添加课程</a>
+							</li>
+							<li>
+								<a data-href="/class/list" data-title="课程管理" href="javascript:void(0)">课程列表</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl id="menu-tool">
+					<dt><i class="Hui-iconfont">&#xe63c;</i> 工具管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+					<dd>
+						<ul>
+							<li>
+								<a data-href="/tool/add" data-title="工具添加" href="javascript:void(0)">添加工具</a>
+							</li>
+							<li>
+								<a data-href="/tool/list" data-title="工具管理" href="javascript:void(0)">工具列表</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl id="menu-video">
+					<dt><i class="Hui-iconfont">&#xe6e6;</i> 视频管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+					<dd>
+						<ul>
+							<li>
+								<a data-href="/video/add" data-title="视频添加" href="javascript:void(0)">添加视频</a>
+							</li>
+							<li>
+								<a data-href="/video/list" data-title="视频管理" href="javascript:void(0)">视频列表</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl id="menu-video">
+					<dt><i class="Hui-iconfont">&#xe636;</i> 项目管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+					<dd>
+						<ul>
+							<li>
+								<a data-href="/project/add" data-title="添加项目" href="javascript:void(0)">添加项目</a>
+							</li>
+							<li>
+								<a data-href="/project/list" data-title="项目列表" href="javascript:void(0)">项目列表</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+		</aside>
+		<div class="dislpayArrow hidden-xs">
+			<a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+		</div>
+		<section class="Hui-article-box">
+			<div id="Hui-tabNav" class="Hui-tabNav hidden-xs">
+				<div class="Hui-tabNav-wp">
+					<ul id="min_title_list" class="acrossTab cl">
+						<li class="active">
+							<span title="我的桌面" data-href="/welcome">我的桌面</span>
+							<em></em></li>
+					</ul>
+				</div>
+				<div class="Hui-tabNav-more btn-group">
+					<a id="js-tabNav-prev" class="btn radius btn-default size-S" href="javascript:;"><i class="Hui-iconfont">&#xe6d4;</i></a>
+					<a id="js-tabNav-next" class="btn radius btn-default size-S" href="javascript:;"><i class="Hui-iconfont">&#xe6d7;</i></a>
+				</div>
+			</div>
+			<div id="iframe_box" class="Hui-article">
+				<div class="show_iframe">
+					<div style="display:none" class="loading"></div>
+					<iframe scrolling="yes" frameborder="0" src="/welcome"></iframe>
+				</div>
+			</div>
+		</section>
+
+		<div class="contextMenu" id="Huiadminmenu">
+			<ul>
+				<li id="closethis">关闭当前 </li>
+				<li id="closeall">关闭全部 </li>
+			</ul>
+		</div>
+		<!--_footer 作为公共模版分离出去-->
+		<script type="text/javascript" src="../../../frame/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../../../frame/layer/2.4/layer.js"></script>
+		<script type="text/javascript" src="../../../frame/h-ui/js/H-ui.min.js"></script>
+		<script type="text/javascript" src="../../../frame/h-ui.admin/js/H-ui.admin.js"></script>
+		<!--/_footer 作为公共模版分离出去-->
+
+		<!--请在下方写此页面业务相关的脚本-->
+		<script type="text/javascript" src="../../../frame/jquery.contextmenu/jquery.contextmenu.r2.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				/*$("#min_title_list li").contextMenu('Huiadminmenu', {
+					bindings: {
+						'closethis': function(t) {
+							console.log(t);
+							if(t.find("i")){
+								t.find("i").trigger("click");
+							}		
+						},
+						'closeall': function(t) {
+							alert('Trigger was '+t.id+'\nAction was Email');
+						},
+					}
+				});*/
+			});
+			/*个人信息*/
+			function myselfinfo() {
+				layer.open({
+					type: 1,
+					area: ['300px', '200px'],
+					fix: false, //不固定
+					maxmin: true,
+					shade: 0.4,
+					title: '查看信息',
+					content: '<div>管理员信息</div>'
+				});
+			}
+
+			/*团第-添加*/
+			function group_add(title, url) {
+				var index = layer.open({
+					type: 2,
+					title: title,
+					content: url
+				});
+				layer.full(index);
+			}
+			/*书籍-添加*/
+			function book_add(title, url) {
+				var index = layer.open({
+					type: 2,
+					title: title,
+					content: url
+				});
+				layer.full(index);
+			}
+			/*新闻-添加*/
+			function news_add(title, url) {
+				var index = layer.open({
+					type: 2,
+					title: title,
+					content: url
+				});
+				layer.full(index);
+			}
+			/*课程-添加*/
+			function class_add(title, url) {
+				var index = layer.open({
+					type: 2,
+					title: title,
+					content: url
+				});
+				layer.full(index);
+			}
+			/*工具-添加*/
+			function tool_add(title, url) {
+				var index = layer.open({
+					type: 2,
+					title: title,
+					content: url
+				});
+				layer.full(index);
+			} 
+			/*视频-添加*/
+			function video_add(title, url) {
+				var index = layer.open({
+					type: 2,
+					title: title,
+					content: url
+				});
+				layer.full(index);
+			}
+			/*订单-添加*/
+			function order_add(title, url) {
+				var index = layer.open({
+					type: 2,
+					title: title,
+					content: url
+				});
+				layer.full(index);
+			}
+		</script>
+	</body>
+
+</html>

@@ -8,6 +8,7 @@ import net.seehope.college.service.UserService;
 import net.seehope.college.util.file.DownloadUtil;
 import net.seehope.college.util.file.FileRWUtil;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -86,5 +87,6 @@ public class AdminTestController {
         page.setDatas(users);
         return page;
     }
+
 
 }

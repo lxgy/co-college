@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="../../../../frame/html5shiv.js"></script>
+	<script type="text/javascript" src="../../../../frame/respond.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="../../../../frame/wangEditor-2/dist/css/wangEditor.css" />
+	<link rel="stylesheet" type="text/css" href="../../../../frame/h-ui/css/H-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="../../../../frame/h-ui.admin/css/H-ui.admin.css" />
+	<link rel="stylesheet" type="text/css" href="../../../../frame/Hui-iconfont/1.0.8/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="../../../../frame/h-ui.admin/skin/default/skin.css" id="skin" />
+	<link rel="stylesheet" type="text/css" href="../../../../frame/h-ui.admin/css/style.css" />
+	<link href="http://jssdk.demo.qiniu.io/images/favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" href="../../../../common/css/bootstrap.css">
+	<link rel="stylesheet" href="../../../../common/css/main.css">
+	<link rel="stylesheet" href="../../../../common/css/highlight.css">
+	<!--[if IE 6]>
+	<script type="text/javascript" src="../../../../frame/DD_belatedPNG_0.0.8a-min.js" ></script>
+	<script>DD_belatedPNG.fix('*');</script>
+	<![endif]-->
+	<title>视频管理 - 视频编辑 - college.admin v1.0</title>
+</head>
+
+<body>
+<article class="page-container">
+	<form class="form form-horizontal" action="javascript:void(0);">
+		<div class="row cl">
+			<label class="form-label form-label col-xs-3 col-sm-2"><span class="c-red">*</span>视频标题：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="adminName" name="adminName">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label form-label col-xs-3 col-sm-2"><span class="c-red">*</span>所属课程id：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" placeholder=""  name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label form-label col-xs-3 col-sm-2"><span class="c-red">*</span>视频作者：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" placeholder="" id="" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label form-label col-xs-3 col-sm-2"><span class="c-red">*</span>发布日期：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" onfocus="WdatePicker({ dateFmt:'yyyy-MM-dd HH:mm:ss' })" id="datemin" class="input-text Wdate">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label form-label col-xs-3 col-sm-2">视频描述：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="" cols="" rows="" class="textarea" placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="$.Huitextarealength(this,200)"></textarea>
+				<p class="textarea-numberbar"><em class="textarea-length">0</em>/200</p>
+			</div>
+		</div>
+		<div class="row cl">
+			<div id="container" class="col-xs-7 col-sm-8 col-xs-offset-3 col-sm-offset-2">
+				<button id="upload_btn" class="btn btn-success radius">点击上传视频</button>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label form-label col-xs-3 col-sm-2"><span class="c-red">*</span>视频链接：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text  " id="download"  placeholder=""  name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+
+	<div class="container">
+		<div class="tab-content">
+
+			<div class="row" style="margin-top: 20px;">
+				<div class="col-md-12">
+				</div>
+				<div style="display:none" id="success" class="col-md-12">
+					<div class="alert-success">
+						队列全部文件处理完毕
+					</div>
+				</div>
+				<div class="col-md-12 ">
+					<table class="table table-striped table-hover text-left" style="margin-top:40px;display:none">
+						<thead>
+						<tr>
+							<th class="col-md-4">文件名</th>
+							<th class="col-md-2">大小</th>
+							<th class="col-md-6">上传详情</th>
+						</tr>
+						</thead>
+						<tbody id="fsUploadProgress">
+						</tbody>
+					</table>
+					<button class="btn btn-defaultcol-md-4" id="pause">暂停上传</button>
+					<button class="btn btn-danger" id="start_upload">开始上传</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="../../../../frame/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../frame/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../../../../frame/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="../../../../frame/h-ui.admin/js/H-ui.admin.js"></script>
+<!--/_footer 作为公共模版分离出去-->
+<script src="../../../../frame/My97DatePicker/4.8/WdatePicker.js" type="text/javascript" charset="utf-8"></script>
+<!--请在下方写此页面业务相关的脚本-->
+<script src="../../../../frame/wangEditor-2/dist/js/wangEditor.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../frame/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../../../../frame/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../../../../frame/qiuniu/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../../frame/qiuniu/moxie.js"></script>
+<script type="text/javascript" src="../../../../frame/qiuniu/plupload.dev.js"></script>
+<!-- <script type="text/javascript" src="bower_components/plupload/js/plupload.full.min.js"></script> -->
+<script type="text/javascript" src="../../../../frame/qiuniu/zh_CN.js"></script>
+<script type="text/javascript" src="../../../../frame/qiuniu/ui.js"></script>
+<script type="text/javascript" src="../../../../frame/qiuniu/qiniu.js"></script>
+<script type="text/javascript" src="../../../../frame/qiuniu/highlight.js"></script>
+<script src="../../../../common/js/admin/main.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+
+</html>
