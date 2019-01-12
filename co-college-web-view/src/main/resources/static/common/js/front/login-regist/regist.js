@@ -53,6 +53,9 @@ $(document).ready(function() {
 						dataType: 'json',
 						success: function(result) {
 							console.log(result);
+							if(result.code == 200){
+								document.location.href= "/page/send_email/" + result.data.email
+							}
 						},
 						error: function(xhr) {
 							console.log(xhr);
