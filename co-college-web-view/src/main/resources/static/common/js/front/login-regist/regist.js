@@ -52,9 +52,10 @@ $(document).ready(function() {
 						data: regist_data,
 						dataType: 'json',
 						success: function(result) {
-							console.log(result);
 							if(result.code == 200){
-								document.location.href= "/page/send_email/" + result.data.email
+								document.location.href= "/front/page/send_email/" + result.data.email;
+							}else{
+								layer.msg("请重新注册");
 							}
 						},
 						error: function(xhr) {
