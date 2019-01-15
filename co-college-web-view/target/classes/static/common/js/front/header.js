@@ -38,4 +38,7 @@ $(document).ready(function(){
      $("#to-regist").on('click',function(){
         document.location.href="/regist";
     });
+     $("#to-about-us").on('click',function(){
+         document.location.href="/about_us";
+     });
 });

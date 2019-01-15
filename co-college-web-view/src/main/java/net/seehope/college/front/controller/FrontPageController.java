@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @Description：用户端页面控制层.
- * @Author:lxgy
+ * @Description：用户端页面控制层. @Author:lxgy
  * @Date:2018-12-25
  */
 @Controller
@@ -53,9 +52,13 @@ public class FrontPageController {
 
 	/* 邮箱提示界面 */
 	@GetMapping("/front/page/send_email/{email}")
-    public String page_send_email(HttpServletRequest request, @PathVariable("email")String email) {
+	public String page_send_email(HttpServletRequest request, @PathVariable("email") String email) {
 		request.setAttribute("email", email);
-    	return "front/login-regist/active-user";
-    }
+		return "front/login-regist/active-user";
+	}
 
+	@GetMapping("/about_us")
+	public String page_about_us() {
+		return "front/about-us";
+	}
 }
