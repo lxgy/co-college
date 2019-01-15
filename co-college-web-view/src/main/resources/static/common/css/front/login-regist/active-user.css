@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body{
+	min-width: 1200px;
+}
+
+main {
+	text-align: left;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.time-zh{
+	width:1200px;
+	height: 1px;
+	background-color: #108BEE;
+	position: relative;
+	margin-top: 50px;
+}
+
+.time-first,.time-second,.time-third{
+	position: absolute;
+	border-radius: 100px;
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	top: -7px;
+	border: 1px solid #ccc;
+}
+
+.time-first{
+	left: 100px;
+}
+
+.time-second{
+	left:600px;
+}
+
+.time-third{
+	right:100px;
+}
+
+.time-active{
+	background-color: #50cf78;
+	border: 1px solid #50cf78;
+}
+
+.time-description{
+	text-align: center;
+	margin-top: 100px;
+}
+.time-description img{
+	width: 100px;
+}
+
+.regist-success-text{
+	margin-top: 50px;
+}
+.time-first-next{
+	margin-top: 30px;
+}
+.college-footer{
+	margin-top: 200px;
+}
+
+.time-show{
+	display: block;
+}
+.time-hidden{
+	display:none;
+}
+.time-second-description{
+	text-align: left;
+	width: 500px;
+	margin: 0 auto;
+}
+.form-group{
+	margin-top: 30px;
+}
+

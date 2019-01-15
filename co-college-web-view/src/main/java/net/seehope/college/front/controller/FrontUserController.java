@@ -1,6 +1,7 @@
 package net.seehope.college.front.controller;
 
 import javax.annotation.Resource;
+import javax.mail.MessagingException;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -39,10 +40,12 @@ public class FrontUserController {
 		user.setIs_active(0);
 		user.setIs_lock(0);
 		user.setType(1);
+		resultVo.setData(user);
 		boolean result = this.userService.add_user(user);
 		if(!result) {
 			resultVo.setCode(CodeEnum._500.getCode());
 			resultVo.setMsg("regist faile please try again");
+			resultVo.setData(null);
 		}
 		return resultVo;
 	}
@@ -78,9 +81,9 @@ public class FrontUserController {
 	
 	@GetMapping("/send_email")
 	@ResponseBody
-	public String test_send_email() {
-		this.sendEmail.sendMail("测试", "<a href='127.0.0.1:8888'>点我跳转</a>", "1058378595@qq.com");
-		return "";
+	public String test_send_email() throws MessagingException {
+		this.sendEmail.sendMail("测试", "<p>点击该链接即可激活砺锋众创创客账号</p><a href=\\\"http://127.0.0.1:8888\\\">http://127.0.0.1:8888", "1058378595@qq.com");
+		return "发送成功";
 	}
 
 }
