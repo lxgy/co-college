@@ -1,24 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="net.seehope.college.mapper.UserMapper">
-	<select id="findUsers"
-		resultType="net.seehope.college.entity.User">
-		select * from t_user
-	</select>
-	<!--获取总条数 -->
-	<select id="getUserCount" resultType="java.lang.Integer">
-		select count(0) from t_user
-	</select>
-	<!-- 根据邮箱获取用户 -->
-	<select id="get_user_by_email" resultType="java.lang.Integer"
-		parameterType="java.lang.String">
-		select count(0) from t_user where email = #{email}
-	</select>
-	<insert id="insert_user"
-		parameterType="net.seehope.college.entity.User">
-		insert into t_user
-		(create_time,username,password,email,is_lock,is_active,login_ip,login_faile,type)
-		values
-		(#{create_time},#{username},#{password},#{email},#{is_lock},#{is_active},#{login_ip},#{login_faile},#{type})
-	</insert>
+    <select id="findUsers"
+            resultType="net.seehope.college.entity.User">
+        select *
+        from t_user
+    </select>
+    <!--获取总条数 -->
+    <select id="getUserCount" resultType="java.lang.Integer">
+        select count(0)
+        from t_user
+    </select>
+    <!-- 根据邮箱获取用户 -->
+    <select id="get_user_by_email" resultType="java.lang.Integer"
+            parameterType="java.lang.String">
+        select count(0)
+        from t_user
+        where email = #{email}
+    </select>
+    <insert id="insert_user"
+            parameterType="net.seehope.college.entity.User">
+        insert into t_user (create_time, username, password, email, is_lock, is_active, login_ip, login_faile, type)
+        values (#{create_time},
+                #{username},
+                #{password},
+                #{email},
+                #{is_lock},
+                #{is_active},
+                #{login_ip},
+                #{login_faile},
+                #{type})
+    </insert>
+    <!--根据邮箱激活用户-->
+    <update id="activate_user" parameterType="net.seehope.college.entity.User">
+        update t_user
+        SET is_active = 1
+        WHERE email = #{email};
+    </update>
+    <!--根据邮箱查询用户-->
+    <select id="get_user_detail_by_email" parameterType="java.lang.String" resultType="net.seehope.college.entity.User">
+        select *
+        from t_user
+        where email = #{email}
+    </select>
+    <update id="add_faile_time" parameterType="net.seehope.college.entity.User">
+        update t_user
+        set login_faile = #{login_faile}
+        where email = #{email};
+    </update>
+    <update id="lock_user" parameterType="java.lang.String">
+        update t_user
+        set is_lock = 1
+        where email = #{email};
+    </update>
+
+    <update id="record_ip" parameterType="java.lang.String">
+        update t_user
+        set login_ip=#{ip}
+        where email= #{email}
+    </update>
 </mapper>

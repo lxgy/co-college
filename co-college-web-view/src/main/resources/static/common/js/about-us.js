@@ -1,18 +1,10 @@
-/**
- +-------------------------------------------------------------------
- * jQuery FontScroll - 文字行向上滚动插件 - http://java2.sinaapp.com
- +-------------------------------------------------------------------
- * @version    1.0.0 beta
- * @since      2014.06.12
- * @author     kongzhim <kongzhim@163.com> <http://java2.sinaapp.com>
- * @github     http://git.oschina.net/kzm/FontScroll
- +-------------------------------------------------------------------
- */
-
-(function($){
-    $.fn.FontScroll = function(options){
-        var d = {time: 3000,s: 'fontColor',num: 1}
-        var o = $.extend(d,options);
+(function ($) {
+    $(".tip-msg").click(function () {
+        layer.msg("功能开发中 敬请期待")
+    })
+    $.fn.FontScroll = function (options) {
+        var d = {time: 3000, s: 'fontColor', num: 1}
+        var o = $.extend(d, options);
 
 
         this.children('ul').addClass('line');
@@ -33,24 +25,29 @@
         _p.eq(num).addClass(_s);
 
 
-        var timeID = setInterval(Up,_time);
-        this.hover(function(){clearInterval(timeID)},function(){timeID = setInterval(Up,_time);});
+        var timeID = setInterval(Up, _time);
+        this.hover(function () {
+            clearInterval(timeID)
+        }, function () {
+            timeID = setInterval(Up, _time);
+        });
 
-        function Up(){
-            _con.animate({marginTop: '-'+_conChildH});
+        function Up() {
+            _con.animate({marginTop: '-' + _conChildH});
             //样式控制
             _p.removeClass(_s);
             num += 1;
             _p.eq(num).addClass(_s);
 
-            if(_conH == _conChildH){
-                _con.animate({marginTop: '-'+_conChildH},"normal",over);
+            if (_conH == _conChildH) {
+                _con.animate({marginTop: '-' + _conChildH}, "normal", over);
             } else {
                 _conChildH += _temp;
             }
         }
-        function over(){
-            _con.attr("style",'margin-top:0');
+
+        function over() {
+            _con.attr("style", 'margin-top:0');
             _conChildH = _temp;
             num = 1;
             _p.removeClass(_s);

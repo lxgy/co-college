@@ -28,6 +28,7 @@
 			<artifactId>co-college-service-logic</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
+		
 		<!--SpringBoot集成Web依赖包 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

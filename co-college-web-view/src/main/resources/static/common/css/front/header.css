@@ -1,13 +1,16 @@
 /* 头部样式 */
-a,a:hover,a:link,a:active,a:visited{
+a, a:hover, a:link, a:active, a:visited, a:focus {
     text-decoration: none;
 }
-
-a:hover{
-    text-shadow: 0px 1px 1px #cccccc;
+.college-footer a,.college-footer a:hover,.college-footer a:link,.college-footer a:active,.college-footer a:visited,.college-footer a:focus{
+    color: #CCBEB0;
 }
-
-.college-nav{
+a:focus {
+    outline: none !important;
+    outline-offset: -2px !important;
+    text-decoration: none !important;
+}
+.college-nav {
     min-width: 1200px;
     width: 100%;
     background-color: white;
@@ -16,71 +19,73 @@ a:hover{
     font-size: 15px;
 }
 
-.new-collegenav{
+.new-collegenav {
     height: 50px;
     background-color: #fff;
     border-bottom: 1px solid white;
     box-shadow: 0px 0px 20px white;
     font-size: 14px;
 }
-.header-image{
+
+.header-image {
     position: absolute;
     top: 25px;
     left: 50px;
 }
 
-.new-headerimage{
+.new-headerimage {
     position: absolute;
     left: 50px;
     top: 10px;
 }
-.new-headerimage>a>img{
+
+.new-headerimage > a > img {
     height: 30px;
 }
 
-.new-headernav{
+.new-headernav {
     position: absolute;
     top: 15px;
     left: 80px;
 }
 
-.new-headerloginregist{
+.new-headerloginregist {
     position: absolute;
     right: 50px;
     top: 15px;
 }
 
-.college-nav li{
+.college-nav li {
     list-style: none;
     float: left;
 }
 
-.header-nav{
+.header-nav {
     position: absolute;
     top: 30px;
     left: 80px;
 }
 
-.header-nav li{
+.header-nav li {
     margin-right: 30px;
 }
 
-.new-headernav li{
+.new-headernav li {
     margin-right: 30px;
 }
 
-.header-loginregist{
+.header-loginregist {
     position: absolute;
     top: 30px;
     right: 50px;
 }
 
-.new-headerloginregist li{
+.new-headerloginregist li {
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.header-loginregist li{
+.header-loginregist li {
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -97,16 +102,18 @@ a:hover{
     padding: 50px 125px;
     cursor: pointer;
 }
-.footer-about{
+
+.footer-about {
     margin-top: 35px;
     padding-bottom: 35px;
     font-size: 15px;
 }
 
-.footer-about>span{
+.footer-about > span {
     margin-right: 60px;
 }
-.footer-refus{
+
+.footer-refus {
     text-align: center;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -114,23 +121,58 @@ a:hover{
     border-top: 1px solid #333;
     font-size: 15px;
 }
-.footer-refus>span{
+
+.footer-refus > span {
     padding-right: 50px;
     padding-left: 50px;
 }
-.footer-ba{
+
+.footer-ba {
     text-align: center;
     margin-top: 20px;
 }
 
-.footer-z{
+.footer-z {
     position: absolute;
     top: 50px;
     right: 125px;
 }
-.footer-z>h2{
+
+.footer-z > h2 {
     margin-top: 2px;
 }
-.footer-z>h6{
+
+.footer-z > h6 {
     font-size: 14px;
+}
+
+.downmenu {
+    padding: 0px;
+    z-index: 3;
+    text-align: center;
+    left: 100px !important;
+    right: auto;
+    /* padding: 5px 20px; */
+    line-height: 2em;
+    border-radius: 0px 0px 5px 5px;
+    top: 49.8px !important;
+    bottom: auto;
+    display: inline-grid;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.downmenu li {
+    font-size: 12px;
+    margin: 0px;
+    padding: 10px 35px;
+    border-top: 1px solid #7d7d7d66;
+}
+
+.downmenu li:hover {
+    background-color: #cbcbcb8a;
+}
+
+.arrow {
+    display: none;
 }

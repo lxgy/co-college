@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-	<head>
-		<meta charset="UTF-8">
-		<title>砺锋众创--邮箱激活</title>
-		<!-- title 图标 -->
-		<link rel="shortcut icon" type="text/css" th:href="@{'/title2.ico'}" />
-		<!-- 字体图标 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/frame/font-awesome-4.7.0/css/font-awesome.min.css'}" />
-		<!-- 全站统一样式表 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/main.css'}" />
-		<!-- layer弹出层 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/frame/layer/theme/default/layer.css'}" />
-		<!-- bookstrap核心样式 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}" />
-		<!-- 头部header样式 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/header.css'}" />
-		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/login-regist/active-user.css'}">
-	</head>
-	<body>
-		<!-- 头部导航条开始 -->
-		<header class="login-header" th:include="front/common/header"></header>
-		<main>
-			<div class="time-zh">
-				<div class="time-first time-active"></div>
-				<div class="time-second"></div>
-				<div class="time-third"></div>
-			</div>
-			<article class="time-description">
-				<div class="time-first-description">
-					<img th:src="@{'/common/images/success.png'}">
-					<h4 class="regist-success-text">SEEHOP欢迎您，注册成功!</h4>
-					<h4 class="time-first-next">为了您更好的享受砺锋众创服务，请发送<a href="javascript:;">邮箱验证</a></h4>
-				</div>
-				<div class="time-second-description time-hidden">
-				     <form action="" role="form" id="validateEmailF">
-		                 <div class="form-group">
-		                      <label>email:</label>
-		                      <input type="email" name="email" th:value="${email}" class="form-control">
-		                 </div>
-		                 <div class="form-group">
-		                      <label>password:</label>
-		                      <input type="password" name="password" value="" class="form-control" placeholder="您注册的密码...">
-		                 </div>
-		                 <div class="form-group send-btn">
-		                      <a class="btn btn-info btn-block">发送邮件</a>
-		                 </div>
-				     </form>
-				</div>
-				<div class="time-third-description time-hidden">
-				    <img th:src="@{'/common/images/success.png'}">
-					<h4 class="regist-success-text">SEEHOP欢迎您，邮件发送成功!</h4>
-					<h4 class="time-first-next">请登录您的邮箱，查看激活码，去<a href="javascript:;">登录</a></h4>
-				</div>
-			</article>
-		</main>
-		<!-- 底部 -->
-		<footer class="college-footer" th:include="front/common/footer"></footer>
-	</body>
-	
-	<script th:src="@{'/common/js/jquery-3.3.1.min.js'}" type="text/javascript" charset="utf-8"></script>
-    <script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
-	<script th:src="@{'/common/js/front/header.js'}" type="text/javascript" charset="utf-8"></script>
-	
+<head>
+    <meta charset="UTF-8">
+    <title>砺锋众创--邮箱激活</title>
+    <!-- title 图标 -->
+    <link rel="shortcut icon" type="text/css" th:href="@{'/title2.ico'}"/>
+    <!-- 字体图标 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/frame/font-awesome-4.7.0/css/font-awesome.min.css'}"/>
+    <!-- 全站统一样式表 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/main.css'}"/>
+    <!-- layer弹出层 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/frame/layer/theme/default/layer.css'}"/>
+    <!-- bookstrap核心样式 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}"/>
+    <!-- 头部header样式 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/header.css'}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/login-regist/active-user.css'}">
+</head>
+<body>
+<p hidden="hidden" id="email" name="email" th:text="${#request.getAttribute('email')} "></p>
+<!-- 头部导航条开始 -->
+<header class="login-header" th:include="front/common/header"></header>
+<main>
+    <div class="time-zh">
+        <div class="time-first time-active"></div>
+        <div class="time-second"></div>
+        <div class="time-third"></div>
+    </div>
+    <article class="time-description">
+        <div class="time-first-description">
+            <img th:src="@{'/common/images/success.png'}">
+            <h4 class="regist-success-text">SEEHOPE欢迎您，注册成功!</h4>
+            <h4 class="time-first-next">为了您更好的享受砺锋众创服务，请发送<a id="sendemail" href="javascript:;">邮箱验证</a></h4>
+        </div>
+        <!--<div class="time-second-description time-hidden">
+             <form action="" role="form" id="validateEmailF">
+                 <div class="form-group">
+                      <label>email:</label>
+                      <input type="email" name="email" th:value="${email}" class="form-control">
+                 </div>
+                 <div class="form-group">
+                      <label>password:</label>
+                      <input type="password" name="password" value="" class="form-control" placeholder="您注册的密码...">
+                 </div>
+                 <div class="form-group send-btn">
+                      <a class="btn btn-info btn-block">发送邮件</a>
+                 </div>
+             </form>
+        </div>-->
+        <div class="time-second-description time-hidden">
+            <div class="welcome-header">
+                <img th:src="@{'/common/images/success.png'}">
+                <h4 class="regist-success-text">邮件发送成功!</h4>
+            </div>
+            <form action="" role="form" id="validateEmailF">
+                <div class="form-group">
+                    <label>请输入您收到的激活码:</label>
+                    <input id="token" type="email" name="token" class="form-control">
+                </div>
+                <p>没有收到激活码？</p>
+                <p>请检查邮箱垃圾箱或者<a id="send-email-again" style="color:red;" href="javascript:;">重新发送</a></p>
+                <div class="form-group send-btn">
+                    <a id="sendtoken" class="btn btn-info btn-block">激活账号</a>
+                </div>
+            </form>
+        </div>
+        <div class="time-third-description time-hidden">
+            <img th:src="@{'/common/images/success.png'}">
+            <h4 class="regist-success-text">SEEHOPE欢迎您，账号激活成功!</h4>
+            <h4 class="time-first-next">去<a href="/index">登录</a></h4>
+        </div>
+    </article>
+</main>
+<!-- 底部 -->
+<footer class="college-footer" th:include="front/common/footer"></footer>
+</body>
+<script th:src="@{'/common/js/jquery-3.3.1.min.js'}" type="text/javascript" charset="utf-8"></script>
+<script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
+<script th:src="@{'/common/js/front/header.js'}" type="text/javascript" charset="utf-8"></script>
+<script th:src="@{'/common/js/front/login-regist/active-user.js'}" type="text/javascript" charset="utf-8"></script>
 </html>

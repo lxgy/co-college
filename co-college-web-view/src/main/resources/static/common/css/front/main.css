@@ -1,4 +1,11 @@
 body{
-    background-color: #F4F4F4;
     font-family: '微软雅黑';
+}
+.layui-layer-hui {
+    min-width: 100px;
+    background-color: #000;
+    filter: alpha(opacity=60);
+    background-color: rgba(0, 0, 0, .6) !important;
+    color: #fff;
+    border: none;
 }

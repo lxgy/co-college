@@ -1,415 +1,446 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 
-	<head>
-		<meta charset="UTF-8">
-		<title>砺锋众创--首页</title>
-		<!-- title 图标 -->
-		<link rel="shortcut icon" type="text/css" th:href="@{'title2.ico'}" />
-		<!-- 字体图标 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/frame/font-awesome-4.7.0/css/font-awesome.min.css'}" />
-		<!-- 全站统一样式表 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/main.css'}" />
-		<!-- layer弹出层 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/frame/layer/theme/default/layer.css'}" />
-		<!-- bookstrap核心样式 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}" />
-		<!-- swiper轮播样式文件 -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
-		<!-- 头部header样式 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/header.css'}">
-		<!-- 当前页样式表 -->
-		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/home.css'}">
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <title>砺锋众创--首页</title>
+    <!-- title 图标 -->
+    <link rel="shortcut icon" type="text/css" th:href="@{'title2.ico'}"/>
+    <!-- 字体图标 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/frame/font-awesome-4.7.0/css/font-awesome.min.css'}"/>
+    <!-- 全站统一样式表 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/main.css'}"/>
 
-	<body style="background: white;">
-		<!--头部导航条开始-->
-		<header class="college-header" th:include="front/common/header"></header>
-		<aside class="aside-right">
-			<figure class="aside-phone" id="aside-phone">
-				<div>
-					<img width="24px" height="24px" th:src="@{'/common/images/phone_07.png'}" alt="">
-				</div>
-			</figure>
-			<figure class="aside-message" id="aside-message">
-				<div>
-					<img width="24px" height="24px" th:src="@{'/common/images/message_07.png'}" alt="">
-				</div>
-			</figure>
-			<figure class="aside-totop text-hide">
-				<div>
-					<a href="#carousel-example-generic">
-						<img width="24px" height="24px" th:src="@{'/common/images/top_07.png'}" alt="">
-					</a>
-				</div>
-			</figure>
-		</aside>
-		<!--头部导航条结束-->
-		<!--主体内容开始-->
-		<section>
-			<!--活动轮播内容开始-->
-			<article id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="item active">
-						<img class="carousel-img" th:src="@{'/common/images/1.png'}" alt="First slide" style="height: 465px">
-					</div>
-					<div class="item">
-						<img class="carousel-img" th:src="@{'/common/images/2.png'}" alt="Second slide" style="height: 465px">
-					</div>
-					<div class="item">
-						<img class="carousel-img" th:src="@{'/common/images/3.jpg'}" alt="third slide" style="height: 465px">
-					</div>
-					<div class="item">
-						<img class="carousel-img" th:src="@{'/common/images/4.jpg'}" alt="third slide" style="height: 465px">
-					</div>
-				</div>
-				<div class="access-task">
-					已有14862名创客接取外包任务&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;<span class="task-a"><a
-						 style="color: #50cf78; text-decoration: none;" href="#">我要接任务</a></span>
-				</div>
-				<div class="middle-sep">/</div>
-				<div class="join-teams">
-					已有2424568名加入创客&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;<span class="teams-a"><a
-						 style="color: #50cf78; text-decoration: none;" href="#">我要加入众创</a></span>
-				</div>
-			</article>
-		</section>
-		<!--活动轮播内容结束-->
+    <!-- bookstrap核心样式 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}"/>
+    <!-- swiper轮播样式文件 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <!-- 头部header样式 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/header.css'}">
+    <!-- 当前页样式表 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/home.css'}">
+    <!-- layer弹出层 -->
+    <link rel="stylesheet" type="text/css" th:href="@{'/frame/layer/theme/default/layer.css'}"/>
+</head>
 
-		<!--众筹项目开始-->
-		<section class="project-investment">
-			<h2>项目众筹成功案例</h2>
-			<h4 class="pj-ms">
-				10年项目众筹经验保证项目的成功实施 <span class="find-more"><a href="javascript:;">查看跟多&nbsp;<i class="fa fa-share" aria-hidden="true"></i></a></span>
-			</h4>
-			<article>
-				<!--众筹分类开始-->
-				<div class="project-type">
-					<div class="lx-3 type-item">
-						<a href="#" style="text-decoration: none">
-							<div class="project-ued">
-								<img th:src="@{'/common/images/t4.jpg'}">
-							</div>
-							<h4>互联网技术</h4>
-							<h6>华东ADAS企业异军突起，博世“本土化”开发遭威胁？华东ADAS企业异军突起，博世“本土化”开发遭威胁？
-								华东ADAS企业异军突起，博世“本土化”开发遭威胁？华东ADAS企业异军突起，博世“本土化”开发遭威胁？</h6>
-						</a>
-					</div>
-					<div class="lx-3 type-item">
-						<a href="#" style="text-decoration: none">
-							<div class="project-ai">
-								<img th:src="@{'/common/images/t2.jpg'}">
-							</div>
-							<h4>人工智能</h4>
-							<h6>首发丨声智科技完成2亿元B轮融资，毅达资本领投，首发丨声智科技完成2亿元B轮融资，毅达资本领投</h6>
-						</a>
-					</div>
-					<div class="lx-3 type-item">
-						<a href="#" style="text-decoration: none">
-							<div class="project-life">
-								<img th:src="@{'/common/images/t3.jpg'}">
-							</div>
-							<h4>生活家居</h4>
-							<h6>卫健委马丽平：中国医疗质量管理发展现状，卫健委马丽平：中国医疗质量管理发展现状</h6>
-						</a>
-					</div>
-					<div class="lx-3 type-item">
-						<a href="#" style="text-decoration: none">
-							<div class="project-logo">
-								<img th:src="@{'/common/images/t4.jpg'}">
-							</div>
-							<h4>品牌设计</h4>
-							<h6>经济寒冬，陶瓷企业要如何活下去？济寒冬，陶瓷企业要如何活下去？</h6>
-						</a>
-					</div>
-				</div>
-				<!--众筹分类结束-->
-			</article>
-		</section>
-		<section class="spell">
-			<h4>砺锋众创为有梦想的创客们提供更加辽阔的展翅空间</h4>
-			<button class="join-investment">参与众筹</button>
-		</section>
-		<!--众筹项目结束-->
-		<!--项目众包开始-->
-		<section class="project-teams" style="position: relative;">
-			<h3>
-				项目众包<small>新颖的创意，梦的开始</small>
-			</h3>
-			<div class="logs-carousel">
-				<div class="swiper-container">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide"><i class="fa fa-volume-up" aria-hidden="true"></i>&nbsp;恭贺mt先生的机器人成功融资100万</div>
-						<div class="swiper-slide"><i class="fa fa-volume-up" aria-hidden="true"></i>&nbsp;恭贺mt先生的机器人成功融资100万</div>
-						<div class="swiper-slide"><i class="fa fa-volume-up" aria-hidden="true"></i>&nbsp;恭贺mt先生的机器人成功融资100万</div>
-					</div>
-				</div>
-			</div>
-			<article class="prjt-carousel prjt-item">
-				<h2>新颖需求</h2>
-				<canvas width="280" height="260" id="myCanvas" style="max-width: 280px; max-height: 260px"></canvas>
-				<div id="tags">
-					<a href="http://www.baidu.com">小程序</a> <a href="#">公众号</a><a href="#">人工智能</a><a href="#">App开发</a><a href="#">网页设计</a>
-					<a href="#">官网开发</a><a href="#">智慧家居</a><a href="#">情感</a><a href="#">体验</a><a href="#">互联网</a>
-				</div>
-				<div class="prjt-more">
-					查看更多&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/interface.png'}">
-				<h4>培训班报名小程序</h4>
-				<h5>
-					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
-				</h5>
-				<h5>
-					技能要求：<span>Java、</span><span>JavaScript、</span><span>HTML、</span><span>CSS、</span>
-				</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/xiaochegnxu.png'}">
-				<h4 title="【联想】知识QA社区功能开发(PHP)">【联想】知识QA社区功能开发(PHP)</h4>
-				<h5>
-					项目分类：<span>联想</span><span>微信应用</span><span>公众号</span>
-				</h5>
-				<h5>
-					技能要求：<span>Java、</span><span>JavaScript、</span><span>HTML、</span><span>CSS、</span>
-				</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/yijian.png'}">
-				<h4>培训班报名小程序</h4>
-				<h5>
-					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
-				</h5>
-				<h5>
-					技能要求：<span>Java、</span><span>JavaScript、</span><span>HTML、</span><span>CSS、</span>
-				</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'common/images/web.png'}">
-				<h4>培训班报名小程序</h4>
-				<h5>
-					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
-				</h5>
-				<h5>
-					技能要求：<span>Java、</span><span>JavaScript、</span><span>HTML、</span><span>CSS、</span>
-				</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/interface.png'}">
-				<h4>培训班报名小程序</h4>
-				<h5>
-					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
-				</h5>
-				<h5>
-					技能要求：<span>Java、</span><span>JavaScript、</span><span>HTML、</span><span>CSS、</span>
-				</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/xiaochegnxu.png'}">
-				<h4>培训班报名小程序</h4>
-				<h5>
-					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
-				</h5>
-				<h5>
-					技能要求：<span>Java、</span><span>JavaScript、</span><span>HTML、</span><span>CSS、</span>
-				</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/yijian.png'}">
-				<h4>培训班报名小程序</h4>
-				<h5>
-					项目分类：<span>项目</span><span>微信应用</span><span>公众号</span>
-				</h5>
-				<h5>
-					技能要求：<span>Java、</span><span>JavaScript、</span><span>HTML、</span><span>CSS、</span>
-				</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-		</section>
-		<!--项目众包结束-->
-		<!-- 众创课堂开始 -->
-		<section class="classes-teams">
-			<h3>
-				众创课堂<small>梦工厂，砺锋众创课堂</small>
-			</h3>
-			<article class="prjt-carousel prjt-item">
-				<h2>前沿技术</h2>
-				<canvas width="280" height="260" id="class-myCanvas" style="max-width: 280px; max-height: 260px"></canvas>
-				<div id="class-tags">
-					<a href="http://www.baidu.com">H5</a> <a href="#">SpringBoot</a><a href="#">SpringCloud</a><a href="#">Spring5.0</a><a
-					 href="#">Mybatis</a>
-					<a href="#">Hibernate</a><a href="#">Java</a><a href="#">JavaWeb</a><a href="#">Phyton</a><a href="#">区块链</a>
-				</div>
-				<div class="prjt-more">
-					查看更多&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/class1.jpg'}">
-				<h4 title="Java高并发之魂：synchronized的深度解析">Java高并发</h4>
-				<h5>
-					课堂归类：<span>Java</span><span>高并发</span>
-				</h5>
-				<h5>Java高并发之魂：synchronized的深度解析</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/class2.jpg'}">
-				<h4 title="深度学习之目标检测常用算法原理+实践精讲">深度学习之目标检测常用算法原理+实践精讲</h4>
-				<h5>
-					课堂归类：<span>算法</span>
-				</h5>
-				<h5>深度学习之目标检测常用算法原理+实践精讲</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/class3.jpg'}">
-				<h4>Android性能分析与优化</h4>
-				<h5>
-					课堂归类：<span>Android</span>
-				</h5>
-				<h5>Top团队大牛带你玩转Android性能分析与优化</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/class4.jpg'}">
-				<h4 title="SpringBoot构建电商基础秒杀项目">SpringBoot构建电商基础秒杀项目</h4>
-				<h5>
-					项目分类：<span>SpringBoot</span>
-				</h5>
-				<h5>SpringBoot构建电商基础秒杀项目</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/class5.jpg'}">
-				<h4>剑指Java面试-Offer直通车</h4>
-				<h5>
-					课堂归类：<span>Java</span><span>面试</span>
-				</h5>
-				<h5>剑指Java面试-Offer直通车</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/class6.jpg'}">
-				<h4 title="React16 组件化">React16 组件化</h4>
-				<h5>
-					课堂归类：<span>React</span>
-				</h5>
-				<h5>React16 组件化+测试+全流程 实战在线账本项目</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-			<article class="prjt-item">
-				<img th:src="@{'/common/images/class7.jpg'}">
-				<h4>掌握Taro多端框架 快速上手小程序/H5开发</h4>
-				<h5>
-					项目分类：<span>H5</span><span>Taro</span>
-				</h5>
-				<h5>掌握Taro多端框架 快速上手小程序/H5开发</h5>
-				<div>
-					<span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;165</span>
-					<span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;20</span>
-				</div>
-			</article>
-		</section>
-		<!-- 众创课堂结束 -->
-		<!-- 众创工具开始 -->
-		<section class="tool-teams">
-			<h3>
-				众创工具<small>团队协作利器</small>
-			</h3>
-			<!-- 社区版 -->
-			<article class="tool-community">
-				<h2 class="tool-title">社区版</h2>
-				<img alt="" th:src="@{'/common/images/tool.png'}">
-				<h4>[ 众创指南 ]</h4>
-				<div class="tool-content">社区版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。</div>
-				<div class="tool-btn">
-					<span>体验团队协作</span>
-				</div>
-			</article>
-			<!-- 入门版 -->
-			<article class="tool-primary">
-				<h2 class="tool-title">入门版</h2>
-				<img alt="" th:src="@{'/common/images/tool.png'}">
-				<h4>[ 众创指南 ]</h4>
-				<div class="tool-content">入门版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。</div>
-				<div class="tool-btn">
-					<span>开启团队协作</span>
-				</div>
-			</article>
-			<!-- 企业版 -->
-			<article class="tool-enterprise">
-				<h2 class="tool-title">豪华版</h2>
-				<img alt="" th:src="@{'/common/images/tool.png'}">
-				<h4>[ 众创指南 ]</h4>
-				<div class="tool-content">豪华版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。</div>
-				<div class="tool-btn">
-					<span>享受团队协作</span>
-				</div>
-			</article>
-		</section>
-		<!--主体内容结束-->
-		<!-- 底部开始 -->
-		<footer class="college-footer" th:include="front/common/footer"></footer>
-		<!-- 底部结束 -->
-	</body>
-	<script th:src="@{'/common/js/jquery-3.3.1.min.js'}" type="text/javascript" charset="utf-8"></script>
-	<script th:src="@{'/frame/bootstrap-3.3.7-dist/js/bootstrap.min.js'}" type="text/javascript" charset="utf-8"></script>
-	<script th:src="@{'/common/js/jquery.vticker.min.js'}" type="text/javascript" charset="utf-8"></script>
-	<script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
-	<script th:src="@{'/common/js/front/header.js'}" type="text/javascript" charset="utf-8"></script>
-	<!--开发环境版本-->
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<!--生产环境版本-->
-	<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
-	<script type="text/javascript" th:src="@{'/common/js/tagcanvas.min.js'}"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
-	<script type="text/javascript" th:src="@{'/common/js/front/home.js'}"></script>
+<body style="background: white;">
+<!--头部导航条开始-->
+<header class="college-header" th:include="front/common/header"></header>
+<aside class="aside-right">
+    <figure class="aside-phone" id="aside-phone">
+        <div>
+            <img width="24px" height="24px" th:src="@{'/common/images/phone_07.png'}" alt="">
+        </div>
+    </figure>
+    <figure class="aside-message" id="aside-message">
+        <div>
+            <img width="24px" height="24px" th:src="@{'/common/images/message_07.png'}" alt="">
+        </div>
+    </figure>
+    <figure class="aside-totop text-hide">
+        <div>
+            <a href="#carousel-example-generic">
+                <img width="24px" height="24px" th:src="@{'/common/images/top_07.png'}" alt="">
+            </a>
+        </div>
+    </figure>
+</aside>
+<!--头部导航条结束-->
+<!--主体内容开始-->
+<section>
+    <!--活动轮播内容开始-->
+    <article id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class="carousel-img " th:src="@{'/common/images/p1.png'}" alt="First slide" style="height: 465px">
+            </div>
+            <div class="item">
+                <img class="carousel-img" th:src="@{'/common/images/p2.png'}" alt="Second slide" style="height: 465px">
+            </div>
+            <div class="item">
+                 <img class="carousel-img" th:src="@{'/common/images/p3.jpg'}" alt="third slide" style="height: 465px">
+             </div>
+            <!-- <div class="item">
+                <img class="carousel-img" th:src="@{'/common/images/4.jpg'}" alt="third slide" style="height: 465px">
+            </div>-->
+        </div>
+        <div class="access-task">
+            已有14862名创客接取外包任务&nbsp;<i class="fa fa-angle-double-right " aria-hidden="true"></i> &nbsp;<span
+                class="task-a "><a
+                style="color: #50cf78; text-decoration: none;" href="javascript:" class="tip-msg">我要接任务</a></span>
+        </div>
+        <div class="middle-sep">/</div>
+        <div class="join-teams">
+            已有2424568名加入创客&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;<span
+                class="teams-a "><a
+                class="tip-msg" style="color: #50cf78; text-decoration: none;" href="javascript:">我要加入众创</a></span>
+        </div>
+    </article>
+</section>
+<!--活动轮播内容结束-->
+
+<!--众筹项目开始-->
+<section class="project-investment">
+    <h2>项目众筹成功案例</h2>
+    <h4 class="pj-ms">
+        10年项目众筹经验保证项目的成功实施 <span class="find-more"><a class="tip-msg" href="javascript:;">查看更多&nbsp;<i
+            class="fa fa-share"
+            aria-hidden="true"></i></a></span>
+    </h4>
+    <article>
+        <!--众筹分类开始-->
+        <div class="project-type">
+            <div class="lx-3 type-item">
+                <a href="#" style="text-decoration: none">
+                    <div class="project-ued">
+                        <img th:src="@{'/common/images/t1.jpg'}">
+                    </div>
+                    <h4>美厨娘来啦</h4>
+                    <h6> 众多不同主题、不同年龄、不同身体 状况的健康小常识，更有制作过程的教授，让你不出门就可以享受五星级酒店的美味</h6>
+                </a>
+            </div>
+            <div class="lx-3 type-item">
+                <a href="#" style="text-decoration: none">
+                    <div class="project-ai">
+                        <img th:src="@{'/common/images/t2.jpg'}">
+                    </div>
+                    <h4>惠民防伪溯源系统 </h4>
+                    <h6>
+                        砺锋”惠民”产品防伪溯源系统相对于社会上大量的防伪系统及溯源系统，最大的优势与创新性是我们提供了针对不同行业产品的防伪、溯源、防窜货、控货、营销为一体的解决方案。在为客户提供防伪溯源，保护品牌，提高产品美誉度的同时，我们还注重系统的分销及营销能力，为客户创造更大的价值。</h6>
+                </a>
+            </div>
+            <div class="lx-3 type-item">
+                <a href="#" style="text-decoration: none">
+                    <div class="project-life">
+                        <img th:src="@{'/common/images/t3.jpg'}">
+                    </div>
+                    <h4> 财务通（基于大数据的财务税务技术服务平台）</h4>
+                    <h6>财税通APP是广州砺锋信息科技有限公司与广州西荔代理记帐公司联合推出的一款关于财务税务政策与制度提问与解答的一款社区互动移动互联网应用</h6>
+                </a>
+            </div>
+            <div class="lx-3 type-item">
+                <a href="#" style="text-decoration: none">
+                    <div class="project-logo">
+                        <img th:src="@{'/common/images/t4.jpg'}">
+                    </div>
+                    <h4>Link校园</h4>
+                    <h6>
+                        在当下，大学生与企业的接触日益频繁。无论是校级活动、学院活动、学生社团活动或者是班级活动，时刻都与企业有着多少的接触。作为企业而言，进入校园活动，可以提高企业的知名度，同时可以拉近与专业学生之间的距离，有助于企业挖掘人才。对于学生，与企业接触可以起到提前与社会接轨的作用。目前，企业与学生之间遇到几个突出的问题：</h6>
+                </a>
+            </div>
+        </div>
+        <!--众筹分类结束-->
+    </article>
+</section>
+<section class="spell">
+    <h4>砺锋众创为有梦想的创客们提供更加辽阔的展翅空间</h4>
+    <button class="join-investment tip-msg">参与众筹</button>
+</section>
+<!--众筹项目结束-->
+<!--项目众包开始-->
+<section class="project-teams" style="position: relative;">
+    <h3>
+        项目众包
+        <small>新颖的创意，梦的开始</small>
+    </h3>
+    <div class="logs-carousel">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><i class="fa fa-volume-up" aria-hidden="true"></i>&nbsp;恭贺吴泰云先生的摩锋出行成功融资3000万
+                </div>
+                <!--<div class="swiper-slide"><i class="fa fa-volume-up" aria-hidden="true"></i>&nbsp;恭贺mt先生的机器人成功融资100万-->
+                <!--</div>-->
+                <!--<div class="swiper-slide"><i class="fa fa-volume-up" aria-hidden="true"></i>&nbsp;恭贺mt先生的机器人成功融资100万-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+    <article class="prjt-carousel prjt-item">
+        <h2>新颖需求</h2>
+        <canvas width="280" height="260" id="myCanvas" style="max-width: 280px; max-height: 260px"></canvas>
+        <div id="tags">
+            <a href="http://www.baidu.com">小程序</a> <a href="#">公众号</a><a href="#">人工智能</a><a href="#">App开发</a><a
+                href="#">网页设计</a>
+            <a href="#">官网开发</a><a href="#">智慧家居</a><a href="#">情感</a><a href="#">体验</a><a href="#">互联网</a>
+        </div>
+        <div class="prjt-more">
+            查看更多&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/x1.png'}">
+        <h4>景区直通车小程序+后台</h4>
+        <h5>
+            项目分类：<span>微信应用</span><span>JavaScript</span><span>小程序</span>
+        </h5>
+        <h5>
+            技能要求：<span>JavaScript、</span><span>小程序、</span><span>HTML、</span><span>CSS、</span>
+        </h5>
+        <div>
+            <span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;266</span>
+            <span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;10</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/xiaochegnxu.png'}">
+        <h4 title="【联想】知识QA社区功能开发(PHP)">【联想】知识QA社区功能开发(PHP)</h4>
+        <h5>
+            项目分类：<span>联想</span><span>微信应用</span><span>公众号</span>
+        </h5>
+        <h5>
+            技能要求：<span>Java、</span><span>JavaScript、</span><span>HTML、</span><span>CSS、</span>
+        </h5>
+        <div>
+            <span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
+            <span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;64</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/yijian.png'}">
+        <h4>短视频防沉迷App</h4>
+        <h5>
+            项目分类：<span>防沉迷</span><span>Java</span><span>app</span>
+        </h5>
+        <h5>
+            技能要求：<span>Java、</span><span>JavaScript、</span><span>spring、</span><span>小程序、</span>
+        </h5>
+        <div>
+            <span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
+            <span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;1</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'common/images/x3.png'}">
+        <h4>提取酷Q的登陆接口</h4>
+        <h5>
+            项目分类：<span>接口</span>
+        </h5>
+        <h5>
+            技能要求：<span>C#、</span>
+        </h5>
+        <div>
+            <span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
+            <span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;20</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/x4.png'}">
+        <h4>H5炸金花棋牌游戏</h4>
+        <h5>
+            项目分类：<span>H5应用</span><span>前端</span><span>JAVA</span>
+        </h5>
+        <h5>
+            技能要求：<span>Java、</span><span>h5、</span><span>js、</span><span>css3、</span>
+        </h5>
+        <div>
+            <span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;265</span>
+            <span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;18</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/x5.png'}">
+        <h4>多租户WEB应用开发 学校行业</h4>
+        <h5>
+            项目分类：<span>WEB应用</span><span>MYSQL</span>
+        </h5>
+        <h5>
+            技能要求：<span>Java、</span><span>WEB、</span><span>MYSQL、</span>
+        </h5>
+        <div>
+            <span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
+            <span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;22</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/x6.png'}">
+        <h4>广告包开发iOS</h4>
+        <h5>
+            项目分类：<span>项目</span><span>移动应用</span>
+        </h5>
+        <h5>
+            技能要求：<span>Swift、</span><span>Objective-c
+        </h5>
+        <div>
+            <span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
+            <span>|</span> <span class="messages"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;8</span>
+        </div>
+    </article>
+</section>
+<!--项目众包结束-->
+<!-- 众创课堂开始 -->
+<section class="classes-teams">
+    <h3>
+        众创课堂
+        <small>梦工厂，砺锋众创课堂</small>
+    </h3>
+    <article class="prjt-carousel prjt-item" tip-msg>
+        <h2>前沿技术</h2>
+        <canvas width="280" height="260" id="class-myCanvas" style="max-width: 280px; max-height: 260px"></canvas>
+        <div id="class-tags">
+            <a href="http://www.baidu.com">H5</a> <a href="#">SpringBoot</a><a href="#">SpringCloud</a><a href="#">Spring5.0</a><a
+                href="#">Mybatis</a>
+            <a href="#">Hibernate</a><a href="#">Java</a><a href="#">JavaWeb</a><a href="#">Phyton</a><a
+                href="#">区块链</a>
+        </div>
+        <div class="prjt-more">
+            查看更多&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/c1.jpg'}">
+        <h4 title="Java实战开发小说爬取神器">Java实战开发小说爬取神器</h4>
+        <h5>
+            课堂归类：<span>Java</span><span>爬虫</span>
+        </h5>
+        <h5>Java爬虫：Java实战开发小说爬取神器</h5>
+        <div>
+            <span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;125</span>
+            <span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;48</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/c2.jpg'}">
+        <h4 title="金九银十，你为什么找不到工作？砺锋创业导师天团帮你出招">金九银十，你为什么找不到工作？砺锋创业导师天团帮你出招/h4>
+        <h5>
+            课堂归类：<span>就业</span>
+        </h5>
+        <h5>金九银十，你为什么找不到工作？砺锋创业导师天团帮你出招</h5>
+        <div>
+            <span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;85</span>
+            <span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;2</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/c3.jpg'}">
+        <h4 title="电脑摄像头、GPS被黑客利用漏洞分析及操作">电脑摄像头、GPS被黑客利用漏洞分析及操作</h4>
+        <h5>
+            课堂归类：<span>信息安全</span>
+        </h5>
+        <h5>华商学院技术专刊-电脑摄像头、GPS被黑客利用漏洞分析及操作</h5>
+        <div>
+            <span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;65</span>
+            <span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;7</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/c4.jpg'}">
+        <h4 title="绩效管理公益实战课《战略绩效解码》掌握绩效管理">绩效管理公益实战课《战略绩效解码》掌握绩效管理</h4>
+        <h5>
+            项目分类：<span>工作</span>
+        </h5>
+        <h5>绩效管理公益实战课《战略绩效解码》掌握绩效管理</h5>
+        <div>
+            <span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;115</span>
+            <span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;29</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/c5.jpg'}">
+        <h4>中小企业项目加速（企投私享会）</h4>
+        <h5>
+            课堂归类：<span>创业</span><span>项目</span>
+        </h5>
+        <h5>中小企业项目加速（企投私享会）</h5>
+        <div>
+            <span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;174</span>
+            <span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;69</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/c6.jpg'}">
+        <h4 title="0成本招商，逆向拓客，通过路演实现客户裂变的《业绩倍增密码》峰会
+ 组件化">0成本招商，逆向拓客，通过路演实现客户裂变的《业绩倍增密码》峰会
+        </h4>
+        <h5>
+            课堂归类：<span>招商</span><span>峰会</span><span>业绩</span>
+        </h5>
+        <h5>0成本招商，逆向拓客，通过路演实现客户裂变的《业绩倍增密码》峰会
+        </h5>
+        <div>
+            <span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;45</span>
+            <span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;2</span>
+        </div>
+    </article>
+    <article class="prjt-item tip-msg">
+        <img th:src="@{'/common/images/c7.jpg'}">
+        <h4 title="BOOS必修营销班，投一赚千低成本营销秘诀——《业绩倍增密码》！">BOOS必修营销班，投一赚千低成本营销秘诀——《业绩倍增密码》！</h4>
+        <h5>
+            项目分类：<span>营销</span>
+        </h5>
+        <h5>BOOS必修营销班，投一赚千低成本营销秘诀——《业绩倍增密码》！</h5>
+        <div>
+            <span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;165</span>
+            <span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;20</span>
+        </div>
+    </article>
+</section>
+<!-- 众创课堂结束 -->
+<!-- 众创工具开始 -->
+<section class="tool-teams">
+    <h3>
+        众创工具
+        <small>团队协作利器</small>
+    </h3>
+    <!-- 社区版 -->
+    <article class="tool-community">
+        <h2 class="tool-title">社区版</h2>
+        <img alt="" th:src="@{'/common/images/tool.png'}">
+        <h4>[ 众创指南 ]</h4>
+        <div class="tool-content">
+            社区版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。
+        </div>
+        <div class="tool-btn tip-msg">
+            <span>体验团队协作</span>
+        </div>
+    </article>
+    <!-- 入门版 -->
+    <article class="tool-primary">
+        <h2 class="tool-title">入门版</h2>
+        <img alt="" th:src="@{'/common/images/tool.png'}">
+        <h4>[ 众创指南 ]</h4>
+        <div class="tool-content">
+            入门版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。
+        </div>
+        <div class="tool-btn tip-msg">
+            <span>开启团队协作</span>
+        </div>
+    </article>
+    <!-- 企业版 -->
+    <article class="tool-enterprise">
+        <h2 class="tool-title">豪华版</h2>
+        <img alt="" th:src="@{'/common/images/tool.png'}">
+        <h4>[ 众创指南 ]</h4>
+        <div class="tool-content">
+            豪华版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。
+        </div>
+        <div class="tool-btn tip-msg">
+            <span>享受团队协作</span>
+        </div>
+    </article>
+</section>
+
+<!--主体内容结束-->
+<!-- 底部开始 -->
+<footer class="college-footer" th:include="front/common/footer"></footer>
+<!-- 底部结束 -->
+</body>
+<script th:src="@{'/common/js/jquery-3.3.1.min.js'}" type="text/javascript" charset="utf-8"></script>
+<script th:src="@{'/frame/bootstrap-3.3.7-dist/js/bootstrap.min.js'}" type="text/javascript" charset="utf-8"></script>
+<script th:src="@{'/common/js/jquery.vticker.min.js'}" type="text/javascript" charset="utf-8"></script>
+
+<script th:src="@{'/common/js/front/header.js'}" type="text/javascript" charset="utf-8"></script>
+<script th:src="@{'/common/js/jquery.mnmenu.js'}" type="text/javascript" charset="utf-8"></script>
+<!--开发环境版本-->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!--生产环境版本-->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+<script type="text/javascript" th:src="@{'/common/js/tagcanvas.min.js'}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+<script type="text/javascript" th:src="@{'/common/js/front/home.js'}"></script>
+<script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(".tip-msg").click(function () {
+        layer.msg("功能开发中 敬请期待")
+    })
+</script>
 </html>
