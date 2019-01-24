@@ -104,7 +104,6 @@ public class FrontUserController {
             session.setAttribute(email, token);
             resultVo.setCode(CodeEnum._200.getCode());
             resultVo.setMsg("邮件发送成功");
-            System.out.println("用户：" + email + "账号激活码发送成功");
         } catch (Throwable e) {
             resultVo.setCode(CodeEnum._500.getCode());
             resultVo.setMsg("系统错误邮件发送失败");

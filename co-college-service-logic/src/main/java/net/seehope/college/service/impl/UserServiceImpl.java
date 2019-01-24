@@ -71,6 +71,8 @@ public class UserServiceImpl implements UserService {
         // TODO Auto-generated method stub
         boolean result = false;
         try {
+            user.setLogin_ip(GetIpUtil.getIpAddr(request));
+            user.setCreate_time(DateTimeUtil.getCurrentDate());
             this.userMapper.insert_user(user);
             log.info("邮箱为：" + user.getEmail() + DateTimeUtil.getCurrentDateTime() + "成功注册为创客用户");
             result = true;
@@ -131,7 +133,7 @@ public class UserServiceImpl implements UserService {
                 } else if (time == 10) {
                     resultVo.setMsg("登录失败 您的账号已锁定");
                     userMapper.lock_user(email);
-                    log.info("账号"+email+"密码错误多次，已锁定");
+                    log.info("账号" + email + "密码错误多次，已锁定");
                 } else {
                     resultVo.setMsg("登录失败 您还有" + (10 - time) + "次机会");
                 }

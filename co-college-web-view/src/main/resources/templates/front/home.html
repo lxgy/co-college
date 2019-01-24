@@ -29,12 +29,16 @@
 <aside class="aside-right">
     <figure class="aside-phone" id="aside-phone">
         <div>
+
             <img width="24px" height="24px" th:src="@{'/common/images/phone_07.png'}" alt="">
+
         </div>
     </figure>
     <figure class="aside-message" id="aside-message">
         <div>
-            <img width="24px" height="24px" th:src="@{'/common/images/message_07.png'}" alt="">
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes">
+                <img width="24px" height="24px" th:src="@{'/common/images/message_07.png'}" alt="">
+            </a>
         </div>
     </figure>
     <figure class="aside-totop text-hide">
@@ -49,33 +53,54 @@
 <!--主体内容开始-->
 <section>
     <!--活动轮播内容开始-->
-    <article id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+    <article id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="model"></div>
+        <!-- 轮播（Carousel）指标 -->
+
+        <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner">
             <div class="item active">
-                <img class="carousel-img " th:src="@{'/common/images/p1.png'}" alt="First slide" style="height: 465px">
+                <a href="http://www.u-cto.com/">
+                    <img th:src="@{'/common/images/p1.jpg'}" style="height: 465px" alt="First slide">
+                </a>
             </div>
             <div class="item">
-                <img class="carousel-img" th:src="@{'/common/images/p2.png'}" alt="Second slide" style="height: 465px">
+                <a href="http://codeseeding.com/article/3590">
+                    <img th:src="@{'/common/images/p2.jpg'}" style="height: 465px" alt="First slide">
+                </a>
             </div>
             <div class="item">
-                 <img class="carousel-img" th:src="@{'/common/images/p3.jpg'}" alt="third slide" style="height: 465px">
-             </div>
-            <!-- <div class="item">
-                <img class="carousel-img" th:src="@{'/common/images/4.jpg'}" alt="third slide" style="height: 465px">
-            </div>-->
+                <a href="#xm">
+                    <img th:src="@{'/common/images/p5.jpg'}" style="height: 465px" alt="First slide">
+                </a>
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a style="background-image: none" class="left carousel-control" href="#myCarousel" role="button"
+           data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a style="background-image: none" class="right carousel-control" href="#myCarousel" role="button"
+           data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
         </div>
         <div class="access-task">
             已有14862名创客接取外包任务&nbsp;<i class="fa fa-angle-double-right " aria-hidden="true"></i> &nbsp;<span
                 class="task-a "><a
-                style="color: #50cf78; text-decoration: none;" href="javascript:" class="tip-msg">我要接任务</a></span>
+                style="color: #248eff; text-decoration: none;" href="javascript:" class="tip-msg">我要接任务</a></span>
         </div>
         <div class="middle-sep">/</div>
         <div class="join-teams">
             已有2424568名加入创客&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;<span
                 class="teams-a "><a
-                class="tip-msg" style="color: #50cf78; text-decoration: none;" href="javascript:">我要加入众创</a></span>
-        </div>
+                class="tip-msg" style="color: #248eff; text-decoration: none;" href="javascript:">我要加入众创</a></span>
     </article>
+    <!-- 控制按钮 -->
+
 </section>
 <!--活动轮播内容结束-->
 
@@ -114,7 +139,7 @@
                     <div class="project-life">
                         <img th:src="@{'/common/images/t3.jpg'}">
                     </div>
-                    <h4> 财务通（基于大数据的财务税务技术服务平台）</h4>
+                    <h4> 财税通（基于大数据的财务税务技术服务平台）</h4>
                     <h6>财税通APP是广州砺锋信息科技有限公司与广州西荔代理记帐公司联合推出的一款关于财务税务政策与制度提问与解答的一款社区互动移动互联网应用</h6>
                 </a>
             </div>
@@ -138,9 +163,10 @@
 </section>
 <!--众筹项目结束-->
 <!--项目众包开始-->
+
 <section class="project-teams" style="position: relative;">
     <h3>
-        项目众包
+        <a href="javascript:;" name="xm"> 项目众包</a>
         <small>新颖的创意，梦的开始</small>
     </h3>
     <div class="logs-carousel">
@@ -258,7 +284,7 @@
             项目分类：<span>项目</span><span>移动应用</span>
         </h5>
         <h5>
-            技能要求：<span>Swift、</span><span>Objective-c
+            技能要求：<span>Swift、</span><span>Objective-c</span>
         </h5>
         <div>
             <span class="eyes"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;165</span>
@@ -301,14 +327,15 @@
     <article class="prjt-item tip-msg">
         <img th:src="@{'/common/images/c2.jpg'}">
         <h4 title="金九银十，你为什么找不到工作？砺锋创业导师天团帮你出招">金九银十，你为什么找不到工作？砺锋创业导师天团帮你出招/h4>
-        <h5>
-            课堂归类：<span>就业</span>
-        </h5>
-        <h5>金九银十，你为什么找不到工作？砺锋创业导师天团帮你出招</h5>
-        <div>
-            <span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;85</span>
-            <span>|</span> <span class="messages"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;2</span>
-        </div>
+            <h5>
+                课堂归类：<span>就业</span>
+            </h5>
+            <h5>金九银十，你为什么找不到工作？砺锋创业导师天团帮你出招</h5>
+            <div>
+                <span class="eyes"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;85</span>
+                <span>|</span> <span class="messages"><i class="fa fa-shopping-cart"
+                                                         aria-hidden="true"></i>&nbsp;2</span>
+            </div>
     </article>
     <article class="prjt-item tip-msg">
         <img th:src="@{'/common/images/c3.jpg'}">
@@ -387,7 +414,7 @@
         <img alt="" th:src="@{'/common/images/tool.png'}">
         <h4>[ 众创指南 ]</h4>
         <div class="tool-content">
-            社区版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。
+            社区版「众创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。
         </div>
         <div class="tool-btn tip-msg">
             <span>体验团队协作</span>
@@ -399,7 +426,7 @@
         <img alt="" th:src="@{'/common/images/tool.png'}">
         <h4>[ 众创指南 ]</h4>
         <div class="tool-content">
-            入门版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。
+            入门版「众创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。
         </div>
         <div class="tool-btn tip-msg">
             <span>开启团队协作</span>
@@ -411,7 +438,7 @@
         <img alt="" th:src="@{'/common/images/tool.png'}">
         <h4>[ 众创指南 ]</h4>
         <div class="tool-content">
-            豪华版「共创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。
+            豪华版「众创六力」指南提供多种浅白易懂的方法，帮助你掌握沟通力、创造力、感知和洞察力、场域构建力、组织力、问题解决力，以及初步学习协作的方法和机制，以及体察共同协作者的状态和习惯。
         </div>
         <div class="tool-btn tip-msg">
             <span>享受团队协作</span>
@@ -442,5 +469,12 @@
     $(".tip-msg").click(function () {
         layer.msg("功能开发中 敬请期待")
     })
+    $(".prev-slide").click(function () {
+        $("#myCarousel").carousel('prev');
+    });
+    // 循环轮播到下一个项目
+    $(".next-slide").click(function () {
+        $("#myCarousel").carousel('next');
+    });
 </script>
 </html>

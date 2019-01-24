@@ -39,9 +39,6 @@ $(document).ready(function () {
     $("#to-regist").on('click', function () {
         document.location.href = "/regist";
     });
-    $("#to-about-us").on('click', function () {
-        document.location.href = "/about_us";
-    });
     // 退出登录
     $("#exit").click(function () {
         $.get("/user/exit", function reload() {

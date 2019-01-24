@@ -72,14 +72,14 @@ $(document).ready(function () {
     });
 
     // 留言
-    $("#aside-message").on('click', function () {
+   /* $("#aside-message").on('click', function () {
         layer.open({
             type: 2,
             title: '请您留言',
             content: 'font/page/stay_message',
             area: ['430px', '500px']
         })
-    });
+    });*/
 
 
 });
