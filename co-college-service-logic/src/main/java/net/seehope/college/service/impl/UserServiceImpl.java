@@ -6,20 +6,19 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import com.sun.org.apache.bcel.internal.classfile.Code;
-import net.seehope.college.core.CodeEnum;
-import net.seehope.college.util.http.GetIpUtil;
-import net.seehope.college.util.security.BcryptEncodeUtil;
-import net.seehope.college.vo.ResultVo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import net.seehope.college.core.CodeEnum;
 import net.seehope.college.entity.User;
 import net.seehope.college.mapper.UserMapper;
 import net.seehope.college.service.UserService;
 import net.seehope.college.util.date.DateTimeUtil;
+import net.seehope.college.util.http.GetIpUtil;
+import net.seehope.college.util.security.BcryptEncodeUtil;
+import net.seehope.college.vo.ResultVo;
 
 /**
  * @BelongsProject: co-college
@@ -96,6 +95,7 @@ public class UserServiceImpl implements UserService {
             HttpSession session = request.getSession();
             User user = this.userMapper.get_user_detail_by_email(email);
             session.setAttribute("login_user", user.getUsername());
+
             return true;
         } else {
             log.info("邮箱为" + email + "的用户校验激活码错误");
@@ -120,6 +120,7 @@ public class UserServiceImpl implements UserService {
                 user.setLogin_faile(0);
                 this.userMapper.add_faile_time(user);
                 session.setAttribute("login_user", user.getUsername());
+                session.setAttribute("user_photo",user.getUser_info().getPhoto());
                 resultVo.setCode(CodeEnum._200.getCode());
                 resultVo.setMsg("登录校验成功");
                 userMapper.record_ip(email, GetIpUtil.getIpAddr(request));

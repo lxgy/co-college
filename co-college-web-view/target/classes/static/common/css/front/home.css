@@ -112,6 +112,10 @@
     font-weight: 600;
     text-align: center;
     color: #0f0f0f;
+    height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .type-item > a {

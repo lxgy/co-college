@@ -115,4 +115,21 @@ public class UserInfo implements Serializable {
 		this.user = user;
 	}
 
+	public UserInfo() {
+	}
+
+	@Override
+	public String toString() {
+		return "UserInfo{" +
+				"id=" + id +
+				", create_time='" + create_time + '\'' +
+				", update_time='" + update_time + '\'' +
+				", photo='" + photo + '\'' +
+				", qq_num='" + qq_num + '\'' +
+				", wechat='" + wechat + '\'' +
+				", sex=" + sex +
+				", phone='" + phone + '\'' +
+				", user=" + user +
+				'}';
+	}
 }

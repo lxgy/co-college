@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="net.seehope.college.mapper.MessageMapper">
+    <select id="getAllMessage" resultType="net.seehope.college.entity.Message">
+        select *
+        from t_message
+    </select>
+    <insert id="addMessage" parameterType="net.seehope.college.entity.Message">
+        insert into t_message (id, message_content, message_ip, message_date, message_phone)
+        value (#{id},  #{message_content}, #{message_ip}, #{message_date}, #{phone})
+    </insert>
+</mapper>

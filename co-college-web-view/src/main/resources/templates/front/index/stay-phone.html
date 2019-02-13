@@ -13,15 +13,15 @@
 			<section>
 				<form id="stay_phoneF" role="form">
 					<div class="form-group">
-						<input type="text" name="phone_num" class="form-control" placeholder="please enter your phone number...">
+						<input type="text" id="message_id" name="phone" class="form-control" placeholder="please enter your phone number...">
 					</div>
 
 					<div class="form-group">
-						<textarea name="description" id="description" class="form-control" rows="5" placeholder="please stay your summary..."></textarea>
+						<textarea name="message_content" id="message_content" class="form-control" rows="5" placeholder="please stay your summary..."></textarea>
 					</div>
 
 					<div class="form-group">
-						<a class="btn btn-info btn-block btn-lg">提交，让客服联系我</a>
+						<a class="btn btn-info btn-block btn-lg tj">提交，让客服联系我</a>
 					</div>
 				</form>
 
@@ -30,4 +30,30 @@
 	</body>
 
 	<script type="text/javascript" th:src="@{'/common/js/jquery-3.3.1.min.js'}"></script>
+	<script type="text/javascript" th:src="@{'/frame/layer/layer.js'}"></script>
+	<script type="text/javascript">
+	$(".tj").click(function () {
+	    var data=$("#stay_phoneF").serialize();
+		$.ajax({
+			method:'get',
+			data:data,
+			url:'/message/add',
+            async:true,
+			success:function  success(data) {
+				if(data.code == 200){
+				    $("#message_id").val("");
+				    $("#message_content").val("");
+				    $("#message_id").focus();
+				    layer.msg(data.msg)
+				}
+				else{
+				    layer.msg(data.msg)
+				}
+            },
+			error: function  error() {
+				layer.msg("请检查网络后重试")
+            }
+		})
+    })
+	</script>
 </html>

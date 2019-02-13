@@ -11,8 +11,12 @@ $(document).ready(function () {
             $("#header-image").removeClass("header-image");
             $("#header-nav").removeClass("header-nav");
             $("#header-loginregist").removeClass("header-loginregist");
+            $("#menu").addClass("downmenu-fix");
+            $("#menu").removeClass("downmenu-down");
         } else {
-            $(".college-header").removeClass("navbar-fixed-top fix-top")
+            $("#menu").addClass("downmenu-down");
+            $("#menu").removeClass("downmenu-fix");
+            $(".college-header").removeClass("navbar-fixed-top fix-top");
             $(".college-nav").removeClass("new-collegenav");
             $("#header-image").removeClass("new-headerimage");
             $("#header-nav").removeClass("new-headernav");

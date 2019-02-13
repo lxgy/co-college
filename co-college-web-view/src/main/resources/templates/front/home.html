@@ -25,7 +25,7 @@
 
 <body style="background: white;">
 <!--头部导航条开始-->
-<header class="college-header" th:include="front/common/header"></header>
+<header class="college-header" th:include="front/common/header" name="top"></header>
 <aside class="aside-right">
     <figure class="aside-phone" id="aside-phone">
         <div>
@@ -43,7 +43,7 @@
     </figure>
     <figure class="aside-totop text-hide">
         <div>
-            <a href="#carousel-example-generic">
+            <a href="#top">
                 <img width="24px" height="24px" th:src="@{'/common/images/top_07.png'}" alt="">
             </a>
         </div>
@@ -62,17 +62,22 @@
         <div class="carousel-inner">
             <div class="item active">
                 <a href="http://www.u-cto.com/">
-                    <img th:src="@{'/common/images/p1.jpg'}" style="height: 465px" alt="First slide">
+                    <img th:src="@{'/common/images/p1.jpg'}" style="height: 465px" alt="砺锋众创">
                 </a>
             </div>
             <div class="item">
-                <a href="http://codeseeding.com/article/3590">
-                    <img th:src="@{'/common/images/p2.jpg'}" style="height: 465px" alt="First slide">
+                <a href="http://codeseeding.com/article/3590" target="_blank">
+                    <img th:src="@{'/common/images/p2.jpg'}" style="height: 465px" alt="砺锋创新创业">
                 </a>
             </div>
             <div class="item">
                 <a href="#xm">
-                    <img th:src="@{'/common/images/p5.jpg'}" style="height: 465px" alt="First slide">
+                    <img th:src="@{'/common/images/p5.jpg'}" style="height: 465px" alt="砺锋服务">
+                </a>
+            </div>
+            <div class="item">
+                <a href="http://codeseeding.com/" target="_blank">
+                    <img th:src="@{'/common/images/p6.jpg'}" style="height: 465px" alt="码云社">
                 </a>
             </div>
         </div>
@@ -98,6 +103,7 @@
             已有2424568名加入创客&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;<span
                 class="teams-a "><a
                 class="tip-msg" style="color: #248eff; text-decoration: none;" href="javascript:">我要加入众创</a></span>
+        </div>
     </article>
     <!-- 控制按钮 -->
 
@@ -116,7 +122,7 @@
         <!--众筹分类开始-->
         <div class="project-type">
             <div class="lx-3 type-item">
-                <a href="#" style="text-decoration: none">
+                <a href="javascript:;" style="text-decoration: none" title="美厨娘来啦">
                     <div class="project-ued">
                         <img th:src="@{'/common/images/t1.jpg'}">
                     </div>
@@ -125,7 +131,7 @@
                 </a>
             </div>
             <div class="lx-3 type-item">
-                <a href="#" style="text-decoration: none">
+                <a href="javascript:;" style="text-decoration: none" title="惠民防伪溯源系统">
                     <div class="project-ai">
                         <img th:src="@{'/common/images/t2.jpg'}">
                     </div>
@@ -135,7 +141,7 @@
                 </a>
             </div>
             <div class="lx-3 type-item">
-                <a href="#" style="text-decoration: none">
+                <a href="javascript:;" style="text-decoration: none" title="财税通（基于大数据的财务税务技术服务平台）">
                     <div class="project-life">
                         <img th:src="@{'/common/images/t3.jpg'}">
                     </div>
@@ -144,7 +150,7 @@
                 </a>
             </div>
             <div class="lx-3 type-item">
-                <a href="#" style="text-decoration: none">
+                <a href="javascript:;" style="text-decoration: none" title="Link校园">
                     <div class="project-logo">
                         <img th:src="@{'/common/images/t4.jpg'}">
                     </div>
@@ -172,7 +178,7 @@
     <div class="logs-carousel">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><i class="fa fa-volume-up" aria-hidden="true"></i>&nbsp;恭贺吴泰云先生的摩锋出行成功融资3000万
+                <div class="swiper-slide"><i class="fa fa-volume-up" aria-hidden="true"></i>&nbsp;恭喜华商学院2015级吴同学共享新能源车获得5000万风投
                 </div>
                 <!--<div class="swiper-slide"><i class="fa fa-volume-up" aria-hidden="true"></i>&nbsp;恭贺mt先生的机器人成功融资100万-->
                 <!--</div>-->
@@ -185,9 +191,9 @@
         <h2>新颖需求</h2>
         <canvas width="280" height="260" id="myCanvas" style="max-width: 280px; max-height: 260px"></canvas>
         <div id="tags">
-            <a href="http://www.baidu.com">小程序</a> <a href="#">公众号</a><a href="#">人工智能</a><a href="#">App开发</a><a
-                href="#">网页设计</a>
-            <a href="#">官网开发</a><a href="#">智慧家居</a><a href="#">情感</a><a href="#">体验</a><a href="#">互联网</a>
+            <a href="javascript:;">小程序</a> <a href="javascript:;">公众号</a><a href="javascript:;">人工智能</a><a href="javascript:;">App开发</a><a
+                href="javascript:;">网页设计</a>
+            <a href="javascript:;">官网开发</a><a href="javascript:;">智慧家居</a><a href="javascript:;">情感</a><a href="javascript:;">体验</a><a href="javascript:;">互联网</a>
         </div>
         <div class="prjt-more">
             查看更多&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>

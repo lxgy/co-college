@@ -11,8 +11,12 @@
     background-repeat: no-repeat;
 
 }
-a:hover
-{
+
+.fix-top {
+    border-bottom: 2px solid #cccccc;
+}
+
+a:hover {
     text-shadow: none;
     text-decoration: none !important;
 }
@@ -31,9 +35,10 @@ a:hover
     font-size: 11px;
 }
 
-label{
+label {
     color: #d5f0fb;
 }
+
 .service-7s h5 {
     color: red;
 }
@@ -88,35 +93,35 @@ label{
     background-image: url(../../images/time.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 900px;
+    width: 1100px;
     min-width: 900px;
     margin: auto;
-    height: 600px;
+    height: 640px;
 }
 
 .success div {
-    position: absolute;
+    position: relative;
 
 }
 
 .success div img {
-    width: 360px;
+    width: 250px;
+    border-radius: 15px;
     /* position: absolute; */
 }
 
 .s1 {
-    top: 1365px;
-    left: 23%;
+    top: 80px;
+    left: 0;
 }
-
 .s2 {
-    top: 1490px;
-    left: 60%;
+    top: 10px;
+    left: 75%;
 }
 
 .s3 {
-    top: 1596px;
-    left: 23%;
+    top: -10px;
+    left: 1%;
 }
 
 h3.tietle {
@@ -166,9 +171,11 @@ ul li {
 #FontScroll {
     padding-left: 10px
 }
-footer{
+
+footer {
     margin-top: 0px;
 }
-.college-footer{
+
+.college-footer {
     margin-top: 100px;
 }
