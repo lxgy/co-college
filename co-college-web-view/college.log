@@ -139,3 +139,228 @@ Caused by: java.lang.ClassNotFoundException: net.seehope.college.service.UserSer
 2019-01-19 17:40:09.448  INFO 16004 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-01-19 17:40:09.461  INFO 16004 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
 2019-01-19 17:40:13.670  INFO 16004 --- [http-nio-8888-exec-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-02-13 11:44:59.319  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:44:59.373  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:44:59.854  INFO 12588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-13 11:44:59.854  INFO 12588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-13 11:45:07.440  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:45:07.523  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:45:07.524  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:45:07.558  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:45:07.559  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:45:07.559  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:45:07.573  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:45:07.809  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:45:07.809  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7955 ms
+2019-02-13 11:45:10.556  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:45:11.880  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:45:12.093  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:45:12.101  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 20.436 seconds (JVM running for 55.61)
+2019-02-13 11:45:29.997  INFO 12588 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-13 11:45:29.999  INFO 12588 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-13 11:45:30.013  INFO 12588 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-02-13 11:46:48.099  INFO 12588 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:46:48.699  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:46:48.699  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:46:49.261  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:46:49.262  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:46:49.263  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:46:49.263  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:46:49.264  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:46:49.264  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:46:49.265  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:46:49.294  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:46:49.295  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 593 ms
+2019-02-13 11:46:49.468  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:46:49.820  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:46:49.847  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:46:49.850  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.188 seconds (JVM running for 153.359)
+2019-02-13 11:46:49.854  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:47:09.950  INFO 12588 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:47:10.306  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:47:10.307  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:47:10.822  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:47:10.823  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:47:10.823  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:47:10.823  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:47:10.824  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:47:10.824  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:47:10.825  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:47:10.929  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:47:10.930  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 618 ms
+2019-02-13 11:47:11.101  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:47:11.508  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:47:11.536  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:47:11.537  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.267 seconds (JVM running for 175.046)
+2019-02-13 11:47:11.539  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:47:20.792  INFO 12588 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:47:21.137  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:47:21.137  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:47:21.650  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:47:21.650  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:47:21.650  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:47:21.651  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:47:21.651  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:47:21.651  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:47:21.651  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:47:21.677  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:47:21.677  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 536 ms
+2019-02-13 11:47:21.844  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:47:22.183  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:47:22.206  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:47:22.207  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.107 seconds (JVM running for 185.716)
+2019-02-13 11:47:22.210  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:47:22.221  INFO 12588 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-13 11:47:22.222  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-13 11:47:22.225  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-02-13 11:47:51.112  INFO 12588 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:47:51.523  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:47:51.524  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:47:51.948  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:47:51.949  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:47:51.950  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:47:51.950  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:47:51.950  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:47:51.950  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:47:51.951  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:47:51.963  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:47:51.963  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 435 ms
+2019-02-13 11:47:52.102  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:47:52.428  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:47:52.448  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:47:52.448  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 0.957 seconds (JVM running for 215.957)
+2019-02-13 11:47:52.450  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:47:55.854  INFO 12588 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-13 11:47:55.855  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-13 11:47:55.859  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-02-13 11:49:36.462  INFO 12588 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:49:36.770  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:49:36.770  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:49:37.217  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:49:37.218  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:49:37.219  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:49:37.219  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:49:37.219  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:49:37.220  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:49:37.220  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:49:37.234  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:49:37.235  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 462 ms
+2019-02-13 11:49:37.379  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:49:37.705  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:49:37.726  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:49:37.726  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.004 seconds (JVM running for 321.235)
+2019-02-13 11:49:37.728  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:49:37.927  INFO 12588 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-13 11:49:37.927  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-13 11:49:37.931  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-02-13 11:50:06.072  INFO 12588 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:06.560  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:50:06.561  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:50:07.020  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:50:07.022  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:50:07.022  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:50:07.023  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:50:07.023  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:50:07.023  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:50:07.023  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:50:07.040  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:50:07.041  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 477 ms
+2019-02-13 11:50:07.196  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:07.543  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:50:07.567  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:50:07.568  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.044 seconds (JVM running for 351.077)
+2019-02-13 11:50:07.570  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:50:14.739  INFO 12588 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:15.020  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:50:15.021  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:50:15.476  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:50:15.477  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:50:15.477  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:50:15.477  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:50:15.477  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:50:15.478  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:50:15.478  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:50:15.494  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:50:15.494  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 470 ms
+2019-02-13 11:50:15.662  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:16.020  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:50:16.044  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:50:16.044  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.056 seconds (JVM running for 359.553)
+2019-02-13 11:50:16.046  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:50:16.055  INFO 12588 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-13 11:50:16.056  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-13 11:50:16.060  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-02-13 11:50:24.558  INFO 12588 --- [Thread-46] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:24.872  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:50:24.872  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:50:25.335  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:50:25.336  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:50:25.336  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:50:25.336  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:50:25.336  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:50:25.336  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:50:25.337  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:50:25.351  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:50:25.351  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 476 ms
+2019-02-13 11:50:25.493  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:25.947  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:50:25.969  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:50:25.970  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.134 seconds (JVM running for 369.479)
+2019-02-13 11:50:25.973  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:50:45.568  INFO 12588 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-13 11:50:45.569  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-13 11:50:45.573  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-02-13 11:50:46.577  INFO 12588 --- [Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:46.983  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:50:46.984  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:50:47.427  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:50:47.428  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:50:47.428  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:50:47.429  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:50:47.429  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:50:47.429  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:50:47.429  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:50:47.444  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:50:47.444  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 458 ms
+2019-02-13 11:50:47.586  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:47.928  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:50:47.950  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:50:47.951  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.0 seconds (JVM running for 391.459)
+2019-02-13 11:50:47.953  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:50:52.628  INFO 12588 --- [Thread-58] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:52.901  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:50:52.901  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:50:53.373  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:50:53.374  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:50:53.375  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:50:53.375  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:50:53.375  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:50:53.375  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:50:53.375  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:50:53.390  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:50:53.391  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 485 ms
+2019-02-13 11:50:53.552  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:50:53.964  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:50:53.986  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:50:53.986  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.119 seconds (JVM running for 397.495)
+2019-02-13 11:50:53.988  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-13 11:50:55.176  INFO 12588 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-13 11:50:55.178  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-13 11:50:55.185  INFO 12588 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-02-13 11:51:13.303  INFO 12588 --- [Thread-64] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:51:13.577  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Starting ApplicationContext on DESKTOP-HMEKU7N with PID 12588 (D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view\target\classes started by mqgy in D:\WorkSpace\RapidWorkSpace\co-college\co-college-web-view)
+2019-02-13 11:51:13.578  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : No active profile set, falling back to default profiles: default
+2019-02-13 11:51:14.026  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-02-13 11:51:14.028  INFO 12588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-13 11:51:14.028  INFO 12588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-13 11:51:14.029  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-02-13 11:51:14.029  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-13 11:51:14.029  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-13 11:51:14.029  INFO 12588 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-02-13 11:51:14.044  INFO 12588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-13 11:51:14.044  INFO 12588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 463 ms
+2019-02-13 11:51:14.195  INFO 12588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-13 11:51:14.549  INFO 12588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-13 11:51:14.569  INFO 12588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-02-13 11:51:14.569  INFO 12588 --- [restartedMain] net.seehope.ApplicationContext           : Started ApplicationContext in 1.022 seconds (JVM running for 418.078)
+2019-02-13 11:51:14.572  INFO 12588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

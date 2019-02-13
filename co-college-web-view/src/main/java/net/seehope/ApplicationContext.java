@@ -10,7 +10,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @ServletComponentScan
 public class ApplicationContext {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ApplicationContext.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ApplicationContext.class, args);
+	}
 }
