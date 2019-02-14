@@ -1,10 +1,9 @@
 package net.seehope.college.service;
 
+import java.util.List;
+
 import net.seehope.college.entity.User;
 import net.seehope.college.vo.ResultVo;
-
-import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 /**
  * @BelongsProject: co-college

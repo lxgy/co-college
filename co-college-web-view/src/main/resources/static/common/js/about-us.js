@@ -2,6 +2,7 @@
     $(".tip-msg").click(function () {
         layer.msg("功能开发中 敬请期待")
     })
+    
     $.fn.FontScroll = function (options) {
         var d = {time: 3000, s: 'fontColor', num: 1}
         var o = $.extend(d, options);
