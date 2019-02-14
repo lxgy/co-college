@@ -1,174 +1,263 @@
-.top {
-    padding: 150px 530px;
-    text-align: center;
-    line-height: 7.5em;
-    width: 100%;
-    background-image: url(../../images/fm.jpg);
-    -webkit-background-size: 100%;
-    background-size: 100%;
-    height: 480px;
+body {
+	min-width: 1200px;
+}
+
+.new-collegenav{
+	box-shadow: 0px 0px 20px #ccc;
+}
+
+.seehope-description {
+	position: relative;
+	width: 100%;
+}
+
+.sd-img {
+	height: 480px;
+	width: 100%;
+}
+
+.core-value {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.core-dec {
+	width: 88px;
+	border: 1px solid #11d68a;
+}
+
+footer {
+	margin-top: 0px;
+}
+
+.college-footer {
+	margin-top: 100px;
+}
+
+.swiper-container {
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.swiper-slide {
+	max-width: 236px;
+	height: 280px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	margin-left: 50px;
+	box-shadow: 0 0 5px #e0dbdb;
+	margin-top: 2px;
+}
+
+.swiper-slide img {
+	border-radius: 100px;
+	width: 106px;
+	height: 106px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.swiper-slide h4 {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.swiper-slide div {
+	font-size: 14px;
+	text-indent: 2em;
+	text-align: left;
+	color: #ccc;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.seehope-teacher {
+	margin-top: 50px;
+}
+
+.seehope-teacher h2 {
+	margin-left: 9%;
+}
+
+.seehope-teacher>h2>small {
+	font-size: 15px;
+}
+
+.teacher-detail {
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 1120px;
+}
+
+.teacher-item {
+	position: relative;
+}
+
+.teacher-item img {
+	width: 100%;
+	height: 260px;
+	border-radius: 2px;
+	box-shadow: 0px 0px 1px;
+}
+
+.teacher-item img:hover {
+	box-shadow: 0px 0px 5px;
+}
+
+.item-detail {
+	position: absolute;
+	top: 6px;
+	left: 25px;
+}
+
+.item-detail p {
+	font-size: 20px;
+	width: 21px;
+	margin: 0px 4px 0px 0px;
+	font-family: '微软雅黑';
+	float: left;
+}
+
+.item-detail p:last-child {
+	width: 18px;
+	color: white;
+	font-size: 14px;
+	margin: 6px 0px 90px;
+	background-color: #72757E;
+	padding: 3px 2px;
+	border-radius: 2px;
+}
+
+.col-xs-2{
+	width: 20%;
+}
+
+.teracher-more{
+	margin-top: 320px;
+    margin-left: 11%
+}
+.more-item{
+	width: 10%;
+	border-left: 1px solid #ccc;
+	text-align: center;
+	cursor: pointer;
+}
+.more-item:last-child {
+	border-right: 1px solid #ccc;
+}
+
+.more-detail .col-xs-4{
+	width:30%;
+	border: 1px solid #ccc;
+	margin-right: 1%;
+	position: relative;
+	height: 110px;
+	margin-top: 40px;
+}
+.more-detail img{
+	position: absolute;
+	width: 100px;
+	height: 110px;
+	top: -15px;
+}
+
+.more-btn{
+	position: absolute;
+    top: 76px;
+    z-index: 100;
+    background: rgba(80,207,123,.95);
+    width: 100px;
+    padding-left: 5px;
     color: white;
-    background-repeat: no-repeat;
-
-}
-a:hover
-{
-    text-shadow: none;
-    text-decoration: none !important;
+    cursor: pointer;
 }
 
-.service-7s {
-    position: relative;
-    background-image: url(../../images/part1-con-div-bg.jpg);
-    background-size: 100%;
-    -webkit-background-size: 100%;
-    background-size: 100%;
-    width: 900px;
-    margin: auto;
-    min-width: 900px;
-    background-repeat: no-repeat;
-    height: 646px;
-    font-size: 11px;
+.more-btn:hover {
+	 background-color: #008000;
+}
+.more-name{
+	margin-top: 10px;
+}
+.more-zc{
+	color: #ccc;
+	font-size: 13px;
+	margin-top: -5px;
+}
+.more-sc{
+	margin-top: 20px;
+}
+.more-name,.more-zc,.more-sc{
+	margin-left: 120px;
+}
+.more-sc>span{
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px 8px;
+}
+.more-love{
+	margin-left: 10px;
+	color: rgba(80,207,123,.95);
+}
+.co-operatives{
+	text-align: center;
+	margin-top: 75px;	
+}
+.co-operatives>p{
+	font-size: 16px;
+	color: #ccc;
+	margin-top: 20px;
 }
 
-label{
-    color: #d5f0fb;
-}
-.service-7s h5 {
-    color: red;
+.co-operatives img{
+	width: 100px;
+	height: 100px;
 }
 
-.service-7s div {
-    width: 350px;
-    position: absolute;
+.co-operatives img:hover{
+	width: 110px;
 }
 
-.service-s1 {
-    top: 383px;
-    left: -3%;
-    text-align: right;
+.co-operatives section{
+	width: 1200px !important;
+	margin: 0 auto;
 }
 
-.service-s2 {
-    top: 174px;
-    left: -9%;
-    text-align: right;
+.co-operatives .col-xs-2,.seehope-teams .col-xs-2{
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
-.service-s3 {
-    left: 69%;
-    top: 120px;
+.seehope-teams{
+	margin-top:380px;
+	clear: both;
+	text-align: center;
+}
+.seehope-teams p{
+	color: #ccc;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.seehope-teams img{
+	width: 100px;
+	height: 110px;
 }
 
-.service-s4 {
-    left: 69%;
-    top: 243px;
+.seehope-teams section{
+	width: 1200px !important;
+	margin: 0 auto;
 }
 
-.service-s5 {
-    left: -1%;
-    text-align: right;
-    top: 68px;
+.seehope-teams img:hover {
+	width: 110px;
 }
 
-.service-s6 {
-    left: 65%;
-    top: 358px;
-}
-
-.service-s7 {
-    left: -7%;
-    text-align: right;
-    top: 281px;
-}
-
-.success {
-    color: #4d4c4c;
-    font-weight: bold;
-    background-image: url(../../images/time.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 900px;
-    min-width: 900px;
-    margin: auto;
-    height: 600px;
-}
-
-.success div {
-    position: absolute;
-
-}
-
-.success div img {
-    width: 360px;
-    /* position: absolute; */
-}
-
-.s1 {
-    top: 1365px;
-    left: 23%;
-}
-
-.s2 {
-    top: 1490px;
-    left: 60%;
-}
-
-.s3 {
-    top: 1596px;
-    left: 23%;
-}
-
-h3.tietle {
-    padding: 15px 10px;
-    width: 264px;
-    border-left: 5px solid #2554ad;
-}
-
-ul li {
-    list-style: none;
-    margin-bottom: 10px;
-}
-
-#FontScroll {
-    font-size: 18px;
-    border-radius: 15px;
-    width: 1100px;
-    height: 270px;
-    margin: auto;
-    background-color: #ffffff7a;
-    line-height: 30px;
-    overflow: Hidden;
-    padding: 5px 0;
-    /* border: 10px solid #fb1d1d0f; */
-    border-top: 10px solid;
-    padding: 61px;
-    padding-left: 61px;
-    border-radius: 7px;
-}
-
-#FontScroll a {
-    color: black;
-    text-decoration: none;
-}
-
-#FontScroll .line {
-    text-align: left;
-    font-size: 20px;
-    width: 100%;
-}
-
-#FontScroll .fontColor a {
-    color: rgba(0, 0, 0, 0.84);
-    transition: all 1.5s ease 0s;
-}
-
-#FontScroll {
-    padding-left: 10px
-}
-footer{
-    margin-top: 0px;
-}
-.college-footer{
-    margin-top: 100px;
-}

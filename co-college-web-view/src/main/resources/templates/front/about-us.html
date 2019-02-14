@@ -1,193 +1,374 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 
-<head>
-    <meta charset="UTF-8">
-    <title>关于我们</title>
-    <!-- title 图标 -->
-    <link rel="shortcut icon" type="text/css" th:href="@{'title2.ico'}"/>
-    <!-- 头部header样式 -->
-    <link rel="stylesheet" type="text/css"
-          th:href="@{'/common/css/front/header.css'}">
-    <!-- 全站统一样式表 -->
-    <link rel="stylesheet" type="text/css"
-          th:href="@{'/common/css/front/main.css'}"/>
-    <!-- 本页面样式表 -->
-    <link rel="stylesheet" type="text/css"
-          th:href="@{'/common/css/front/about-us.css'}"/>
-    <!-- bookstrap核心样式 -->
-    <link rel="stylesheet" type="text/css"
-          th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}"/>
-    <!-- layer弹出层 -->
-    <link rel="stylesheet" type="text/css" th:href="@{'/frame/layer/theme/default/layer.css'}"/>
-</head>
-<script th:src="@{'/common/js/jquery-3.3.1.min.js'}"
-        type="text/javascript" charset="utf-8"></script>
-<body>
-<!--头部导航条开始-->
-<header class="college-header" th:include="front/common/header"></header>
-<!--砺锋介绍-->
-<section>
-    <article class="top">
-        <h2>
-            <label for="">@砺锋众创学院 </label> 遇见更好的自己
-        </h2>
-        <p>整合、传播、分享、赋能</p>
-    </article>
-</section>
-<!--7s服务-->
-<section>
-    <article class="service-7s">
-        <h3 class="tietle">我们的服务</h3>
-        <div class="service-s1">
-            <H5>Skill 创新技能与创客教育</H5>
-            <p>从Java大数据、Python、前端、物联网、VR、人工智能等技术的培训到前沿技术论坛，让创客的梦想走进现实。</p>
-        </div>
-        <div class="service-s2">
-            <H5>Service 高薪就业</H5>
-            <p>主要是为入驻创客团队、个人、企业提供高薪就业的安排，入职起薪不低于6000元，减少大学生创业的风险，解决他们的后顾之忧</p>
-        </div>
-        <div class="service-s3"
-             title="风口解读：行业信息及风向解读，上下游产业资源共享。
-创新孵化：为进驻企业提供良好的创新文化氛围及孵化土壤。
-高效协同：扁平管理及提升效率的管理体系，协同聚变的管理思维。
-开源设计：开源设计的工具、信息及基于社区及会员体系的众筹、众创、众包。
-">
-            <H5>Share 创业辅导</H5>
-            <p>风口解读 创新孵化 高效协同 开源设计</p>
+	<head>
+		<meta charset="UTF-8">
+		<title>砺锋众创--关于我们</title>
+		<!-- title 图标 -->
+		<link rel="shortcut icon" type="text/css" th:href="@{'title2.ico'}" />
+		<!-- 头部header样式 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/header.css'}">
+		<!-- 全站统一样式表 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/main.css'}" />
+		<!-- bookstrap核心样式 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.min.css'}" />
+		<!-- layer弹出层 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/layer/theme/default/layer.css'}" />
+		<!-- swiper轮播样式文件 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs	/Swiper/3.4.2/css/swiper.min.css">
+		<!-- 字体图标 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/frame/font-awesome-4.7.0/css/font-awesome.min.css'}" />
+		<!-- 本页面样式表 -->
+		<link rel="stylesheet" type="text/css" th:href="@{'/common/css/front/about-us.css'}" />
+	</head>
 
-        </div>
-        <div class="service-s4"
-             title="市场咨询：为进驻企业共同分析判断所有的市场形势 ，基于更精确的市场洞察，完善项目及产品市场定位。
-管理咨询：为进驻项目提供团队搭建、股权分配 、项目发展等管理咨询。
-精益创业：帮助进驻项目快速迭代产品，建立运营体系。
-制度设计：根据企业快速成长，提供更深入的合作扶持模式。
-">
-            <H5>Structure 商业模式构建</H5>
-            <p>市场咨询 管理咨询 精益创业 制度设计</p>
+	<body>
+		<!--头部导航条开始-->
+		<header class="college-header" th:include="front/common/header"></header>
+		<!--砺锋介绍-->
+		<article class="seehope-description">
+			<section>
+				<img class="sd-img" th:src="@{'/common/images/p3.jpg'}" title="砺锋众创" alt="砺锋众创" />
+			</section>
+		</article>
+		<!-- 砺锋介绍结束 -->
+		<!-- 核心价值开始 -->
+		<article>
+			<h2 class="core-value">7S服务</h2>
+			<hr class="core-dec" />
+			<section>
+				<!--轮播内容开始-->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img th:src="@{'common/images/price1.png'}" />
+							<h4>高薪就业</h4>
+							<div>主要是为入驻创客团队、个人、企业提供高薪就业的安排，入职起薪不低于6000元，减少大学生创业的风险，解决他们的后顾之忧</div>
+						</div>
+						<div class="swiper-slide">
+							<img th:src="@{'common/images/price2.png'}" />
+							<h4> 三方服务</h4>
+							<div>法律咨询 政策申请 知识产权与专利论文 人力与技术支撑</div>
+						</div>
+						<div class="swiper-slide">
+							<img th:src="@{'common/images/price3.png'}" />
+							<h4> 创新技能</h4>
+							<div>从Java大数据、Python、前端、物联网、VR、人工智能等技术的培训到前沿技术论坛，让创客的梦想走进现实。</div>
+						</div>
+						<div class="swiper-slide">
+							<img th:src="@{'common/images/price4.png'}" />
+							<h4>工商注册</h4>
+							<div>工作空间 社交空间 资源空间 数字空间 工商注册</div>
+						</div>
+						<div class="swiper-slide">
+							<img th:src="@{'common/images/price1.png'}" />
+							<h4>创业辅导</h4>
+							<div>风口解读 创新孵化 高效协同 开源设计</div>
+						</div>
+						<div class="swiper-slide">
+							<img th:src="@{'common/images/price2.png'}" />
+							<h4>商业模式</h4>
+							<div>市场咨询 管理咨询 精益创业 制度设计</div>
+						</div>
+						<div class="swiper-slide">
+							<img th:src="@{'common/images/price3.png'}" />
+							<h4>融资对接</h4>
+							<div>为需要融资的企业量身分析，推荐适合的投资人，经审核符合资格的进驻企业，为其提供项目北书，对进驻的优秀企业，提供创投资金及项目人力、管理经验、资源的优先扶持。 鼓励优秀创客团队与项目参加国家、省市级创新创业大赛。</div>
+						</div>
 
-        </div>
-        <div class="service-s5"
-             title="工作空间：每个固定工位面积设定为2.62平方，坐拥信息港中心、天河软件园中心位置 ，IT产业园区集中地，上下游生态链条完整，入驻享有园区相关扶持优惠政策。
-社交空间：专属进驻团队培训、沙龙会、专题学习会，与创新领域前沿精英共同提升。
-资源空间：为进驻团队对接有效客户渠道 ，快速实现内测评估和产品迭代。
- 数字空间：企业光纤宽带 ，24小时网络管理及技术支持，云存储及云计算资源提供，更便捷交换数据，协同软件及办公软件支持，提升团队协作效果，测试平台支持，更快速推动开发流程
-工商注册：为进驻项目团队提供专项政策及资金补贴等的最新信息，协助进驻企业完成相关申请及在社区内分享相关经验">
-            <H5>Space 联合办公与工商注册</H5>
-            <p>工作空间 社交空间 资源空间 数字空间 工商注册</p>
-        </div>
-        <div class="service-s6">
-            <H5>Support：投融资对接</H5>
-            <p>为需要融资的企业量身分析，推荐适合的投资人，经审核符合资格的进驻企业，为其提供项目北书，对进驻的优秀企业，提供创投资金及项目人力、管理经验、资源的优先扶持。
-                鼓励优秀创客团队与项目参加国家、省市级创新创业大赛。</p>
-        </div>
-        <div class="service-s7"
-             title="法律咨询：为进驻企业提供法律代理，投融资法务事项。
-政策申请：为进驻项目团队提供专项政策及资金补贴等的最新信息，协助进驻企业完成相关申请及在社区内分享相关经验。
-知识产权与专利论文 ：协助进驻项目团队申请专利、著作权、论文等自主产权。
-人力与技术支撑：根据进驻企业不同发展阶段，提供团队评估、整合人力技术资源 。
-科技立项与政策补贴申请
-">
-            <H5>System 第三方服务</H5>
-            <p>法律咨询 政策申请 知识产权与专利论文 人力与技术支撑</p>
+					</div>
+					<!-- 如果需要导航按钮 -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+				<!--轮播内容介绍-->
+			</section>
+		</article>
+		<!-- 核心价值结束 -->
 
-        </div>
-    </article>
-</section>
-<!--成功案例-->
-<section>
-    <article class="success">
-        <h3 class="tietle">成功案例</h3>
-        <div class="s1">
-            <img src="../../common/images/mofen.png" alt="">
-            <p>吴泰云</p>
-            <p>摩纷出行共享新能源车</p>
-            <p>融资5000万</p>
-        </div>
-        <div class="s2">
-            <img src="../../common/images/jike.png" alt="">
-            <p>叶建锋</p>
-            <p>2014年加入砺锋众创空间培训团队</p>
-            <p>2016年创业“技客区”</p>
-        </div>
-        <div class="s3">
-            <img src="../../common/images/exiu.png" alt="">
-            <p>吴越</p>
-            <p>2014年加入砺锋众创空间培训团队</p>
-            <p>2016年深圳创业“E修大师” 成功融资</p>
-        </div>
-    </article>
-</section>
-<section>
-    <h3 class="tietle" style="margin: 50px 200px;">合作企业</h3>
-    <article class="partner" id="FontScroll">
-        <ul>
-            <li><a href="javascript:;">广州捷盈网络科技有限公司</a></li>
-            <li><a href="javascript:;">广州磁盾通信科技有限公司</a></li>
-            <li><a href="javascript:;">广州迅卓检测科技有限公司</a></li>
-            <li><a href="javascript:;">广州仙童信息科技有限责任公司</a></li>
-            <li><a href="javascript:;">广州新榜科技有限公司</a></li>
-            <li><a href="javascript:;">广州市比朗仪器科技有限公司</a></li>
-            <li><a href="javascript:;">广州市融升信息科技有限公司</a></li>
-            <li><a href="javascript:;">广东瑞威沃教育科技有限公司</a></li>
-            <li><a href="javascript:;">广州陌熟信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州猫头鹰教育发展咨询有限公司</a></li>
-            <li><a href="javascript:;">广州满昇装饰材料有限公司</a></li>
-            <li><a href="javascript:;">广州市蕊语服饰有限公司</a></li>
-            <li><a href="javascript:;">广州乐丹福贸易有限公司</a></li>
-            <li><a href="javascript:;">广州巴力丁健康科技有限公司</a></li>
-            <li><a href="javascript:;">广州澳林机电设备安装有限公司</a></li>
-            <li><a href="javascript:;">广州意卡信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州恒永软件有限公司</a></li>
-            <li><a href="javascript:;">广州阿迪迩科技有限公司</a></li>
-            <li><a href="javascript:;">广州独峰信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州畅码科技有限公司</a></li>
-            <li><a href="javascript:;">广州狸园科技有限公司</a></li>
-            <li><a href="javascript:;">广州繁羽科技有限公司</a></li>
-            <li><a href="javascript:;">广州雷雳信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州金秋信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州心蛙科技有限责任公司</a></li>
-            <li><a href="javascript:;">广州耐思世界信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州韵思信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州诺米网络科技有限公司</a></li>
-            <li><a href="javascript:;">广州市锃演信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州创龙信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州飞蛾科技有限公司</a></li>
-            <li><a href="javascript:;">广州翔诺信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州萌猫信息科技有限公司</a></li>
-            <li><a href="javascript:;">煦涵科技（广州）有限公司</a></li>
-            <li><a href="javascript:;">广州智娇环保科技有限公司</a></li>
-            <li><a href="javascript:;">广州市广齐美科技发展有限公司</a></li>
-            <li><a href="javascript:;">广州联同信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州合世信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州快兔信息科技有限责任公司</a></li>
-            <li><a href="javascript:;">广州牧安技术有限公司</a></li>
-            <li><a href="javascript:;">广州观诗文化传播有限公司</a></li>
-            <li><a href="javascript:;">广州玛多商贸有限公司</a></li>
-            <li><a href="javascript:;">广州洛蕾塔纺织品有限公司</a></li>
-            <li><a href="javascript:;">广州康翔信息科技有限公司</a></li>
-            <li><a href="javascript:;">广州谱维仪器维护有限公司</a></li>
-            <li><a href="javascript:;">广州领鹿医疗科技有限公司</a></li>
-            <li><a href="javascript:;">广州佳飞文化发展有限公司</a></li>
-            <li><a href="javascript:;">广州辰晟文化传播有限公司
-        </ul>
-    </article>
-</section>
-<!-- 底部开始 -->
-<footer class="college-footer" th:include="front/common/footer"></footer>
-<!-- 底部结束 -->
-</body>
-<script src="../../common/js/jquery-3.3.1.min.js"></script>
-<script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
-<script src="../../common/js/about-us.js"></script>
-<script th:src="@{'/common/js/front/header.js'}" type="text/javascript"
-        charset="utf-8"></script>
-<script type="text/javascript">
-    $(function () {
-        $('#FontScroll').FontScroll({
-            time: 500,
-            num: 1
-        });
-    });
-</script>
+		<!-- 创客导师开始 -->
+		<article class="seehope-teacher">
+			<h2>创客导师<small> &nbsp;&nbsp;优秀创客导师坐镇 优秀创客导师可指定咨询</small></h2>
+			<section class="teacher-detail">
+				<div class="teacher-item col-xs-2">
+					<img alt="" th:src="@{'/common/images/seehopet2.jpg'}">
+					<div class="item-detail">
+						<p>李国华</p>
+						<p>著名创客导师</p>
+					</div>
+				</div>
+				<div class="teacher-item col-xs-2">
+					<img alt="" th:src="@{'/common/images/seehopet3.jpg'}">
+					<div class="item-detail">
+						<p>吴罗</p>
+						<p>著名创客导师</p>
+					</div>
+				</div>
+				<div class="teacher-item col-xs-2">
+					<img alt="" th:src="@{'/common/images/seehopet4.jpg'}">
+					<div class="item-detail">
+						<p>林丽静</p>
+						<p>先锋创客导师</p>
+					</div>
+				</div>
+				<div class="teacher-item col-xs-2">
+					<img alt="" th:src="@{'/common/images/seehopet2.jpg'}">
+					<div class="item-detail">
+						<p>纪孟廷</p>
+						<p>著名创客导师</p>
+					</div>
+				</div>
+				<div class="teacher-item col-xs-2">
+					<img alt="" th:src="@{'/common/images/seehopet1.jpg'}">
+					<div class="item-detail">
+						<p>陈立为</p>
+						<p>著名创客导师</p>
+					</div>
+				</div>
+			</section>
+			<section class="teracher-more">
+				<div class="row">
+					<div class="col-xs-2 more-item">就业导师</div>
+					<div class="col-xs-2 more-item">律政导师</div>
+					<div class="col-xs-2 more-item">融资导师</div>
+					<div class="col-xs-2 more-item">创新导师</div>
+					<div class="col-xs-2 more-item">商业导师</div>
+					<div class="col-xs-2 more-item">创业导师</div>
+				</div>
+				<div class="row more-detail">
+					<div class="col-xs-4">
+						<img th:src="@{'/common/images/st1.jpg'}">
+						<div class="more-btn">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<span>指定咨询TA</span>
+						</div>
+						<p class="more-name">纪孟廷</p>
+						<p class="more-zc">就业导师
+						   <span class="more-love">
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						   </span>
+						</p>
+						<p class="more-sc">
+							<span>服务腾讯</span><span>擅长就业指导</span>
+						</p>
+					</div>
+					<div class="col-xs-4">
+						<img th:src="@{'/common/images/st2.jpg'}">
+						<div class="more-btn">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<span>指定咨询TA</span>
+						</div>
+						<p class="more-name">陈立为</p>
+						<p class="more-zc">律政导师
+						   <span class="more-love">
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						   </span>
+						</p>
+						<p class="more-sc">
+							<span>服务腾讯</span><span>擅长就业指导</span>
+						</p>
+					</div>
+					<div class="col-xs-4">
+						<img th:src="@{'/common/images/st3.png'}">
+						<div class="more-btn">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<span>指定咨询TA</span>
+						</div>
+						<p class="more-name">师慧</p>
+						<p class="more-zc">融资导师
+						    <span class="more-love">
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						   </span>
+						</p>
+						<p class="more-sc">
+							<span>服务腾讯</span><span>擅长就业指导</span>
+						</p>
+					</div>
+					<div class="col-xs-4">
+						<img th:src="@{'/common/images/st4.jpg'}">
+						<div class="more-btn">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<span>指定咨询TA</span>
+						</div>
+						<p class="more-name">李源</p>
+						<p class="more-zc">商业导师
+						    <span class="more-love">
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						   </span>
+						</p>
+						<p class="more-sc">
+							<span>服务腾讯</span><span>擅长就业指导</span>
+						</p>
+					</div>
+					<div class="col-xs-4">
+						<img th:src="@{'/common/images/st5.jpg'}">
+						<div class="more-btn">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<span>指定咨询TA</span>
+						</div>
+						<p class="more-name">李丽霞</p>
+						<p class="more-zc">就业导师
+						   <span class="more-love">
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						   </span>
+						</p>
+						<p class="more-sc">
+							<span>服务腾讯</span><span>擅长就业指导</span>
+						</p>
+					</div>
+					<div class="col-xs-4">
+						<img th:src="@{'/common/images/st6.jpg'}">
+						<div class="more-btn">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<span>指定咨询TA</span>
+						</div>
+						<p class="more-name">卢贺生</p>
+						<p class="more-zc">就业导师
+						   <span class="more-love">
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						      <i class="fa fa-heart-o" aria-hidden="true"></i>
+						   </span>
+						</p>
+						<p class="more-sc">
+							<span>服务腾讯</span><span>擅长就业指导</span>
+						</p>
+					</div>
+				</div>
+			</section>
+		</article>
+		<!-- 创客导师结束 -->
+		<!-- 荣誉开始 -->
+		<article class="co-operatives">
+		    <h2>荣誉赛事</h2>
+		    <p>用成绩和奖项说话,10年优秀经验为您铺路</p>
+		    <section>
+		        <div class="col-xs-2">
+		            <img alt="" th:src="@{'/common/images/jiang.png'}">
+		        </div>
+		        <div class="col-xs-2">
+		            <img alt="" th:src="@{'/common/images/jiang2.png'}">
+		        </div>
+		        <div class="col-xs-2">
+		            <img alt="" th:src="@{'/common/images/jiang3.png'}">
+		        </div>
+		        <div class="col-xs-2">
+		            <img alt="" th:src="@{'/common/images/jiang4.png'}">
+		        </div>
+		        <div class="col-xs-2">
+		            <img alt="" th:src="@{'/common/images/jiang5.png'}">
+		        </div>
+		        <div class="col-xs-2">
+		            <img alt="" th:src="@{'/common/images/jiang6.png'}">
+		        </div>
+		        <div class="col-xs-2">
+		            <img alt="" th:src="@{'/common/images/jiang7.png'}">
+		        </div>
+		        <div class="col-xs-2">
+		            <img alt="" th:src="@{'/common/images/jiang8.png'}">
+		        </div>
+		        <div class="col-xs-2">
+		             <img alt="" th:src="@{'/common/images/jiang9.png'}">
+		        </div>
+		        <div class="col-xs-2">
+		             <img alt="" th:src="@{'/common/images/jiang10.png'}">
+		        </div>
+		    </section>
+		</article>
+		<!-- 荣誉结束 -->
+		<article class="seehope-teams">
+		    <h2>入住企业</h2>
+		    <p>砺锋众创--创业团队的信赖</p>
+		    <section>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp1.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp2.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp3.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp4.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp5.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp6.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp7.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp8.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp9.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp10.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp11.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp12.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp13.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp14.png'}">
+		       </div>
+		       <div class="col-xs-2">
+		          <img alt="" th:src="@{'/common/images/cp15.png'}">
+		       </div>
+		    </section>
+		</article>
+		<div style="margin-top: 5px;clear: both;"></div>
+
+		<!-- 底部开始 -->
+		<footer class="college-footer" th:include="front/common/footer"></footer>
+		<!-- 底部结束 -->
+	</body>
+
+	<script th:src="@{'/common/js/jquery-3.3.1.min.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'/frame/bootstrap-3.3.7-dist/js/bootstrap.min.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'/frame/layer/layer.js'}" type="text/javascript" charset="utf-8"></script>
+	<script th:src="@{'/common/js/front/header.js'}" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+	<script th:src="@{'/common/js/about-us.js'}" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function() {
+			var mySwiper = new Swiper('.swiper-container', {
+				// 如果需要前进后退按钮
+				loop: true,
+				slidesPerView: 'auto',
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev'
+			})
+		});
+	</script>
+
 </html>
