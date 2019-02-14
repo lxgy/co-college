@@ -15,11 +15,19 @@ public class MessageServiceImpl implements MessageService {
     @Resource
     MessageMapper mapper;
 
+    /**
+     * 查询所有留言
+     * @return
+     */
     @Override
     public List<Message> selectall() {
         return mapper.getAllMessage();
     }
 
+    /**
+     * 添加留言
+     * @param message
+     */
     @Override
     public void addMessage(Message message) {
         mapper.addMessage(message);

@@ -192,7 +192,5 @@ a:focus {
 
 .user-photo {
     width: 32px;
-    border: 1px solid #30303042;
-    padding: 5px;
     border-radius: 45px;
 }
