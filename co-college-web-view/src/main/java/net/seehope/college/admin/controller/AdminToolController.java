@@ -3,6 +3,5 @@ package net.seehope.college.admin.controller;
 import org.springframework.stereotype.Controller;
 
 @Controller
-public class BookController {
-
+public class AdminToolController {
 }

@@ -21,7 +21,7 @@ public class UserInfo implements Serializable {
 
 	/* 唯一主键ID */
 	@JsonIgnore
-	private Integer id;
+	private String id;
 	/* 创建时间 */
 	private String create_time;
 	/* 更新时间 */
@@ -39,11 +39,11 @@ public class UserInfo implements Serializable {
 	/* 用户主信息 */
 	private User user;
 
-	public Integer getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
@@ -115,4 +115,21 @@ public class UserInfo implements Serializable {
 		this.user = user;
 	}
 
+	public UserInfo() {
+	}
+
+	@Override
+	public String toString() {
+		return "UserInfo{" +
+				"id=" + id +
+				", create_time='" + create_time + '\'' +
+				", update_time='" + update_time + '\'' +
+				", photo='" + photo + '\'' +
+				", qq_num='" + qq_num + '\'' +
+				", wechat='" + wechat + '\'' +
+				", sex=" + sex +
+				", phone='" + phone + '\'' +
+				", user=" + user +
+				'}';
+	}
 }

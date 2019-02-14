@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 @RestController
 @RequestMapping("/qiniu")
-class QiuniuController {
+class AdminQiuniuController {
     /**
      * 获取七牛云令牌
      * @return

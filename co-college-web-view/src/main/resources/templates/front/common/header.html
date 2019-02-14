@@ -1,4 +1,4 @@
-<nav class="college-nav" xmlns:th="http://www.w3.org/1999/xhtml">
+<nav class="college-nav" xmlns:th="http://www.w3.org/1999/xhtml" id="dropdownMenu">
     <div class="header-image" id="header-image">
         <a href="/index">
             <img th:src="@{'/title.ico'}" title="众创学院"/>
@@ -8,11 +8,11 @@
         <ul>
             <!--首页-->
             <li>
-                <a  href="javascript:;" class="active " id="to-index">首页</a>
+                <a href="javascript:;" class="active " id="to-index">首页</a>
             </li>
             <!--课堂-->
             <li class="tip-bottom">
-                <a href="javascript:" class="tip-bottom tip-msg"  id="to-class">众创课堂</a>
+                <a href="javascript:" class="tip-bottom tip-msg" id="to-class">众创课堂</a>
             </li>
             <!--项目外包-->
             <li>
@@ -46,23 +46,25 @@
                 <a href="javascript:;" id="to-regist">注册</a>
             </li>
         </ul>
-        <div th:if="${session.login_user} != null">
-            <!--去往登录页面-->
-            <ul id="dropdown">
-                <li>
-                    <span>你好！</span><a th:text="${session.login_user}" id="dropdownMenu">
+        <!--去往登录页面-->
+        <ul th:if="${session.login_user} != null" id="dropdown">
+            <li>
+                <img th:src="${session.user_photo}" class="user-photo" alt="用户头像">
+                <a th:text="${session.login_user}" href="javascript:;">
                     error
                 </a>
-                    <ul class="downmenu">
-                        <li>
-                            <a class="" href="javascript:;">个人中心</a>
-                        </li>
-                        <li>
-                            <a id="exit" href="javascript:">退出登录</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+                <ul class="downmenu downmenu-down" id="menu" >
+                    <li>
+                        <a class="" href="javascript:;">个人中心</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">账号设置</a>
+                    </li>
+                    <li style="border-bottom: none">
+                        <a id="exit" href="javascript:" >退出登录</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </nav>

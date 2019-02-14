@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="net.seehope.college.mapper.UserMapper">
+    <resultMap id="userinfo" type="net.seehope.college.entity.User">
+        <id property="id" column="id"></id>
+        <result property="create_time" column="create_time"></result>
+        <result property="update_time" column="update_time"></result>
+        <result property="username" column="username"></result>
+        <result property="password" column="password"></result>
+        <result property="email" column="email"></result>
+        <result property="is_lock" column="is_lock"></result>
+        <result property="is_active" column="is_active"></result>
+        <result property="login_ip" column="login_ip"></result>
+        <result property="login_faile" column="login_faile"></result>
+        <association property="user_info" javaType="net.seehope.college.entity.UserInfo">
+            <id property="id" column="info_id"></id>
+            <result property="create_time" column="create_time"></result>
+            <result property="update_time" column="update_time"></result>
+            <result property="photo" column="photo"></result>
+            <result property="qq_num" column="qq_num"></result>
+            <result property="wechat" column="wechat"></result>
+            <result property="sex" column="sex"></result>
+            <result property="phone" column="phone"></result>
+        </association>
+    </resultMap>
+    <!--查询所有用户所有信息-->
     <select id="findUsers"
-            resultType="net.seehope.college.entity.User">
+            resultMap="userinfo">
         select *
-        from t_user
+        from t_user u,
+             t_userinfo ui
+        where u.info_id = ui.info_id
     </select>
     <!--获取总条数 -->
     <select id="getUserCount" resultType="java.lang.Integer">
@@ -18,11 +43,21 @@
         from t_user
         where email = #{email}
     </select>
-    <insert id="insert_user"
-            parameterType="net.seehope.college.entity.User">
-        insert into t_user (create_time, username, password, email, is_lock, is_active, login_ip, login_faile, type)
+    <!--注册用户-->
+    <insert id="insert_user" parameterType="userinfo">
+        insert into t_user (create_time,
+                            username,
+                            info_id,
+                            password,
+                            email,
+                            is_lock,
+                            is_active,
+                            login_ip,
+                            login_faile,
+                            type)
         values (#{create_time},
                 #{username},
+                #{user_info.id},
                 #{password},
                 #{email},
                 #{is_lock},
@@ -31,32 +66,36 @@
                 #{login_faile},
                 #{type})
     </insert>
-    <!--根据邮箱激活用户-->
+    <!--根据邮箱激活用户 -->
     <update id="activate_user" parameterType="net.seehope.college.entity.User">
         update t_user
         SET is_active = 1
         WHERE email = #{email};
     </update>
     <!--根据邮箱查询用户-->
-    <select id="get_user_detail_by_email" parameterType="java.lang.String" resultType="net.seehope.college.entity.User">
+    <select id="get_user_detail_by_email" parameterType="java.lang.String" resultMap="userinfo">
         select *
-        from t_user
-        where email = #{email}
+        from t_user u,
+             t_userinfo ui
+        where u.info_id = ui.info_id
+          and email = #{email}
     </select>
+    <!--登陆验证失败次数记录-->
     <update id="add_faile_time" parameterType="net.seehope.college.entity.User">
         update t_user
         set login_faile = #{login_faile}
         where email = #{email};
     </update>
+    <!--锁定账号-->
     <update id="lock_user" parameterType="java.lang.String">
         update t_user
         set is_lock = 1
         where email = #{email};
     </update>
-
+    <!--记录登录ip-->
     <update id="record_ip" parameterType="java.lang.String">
         update t_user
-        set login_ip=#{ip}
-        where email= #{email}
+        set login_ip = #{ip}
+        where email = #{email}
     </update>
 </mapper>

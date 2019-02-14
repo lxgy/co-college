@@ -6,6 +6,9 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import net.seehope.college.entity.UserInfo;
+import net.seehope.college.mapper.UserInfoMapper;
+import net.seehope.college.util.uuid.UUIDUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -37,6 +40,9 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     @Resource
+    private UserInfoMapper userInfoMapper;
+
+    @Resource
     private HttpServletRequest request;
 
     @Override
@@ -66,12 +72,22 @@ public class UserServiceImpl implements UserService {
      * 添加用户.
      */
     @Override
-    public boolean add_user(User user) {
+    public boolean add_user(User user) throws Throwable {
         // TODO Auto-generated method stub
         boolean result = false;
+        UserInfo info = new UserInfo();
+        info.setId(UUIDUtil.get_uid_original());
+        user.setCreate_time(DateTimeUtil.getCurrentDateTime());
+        user.setUsername("SeeHope" + UUIDUtil.get_uuid_intercept(5));
+        user.setIs_active(0);
+        user.setPassword(BcryptEncodeUtil.encode(user.getPassword()));
+        user.setIs_lock(0);
+        user.setType(1);
+        user.setUser_info(info);
         try {
             user.setLogin_ip(GetIpUtil.getIpAddr(request));
             user.setCreate_time(DateTimeUtil.getCurrentDate());
+            this.userInfoMapper.saveUserDetail(info);
             this.userMapper.insert_user(user);
             log.info("邮箱为：" + user.getEmail() + DateTimeUtil.getCurrentDateTime() + "成功注册为创客用户");
             result = true;
@@ -95,6 +111,7 @@ public class UserServiceImpl implements UserService {
             HttpSession session = request.getSession();
             User user = this.userMapper.get_user_detail_by_email(email);
             session.setAttribute("login_user", user.getUsername());
+
             return true;
         } else {
             log.info("邮箱为" + email + "的用户校验激活码错误");
@@ -119,6 +136,7 @@ public class UserServiceImpl implements UserService {
                 user.setLogin_faile(0);
                 this.userMapper.add_faile_time(user);
                 session.setAttribute("login_user", user.getUsername());
+                session.setAttribute("user_photo", user.getUser_info().getPhoto());
                 resultVo.setCode(CodeEnum._200.getCode());
                 resultVo.setMsg("登录校验成功");
                 userMapper.record_ip(email, GetIpUtil.getIpAddr(request));
